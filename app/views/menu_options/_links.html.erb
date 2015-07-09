@@ -1,0 +1,14 @@
+<% case accion
+when 'new' %>
+<%= link_to 'Regresar', menu_options_path, class: "btn btn-default" %>
+<% when 'edit' %>
+<%= link_to 'Consultar', @menu_option, class: "btn btn-default" %>
+<%= link_to 'Regresar', menu_options_path, class: "btn btn-default" %>
+<% when 'show' %>
+<%= link_to 'Editar', edit_menu_option_path(@menu_option), class: "btn btn-default" %>
+<%= link_to 'Regresar', menu_options_path, class: "btn btn-default" %>
+<% when 'index' %>
+<%= link_to 'Módulo Nuevo', new_menu_option_path, class: "btn btn-success" %>
+<% else %>
+
+<% end %>

@@ -1,0 +1,61 @@
+<%= form_for(@permit) do |f| %>
+  <% if @permit.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@permit.errors.count, "error") %> prohibited this permit from being saved:</h2>
+
+      <ul>
+      <% @permit.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :role_id %><br>
+    <%= f.text_field :role_id %>
+  </div>
+  <div class="field">
+    <%= f.label :menu_option_id %><br>
+    <%= f.text_field :menu_option_id %>
+  </div>
+  <div class="field">
+    <%= f.label :registrar %><br>
+    <%= f.check_box :registrar %>
+  </div>
+  <div class="field">
+    <%= f.label :actualizar %><br>
+    <%= f.check_box :actualizar %>
+  </div>
+  <div class="field">
+    <%= f.label :eliminar %><br>
+    <%= f.check_box :eliminar %>
+  </div>
+  <div class="field">
+    <%= f.label :ejecutar_procesos %><br>
+    <%= f.check_box :ejecutar_procesos %>
+  </div>
+  <div class="field">
+    <%= f.label :generar_archivos %><br>
+    <%= f.check_box :generar_archivos %>
+  </div>
+  <div class="field">
+    <%= f.label :cargar_archivos %><br>
+    <%= f.check_box :cargar_archivos %>
+  </div>
+  <div class="field">
+    <%= f.label :autorizar %><br>
+    <%= f.check_box :autorizar %>
+  </div>
+  <div class="field">
+    <%= f.label :created_user_id %><br>
+    <%= f.number_field :created_user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :updated_user_id %><br>
+    <%= f.number_field :updated_user_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

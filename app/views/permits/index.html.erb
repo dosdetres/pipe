@@ -1,0 +1,45 @@
+<h1>Listing permits</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Role</th>
+      <th>Menu option</th>
+      <th>Registrar</th>
+      <th>Actualizar</th>
+      <th>Eliminar</th>
+      <th>Ejecutar procesos</th>
+      <th>Generar archivos</th>
+      <th>Cargar archivos</th>
+      <th>Autorizar</th>
+      <th>Created user</th>
+      <th>Updated user</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @permits.each do |permit| %>
+      <tr>
+        <td><%= permit.role %></td>
+        <td><%= permit.menu_option %></td>
+        <td><%= permit.registrar %></td>
+        <td><%= permit.actualizar %></td>
+        <td><%= permit.eliminar %></td>
+        <td><%= permit.ejecutar_procesos %></td>
+        <td><%= permit.generar_archivos %></td>
+        <td><%= permit.cargar_archivos %></td>
+        <td><%= permit.autorizar %></td>
+        <td><%= permit.created_user_id %></td>
+        <td><%= permit.updated_user_id %></td>
+        <td><%= link_to 'Show', permit %></td>
+        <td><%= link_to 'Edit', edit_permit_path(permit) %></td>
+        <td><%= link_to 'Destroy', permit, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Permit', new_permit_path %>

@@ -1,0 +1,45 @@
+<%= form_for(@workplace) do |f| %>
+  <% if @workplace.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@workplace.errors.count, "error") %> prohibited this workplace from being saved:</h2>
+
+      <ul>
+      <% @workplace.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :puesto %><br>
+    <%= f.text_field :puesto %>
+  </div>
+  <div class="field">
+    <%= f.label :descripcion %><br>
+    <%= f.text_field :descripcion %>
+  </div>
+  <div class="field">
+    <%= f.label :nivel_usuario %><br>
+    <%= f.number_field :nivel_usuario %>
+  </div>
+  <div class="field">
+    <%= f.label :activo %><br>
+    <%= f.check_box :activo %>
+  </div>
+  <div class="field">
+    <%= f.label :area_id %><br>
+    <%= f.text_field :area_id %>
+  </div>
+  <div class="field">
+    <%= f.label :created_user_id %><br>
+    <%= f.number_field :created_user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :updated_user_id %><br>
+    <%= f.text_field :updated_user_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

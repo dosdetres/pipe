@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  puesto: MyString
+  descripcion: MyString
+  nivel_usuario: 1
+  activo: false
+  area_id: 
+  created_user_id: 1
+  updated_user_id: MyString
+
+two:
+  puesto: MyString
+  descripcion: MyString
+  nivel_usuario: 1
+  activo: false
+  area_id: 
+  created_user_id: 1
+  updated_user_id: MyString

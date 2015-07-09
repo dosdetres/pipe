@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  EmpresaCliente_id: 1
+  Usuario: MyString
+  Password: MyString
+  Nombre: MyString
+  ApellidoPaterno: MyString
+  ApellidoMaterno: MyString
+  Rfc: MyString
+  Curp: MyString
+  CorreoElectronico: MyString
+  Puesto_id: 1
+  IntentosFallidosLogin: 1
+  RequiereCambioPassword: false
+  DiasVigenciaPassword: 1
+  FechaCambioPassword: 2015-06-30 13:59:15
+  Bloqueado: false
+  FechaUltimoLogin: 2015-06-30 13:59:15
+  Consorcio: false
+  UsuarioAlta_id: 1
+  UsuarioCambio_id: 1
+
+two:
+  EmpresaCliente_id: 1
+  Usuario: MyString
+  Password: MyString
+  Nombre: MyString
+  ApellidoPaterno: MyString
+  ApellidoMaterno: MyString
+  Rfc: MyString
+  Curp: MyString
+  CorreoElectronico: MyString
+  Puesto_id: 1
+  IntentosFallidosLogin: 1
+  RequiereCambioPassword: false
+  DiasVigenciaPassword: 1
+  FechaCambioPassword: 2015-06-30 13:59:15
+  Bloqueado: false
+  FechaUltimoLogin: 2015-06-30 13:59:15
+  Consorcio: false
+  UsuarioAlta_id: 1
+  UsuarioCambio_id: 1

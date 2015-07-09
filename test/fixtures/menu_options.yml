@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Modulo: MyString
+  Descripcion: MyString
+  Orden: 1
+  Ruta: MyString
+  Imagen: MyString
+  Consorcio: false
+  Modulo_id: 1
+  Activo: false
+  UsuarioAlta_id: 1
+  UsuarioCambio_id: 1
+
+two:
+  Modulo: MyString
+  Descripcion: MyString
+  Orden: 1
+  Ruta: MyString
+  Imagen: MyString
+  Consorcio: false
+  Modulo_id: 1
+  Activo: false
+  UsuarioAlta_id: 1
+  UsuarioCambio_id: 1

@@ -1,0 +1,21 @@
+<div class="page-header">
+  <h1 class="text-center">Administración de <span class="label label-default"><%= nombre_elemento %></span></h1>
+</div>
+
+<div class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h1 class="panel-title"><%= nombre_elemento %></h1>
+      </div>
+      <div class="panel-body">
+        <%= render nombre_carpeta_vista + '/index_form'  %>
+        <hr />
+        <div class="form-group text-right">
+          <%= render nombre_carpeta_vista + '/links', accion: 'index' %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<br>

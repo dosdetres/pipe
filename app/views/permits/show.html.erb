@@ -1,0 +1,59 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Role:</strong>
+  <%= @permit.role %>
+</p>
+
+<p>
+  <strong>Menu option:</strong>
+  <%= @permit.menu_option %>
+</p>
+
+<p>
+  <strong>Registrar:</strong>
+  <%= @permit.registrar %>
+</p>
+
+<p>
+  <strong>Actualizar:</strong>
+  <%= @permit.actualizar %>
+</p>
+
+<p>
+  <strong>Eliminar:</strong>
+  <%= @permit.eliminar %>
+</p>
+
+<p>
+  <strong>Ejecutar procesos:</strong>
+  <%= @permit.ejecutar_procesos %>
+</p>
+
+<p>
+  <strong>Generar archivos:</strong>
+  <%= @permit.generar_archivos %>
+</p>
+
+<p>
+  <strong>Cargar archivos:</strong>
+  <%= @permit.cargar_archivos %>
+</p>
+
+<p>
+  <strong>Autorizar:</strong>
+  <%= @permit.autorizar %>
+</p>
+
+<p>
+  <strong>Created user:</strong>
+  <%= @permit.created_user_id %>
+</p>
+
+<p>
+  <strong>Updated user:</strong>
+  <%= @permit.updated_user_id %>
+</p>
+
+<%= link_to 'Edit', edit_permit_path(@permit) %> |
+<%= link_to 'Back', permits_path %>

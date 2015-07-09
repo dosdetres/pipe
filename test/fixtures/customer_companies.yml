@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  EmpresaCliente: MyString
+  Rfc: MyString
+  RazonSocial: MyString
+  Consorcio: false
+  EmpresaCliente_id: 1
+  Activo: false
+  UsuarioAlta_id: 1
+  UsuarioCambio_id: MyString
+
+two:
+  EmpresaCliente: MyString
+  Rfc: MyString
+  RazonSocial: MyString
+  Consorcio: false
+  EmpresaCliente_id: 1
+  Activo: false
+  UsuarioAlta_id: 1
+  UsuarioCambio_id: MyString

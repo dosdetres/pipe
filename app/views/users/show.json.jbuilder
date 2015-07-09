@@ -1,0 +1,1 @@
+json.extract! @user, :id, :EmpresaCliente_id, :Usuario, :Password, :Nombre, :ApellidoPaterno, :ApellidoMaterno, :Rfc, :Curp, :CorreoElectronico, :Puesto_id, :IntentosFallidosLogin, :RequiereCambioPassword, :DiasVigenciaPassword, :FechaCambioPassword, :Bloqueado, :FechaUltimoLogin, :Consorcio, :UsuarioAlta_id, :UsuarioCambio_id, :created_at, :updated_at

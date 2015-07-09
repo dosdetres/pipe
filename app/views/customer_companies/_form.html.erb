@@ -1,0 +1,49 @@
+
+<%= form_for(@customer_company, :html => {:class => 'form-horizontal'}) do |f| %>
+
+    <% if @customer_company.errors.any? %>
+        <div id="error_explanation">
+            <h2><%= pluralize(@customer_company.errors.count, "error") %> No se puede guardar:</h2>
+            <ul>
+                <% @customer_company.errors.full_messages.each do |message| %>
+                    <li><%= message %></li>
+                <% end %>
+            </ul>
+        </div>
+    <% end %>
+
+    <div class="form-group">
+      <div class="col-sm-2 control-label"><%= f.label :empresa_cliente, "Empresa" %></div>
+      <div class="col-sm-10"><%= f.text_field :empresa_cliente , class: "form-control" %></div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-2 control-label"><%= f.label :rfc %></div>
+      <div class="col-sm-10"><%= f.text_field :rfc, class: "form-control" %></div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-2 control-label"><%= f.label :razon_social, "Razón social" %></div>
+      <div class="col-sm-10"><%= f.text_field :razon_social, class: "form-control" %></div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-2 control-label"><%= f.label :consorcio %></div>
+      <div class="col-sm-10"><%= f.check_box :consorcio %></div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-2 control-label"><%= f.label :customer_company_id, "Empresa Padre" %></div>
+      <div class="col-sm-10">
+        <% if accion == "new" %>
+            <%= f.select :customer_company_id, @customer_company_options, { :prompt =>  '-- Seleccione una opción --' }, {:class => 'form-control'}  %>
+        <% else %>
+            <%= f.select :customer_company_id, @customer_company_options, { :include_blank => true }, {:class => 'form-control'}  %>
+        <% end %>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-2 control-label"><%= f.label :activo %></div>
+      <div class="col-sm-10"><%= f.check_box :activo %></div>
+    </div>
+  <hr />
+  <div class="form-group">
+    <div class="col-sm-12 text-right"><%= f.submit 'Guardar', :class => 'btn btn-success' %> <%= render 'links', accion: accion %></div>
+  </div>
+<% end %>
