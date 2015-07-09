@@ -60969,3 +60969,89 @@ Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-08 19:33:23 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-08 19:33:23 -0500
+  [1m[36m (83.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (42.3ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateCustomerCompanies (20150630181910)
+  [1m[35m (8.7ms)[0m  CREATE TABLE `customer_companies` (`id` int(11) auto_increment PRIMARY KEY, `empresa_cliente` varchar(255), `rfc` varchar(255), `razon_social` varchar(255), `consorcio` tinyint(1), `activo` tinyint(1), `created_user_id` int(11), `updated_user_id` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150630181910')
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+Migrating to CreateUsers (20150630185915)
+  [1m[35m (30.4ms)[0m  CREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `nombre` varchar(255), `apellido_paterno` varchar(255), `apellido_materno` varchar(255), `rfc` varchar(255), `Curp` varchar(255), `Puesto_id` int(11), `consorcio` tinyint(1), `created_user_id` int(11), `updated_user_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150630185915')
+  [1m[36m (0.9ms)[0m  [1mCOMMIT[0m
+Migrating to CreateMenuOptions (20150630191909)
+  [1m[35m (10.1ms)[0m  CREATE TABLE `menu_options` (`id` int(11) auto_increment PRIMARY KEY, `modulo` varchar(255), `descripcion` varchar(255), `orden` int(11), `ruta` varchar(255), `imagen` varchar(255), `consorcio` tinyint(1), `activo` tinyint(1), `created_user_id` int(11), `updated_user_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150630191909')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to AddDeviseToUsers (20150630203639)
+  [1m[35m (43.5ms)[0m  ALTER TABLE `users` ADD `email` varchar(255) DEFAULT '' NOT NULL
+  [1m[36m (21.1ms)[0m  [1mALTER TABLE `users` ADD `encrypted_password` varchar(255) DEFAULT '' NOT NULL[0m
+  [1m[35m (21.8ms)[0m  ALTER TABLE `users` ADD `reset_password_token` varchar(255)
+  [1m[36m (39.1ms)[0m  [1mALTER TABLE `users` ADD `reset_password_sent_at` datetime[0m
+  [1m[35m (23.9ms)[0m  ALTER TABLE `users` ADD `remember_created_at` datetime
+  [1m[36m (66.0ms)[0m  [1mALTER TABLE `users` ADD `sign_in_count` int(11) DEFAULT 0 NOT NULL[0m
+  [1m[35m (75.9ms)[0m  ALTER TABLE `users` ADD `current_sign_in_at` datetime
+  [1m[36m (1182.5ms)[0m  [1mALTER TABLE `users` ADD `last_sign_in_at` datetime[0m
+  [1m[35m (60.9ms)[0m  ALTER TABLE `users` ADD `current_sign_in_ip` varchar(255)
+  [1m[36m (24.6ms)[0m  [1mALTER TABLE `users` ADD `last_sign_in_ip` varchar(255)[0m
+  [1m[35m (41.2ms)[0m  CREATE UNIQUE INDEX `index_users_on_email`  ON `users` (`email`) 
+  [1m[36m (29.2ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_reset_password_token`  ON `users` (`reset_password_token`) [0m
+  [1m[35m (1.5ms)[0m  BEGIN
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150630203639')[0m
+  [1m[35m (0.5ms)[0m  COMMIT
+Migrating to AddCustomerCompanyToCustomerCompanies (20150708191849)
+  [1m[36m (34.5ms)[0m  [1mALTER TABLE `customer_companies` ADD `customer_company_id` int(11)[0m
+  [1m[35m (13.4ms)[0m  CREATE  INDEX `index_customer_companies_on_customer_company_id`  ON `customer_companies` (`customer_company_id`) 
+  [1m[36m (1.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150708191849')
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+Migrating to AddMenuOptionToMenuOptions (20150708195534)
+  [1m[35m (24.1ms)[0m  ALTER TABLE `menu_options` ADD `menu_option_id` int(11)
+  [1m[36m (25.2ms)[0m  [1mCREATE  INDEX `index_menu_options_on_menu_option_id`  ON `menu_options` (`menu_option_id`) [0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150708195534')[0m
+  [1m[35m (0.7ms)[0m  COMMIT
+Migrating to AddCustomerCompanyToUsers (20150708204725)
+  [1m[36m (33.7ms)[0m  [1mALTER TABLE `users` ADD `customer_company_id` int(11)[0m
+  [1m[35m (16.8ms)[0m  CREATE  INDEX `index_users_on_customer_company_id`  ON `users` (`customer_company_id`) 
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150708204725')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Migrating to CreateAreas (20150708224049)
+  [1m[35m (14.6ms)[0m  CREATE TABLE `areas` (`id` int(11) auto_increment PRIMARY KEY, `area` varchar(255), `descripcion` varchar(255), `orden` int(11), `activo` tinyint(1), `created_user_id` int(11), `updated_user_id` int(11), `customer_company_id` int(11), `area_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (32.2ms)[0m  [1mCREATE  INDEX `index_areas_on_customer_company_id`  ON `areas` (`customer_company_id`) [0m
+  [1m[35m (46.1ms)[0m  CREATE  INDEX `index_areas_on_area_id`  ON `areas` (`area_id`) 
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150708224049')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Migrating to CreateWorkplaces (20150708225710)
+  [1m[35m (435.0ms)[0m  CREATE TABLE `workplaces` (`id` int(11) auto_increment PRIMARY KEY, `puesto` varchar(255), `descripcion` varchar(255), `nivel_usuario` int(11), `activo` tinyint(1), `area_id` int(11), `created_user_id` int(11), `updated_user_id` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (22.7ms)[0m  [1mCREATE  INDEX `index_workplaces_on_area_id`  ON `workplaces` (`area_id`) [0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20150708225710')[0m
+  [1m[35m (0.8ms)[0m  COMMIT
+Migrating to CreateRoles (20150708230605)
+  [1m[36m (9.9ms)[0m  [1mCREATE TABLE `roles` (`id` int(11) auto_increment PRIMARY KEY, `rol` varchar(255), `descripcion` varchar(255), `activo` tinyint(1), `customer_company_id` int(11), `created_user_id` int(11), `updated_user_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (12.2ms)[0m  CREATE  INDEX `index_roles_on_customer_company_id`  ON `roles` (`customer_company_id`) 
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150708230605')
+  [1m[36m (1.1ms)[0m  [1mCOMMIT[0m
+Migrating to CreatePermits (20150708231927)
+  [1m[35m (25.3ms)[0m  CREATE TABLE `permits` (`id` int(11) auto_increment PRIMARY KEY, `role_id` int(11), `menu_option_id` int(11), `registrar` tinyint(1), `actualizar` tinyint(1), `eliminar` tinyint(1), `ejecutar_procesos` tinyint(1), `generar_archivos` tinyint(1), `cargar_archivos` tinyint(1), `autorizar` tinyint(1), `created_user_id` int(11), `updated_user_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (36.2ms)[0m  [1mCREATE  INDEX `index_permits_on_role_id`  ON `permits` (`role_id`) [0m
+  [1m[35m (13.8ms)[0m  CREATE  INDEX `index_permits_on_menu_option_id`  ON `permits` (`menu_option_id`) 
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150708231927')
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+Migrating to CreateRolesUsers (20150709002900)
+  [1m[35m (11.0ms)[0m  CREATE TABLE `roles_users` (`role_id` int(11), `user_id` int(11)) ENGINE=InnoDB
+  [1m[36m (15.1ms)[0m  [1mCREATE  INDEX `index_roles_users_on_role_id`  ON `roles_users` (`role_id`) [0m
+  [1m[35m (25.0ms)[0m  CREATE  INDEX `index_roles_users_on_user_id`  ON `roles_users` (`user_id`) 
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150709002900')
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`

@@ -106,7 +106,7 @@ ActiveRecord::Schema.define(version: 20150709002900) do
     t.string   "apellido_paterno"
     t.string   "apellido_materno"
     t.string   "rfc"
-    t.string   "curp"
+    t.string   "Curp"
     t.integer  "Puesto_id"
     t.boolean  "consorcio"
     t.integer  "created_user_id"
