@@ -5,8 +5,8 @@ class CreateUsers < ActiveRecord::Migration
       t.string :apellido_paterno
       t.string :apellido_materno
       t.string :rfc
-      t.string :Curp
-      t.integer :Puesto_id
+      t.string :curp
+      t.integer :puesto_id
       t.boolean :consorcio
       t.integer :created_user_id
       t.integer :updated_user_id
