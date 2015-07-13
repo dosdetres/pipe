@@ -3,18 +3,22 @@ class RolesController < ApplicationController
 
   respond_to :html
 
+  # GET /roles
+  # GET /roles.json
   def index
     @roles = Role.all
-    respond_with(@roles)
+    #respond_with(@roles)
   end
 
   def show
-    respond_with(@role)
+    #respond_with(@role)
   end
 
   def new
-    @role = Role.new
-    respond_with(@role)
+    #@role = Role.new
+    #respond_with(@role)
+    @roles_companies_options = CustomerCompany.where("activo = 1").map{|m| [ m.empresa_cliente , m.id ] }
+    @user = User.new
   end
 
   def edit
