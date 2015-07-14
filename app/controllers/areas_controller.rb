@@ -1,20 +1,16 @@
 class AreasController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_area, only: [:show, :edit, :update, :destroy]
-
-  respond_to :html
 
   def index
     @areas = Area.all
-    respond_with(@areas)
   end
 
   def show
-    respond_with(@area)
   end
 
   def new
     @area = Area.new
-    respond_with(@area)
   end
 
   def edit
@@ -22,18 +18,41 @@ class AreasController < ApplicationController
 
   def create
     @area = Area.new(area_params)
-    flash[:notice] = 'Area was successfully created.' if @area.save
-    respond_with(@area)
+    unless current_user.nil?
+      @area.created_user_id = current_user.id
+    end
+    respond_to do |format|
+      if @area.save
+        format.html { redirect_to @area, notice: 'El Área se creó correctamente.' }
+        format.json { render :show, status: :created, location: @area }
+      else
+        format.html { render :new }
+        format.json { render json: @area.errors, status: :unprocessable_entity }
+      end
+    end
+
+
   end
 
   def update
-    flash[:notice] = 'Area was successfully updated.' if @area.update(area_params)
-    respond_with(@area)
+    @area.updated_user_id = current_user.id
+    respond_to do |format|
+      if @area.update(area_params)
+        format.html { redirect_to @area, notice: 'El Área se actualizo correctamente.' }
+        format.json { render :show, status: :ok, location: @area }
+      else
+        format.html { render :edit }
+        format.json { render json: @area.errors, status: :unprocessable_entity }
+      end
+    end
   end
 
   def destroy
     @area.destroy
-    respond_with(@area)
+    respond_to do |format|
+      format.html { redirect_to areas_url, notice: 'El Área se eliminó correctamente.' }
+      format.json { head :no_content }
+    end
   end
 
   private

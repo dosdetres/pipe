@@ -1,0 +1,28 @@
+<div class="table-responsive">
+  <table class="table table-responsive table-condensed table-hover table-striped">
+    <thead>
+    <tr>
+      <th>id</th>
+      <th>Rol</th>
+      <th>Descripción</th>
+      <th></th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <% @roles.each do |role| %>
+        <tr>
+          <td><%= role.id %></td>
+          <td><%= role.rol %></td>
+          <td><%= role.descripcion %></td>
+          <td>
+            <%= link_to 'Consultar', role, class: "btn btn-default" %>
+            <%= link_to 'Editar', edit_role_path(role), class: "btn btn-success" %>
+            <%= link_to 'Eliminar', role, class: "btn btn-danger", method: :delete, data: { confirm: '¿Estás seguro?' } %>
+          </td>
+        </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>
+

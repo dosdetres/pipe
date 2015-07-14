@@ -1,7 +1,6 @@
 class RolesController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_role, only: [:show, :edit, :update, :destroy]
-
-  respond_to :html
 
   # GET /roles
   # GET /roles.json
@@ -17,8 +16,7 @@ class RolesController < ApplicationController
   def new
     #@role = Role.new
     #respond_with(@role)
-    @roles_companies_options = CustomerCompany.where("activo = 1").map{|m| [ m.empresa_cliente , m.id ] }
-    @user = User.new
+    @role = Role.new
   end
 
   def edit
@@ -26,18 +24,40 @@ class RolesController < ApplicationController
 
   def create
     @role = Role.new(role_params)
-    flash[:notice] = 'Role was successfully created.' if @role.save
-    respond_with(@role)
+    unless current_user.nil?
+      @role.created_user_id = current_user.id
+    end
+    respond_to do |format|
+      if @role.save
+        format.html { redirect_to @role, notice: 'El Rol se creó correctamente.' }
+        format.json { render :show, status: :created, location: @role }
+      else
+        format.html { render :new }
+        format.json { render json: @role.errors, status: :unprocessable_entity }
+      end
+    end
   end
 
   def update
-    flash[:notice] = 'Role was successfully updated.' if @role.update(role_params)
-    respond_with(@role)
+    @role.updated_user_id = current_user.id
+    respond_to do |format|
+      if @role.update(role_params)
+        format.html { redirect_to @role, notice: 'El Rol se actualizo correctamente.' }
+        format.json { render :show, status: :ok, location: @role }
+      else
+        format.html { render :edit }
+        format.json { render json: @role.errors, status: :unprocessable_entity }
+      end
+    end
+
   end
 
   def destroy
     @role.destroy
-    respond_with(@role)
+    respond_to do |format|
+      format.html { redirect_to roles_url, notice: 'El Rol se eliminó correctamente.' }
+      format.json { head :no_content }
+    end
   end
 
   private
