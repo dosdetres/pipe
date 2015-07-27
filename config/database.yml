@@ -17,7 +17,7 @@ development:
   username: admin
   password: Rasec191812*
   host: localhost
-  port: 3306
+  port: 3300
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
