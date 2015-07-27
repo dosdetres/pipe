@@ -15,13 +15,13 @@ class UsersController < ApplicationController
 
   # GET /users/new
   def new
-    @customer_companies_options = CustomerCompany.where("admin = ?", true).map{|m| [ m.empresa_cliente , m.id ] }
+    @customer_companies_options = CustomerCompany.where("activo = ?", true).map{|m| [ m.empresa_cliente , m.id ] }
     @user = User.new
   end
 
   # GET /users/1/edit
   def edit
-    @customer_companies_options = CustomerCompany.where("admin = ?", true).map{|m| [ m.empresa_cliente , m.id ] }
+    @customer_companies_options = CustomerCompany.where("activo = ?", true).map{|m| [ m.empresa_cliente , m.id ] }
   end
 
   # POST /users
