@@ -15,13 +15,13 @@ class CustomerCompaniesController < ApplicationController
 
   # GET /customer_companies/new
   def new
-    @customer_company_options = CustomerCompany.where("activo = 1 and consorcio = 1").map{|m| [ m.empresa_cliente , m.id ] }
+    @customer_company_options = CustomerCompany.where(activo: true, consorcio: true).map{|m| [ m.empresa_cliente , m.id ] }
     @customer_company = CustomerCompany.new
   end
 
   # GET /customer_companies/1/edit
   def edit
-    @customer_company_options = CustomerCompany.where("activo = 1 and consorcio = 1").map{|m| [ m.empresa_cliente , m.id ] }
+    @customer_company_options = CustomerCompany.where(activo: true, consorcio: true).map{|m| [ m.empresa_cliente , m.id ] }
   end
 
   # POST /customer_companies

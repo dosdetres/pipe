@@ -69701,3 +69701,1190 @@ Processing by Devise::SessionsController#new as HTML
   Rendered devise/sessions/new.html.erb within layouts/login.html.erb (49.1ms)
   Rendered layouts/_messages.html.erb (0.0ms)
 Completed 200 OK in 652ms (Views: 533.4ms | ActiveRecord: 100.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-27 17:00:10 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (178.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (62.4ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered devise/sessions/new.html.erb within layouts/login.html.erb (150.9ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1193ms (Views: 1041.7ms | ActiveRecord: 110.4ms)
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-27 17:00:13 -0500
+
+
+Started POST "/auth/sign_in" for 127.0.0.1 at 2015-07-27 17:00:29 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v4CWpUhRbdilkk9rWNdbzvDKeL05zwjdA85YewKxA/s=", "user"=>{"email"=>"alex_reyes@live.com.mx", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[36mUser Load (45.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'alex_reyes@live.com.mx'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (93.1ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2015-07-27 22:00:29', `last_sign_in_at` = '2015-07-27 08:41:32', `sign_in_count` = 11, `updated_at` = '2015-07-27 22:00:29' WHERE `users`.`id` = 2[0m
+  [1m[35m (69.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 404ms (ActiveRecord: 207.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-27 17:00:29 -0500
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 328ms (Views: 328.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-07-27 17:00:39 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/_index_form.html.erb (3.0ms)
+  Rendered users/_links.html.erb (1.0ms)
+  Rendered layouts/_index_form.html.erb (24.0ms)
+  Rendered users/index.html.erb within layouts/application (34.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 285ms (Views: 283.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/6/edit" for 127.0.0.1 at 2015-07-27 17:00:49 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (234.2ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)
+  Rendered users/_form.html.erb (35.6ms)
+  Rendered layouts/_new_edit_show_form.html.erb (38.6ms)
+  Rendered users/edit.html.erb within layouts/application (42.6ms)
+Completed 500 Internal Server Error in 300ms
+
+ActionView::Template::Error (undefined method `puesto_id' for #<User:0x61621f8>):
+    43:   </div>
+    44:   <div class="form-group">
+    45:     <div class="col-sm-2 control-label"><%= f.label :Puesto_id, "Puesto" %></div>
+    46:     <div class="col-sm-10"><%= f.number_field :puesto_id, class: "form-control" %></div>
+    47:   </div>
+    48:   <div class="form-group">
+    49:     <div class="col-sm-2 control-label"><%= f.label :consorcio %></div>
+  app/views/users/_form.html.erb:46:in `block in _app_views_users__form_html_erb__538293984_50321340'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__538293984_50321340'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb__473726163_50352996'
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___512010256_50385864'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.0ms)
+
+
+Started GET "/users/6/edit" for 127.0.0.1 at 2015-07-27 17:00:49 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6 LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)[0m
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (6.0ms)
+  Rendered users/edit.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `puesto_id' for #<User:0x4f4f8e0>):
+    43:   </div>
+    44:   <div class="form-group">
+    45:     <div class="col-sm-2 control-label"><%= f.label :Puesto_id, "Puesto" %></div>
+    46:     <div class="col-sm-10"><%= f.number_field :puesto_id, class: "form-control" %></div>
+    47:   </div>
+    48:   <div class="form-group">
+    49:     <div class="col-sm-2 control-label"><%= f.label :consorcio %></div>
+  app/views/users/_form.html.erb:46:in `block in _app_views_users__form_html_erb__538293984_41266392'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__538293984_41266392'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb__473726163_41389140'
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___512010256_41536128'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (26.5ms)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2015-07-27 17:02:33 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (6.0ms)
+  Rendered users/edit.html.erb within layouts/application (8.0ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (undefined method `puesto_id' for #<User:0x3888660>):
+    43:   </div>
+    44:   <div class="form-group">
+    45:     <div class="col-sm-2 control-label"><%= f.label :Puesto_id, "Puesto" %></div>
+    46:     <div class="col-sm-10"><%= f.number_field :puesto_id, class: "form-control" %></div>
+    47:   </div>
+    48:   <div class="form-group">
+    49:     <div class="col-sm-2 control-label"><%= f.label :consorcio %></div>
+  app/views/users/_form.html.erb:46:in `block in _app_views_users__form_html_erb__538293984_50321340'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__538293984_50321340'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb__473726163_50352996'
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___512010256_50385864'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.0ms)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2015-07-27 17:02:33 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)[0m
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (6.0ms)
+  Rendered users/edit.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (undefined method `puesto_id' for #<User:0x66adb80>):
+    43:   </div>
+    44:   <div class="form-group">
+    45:     <div class="col-sm-2 control-label"><%= f.label :Puesto_id, "Puesto" %></div>
+    46:     <div class="col-sm-10"><%= f.number_field :puesto_id, class: "form-control" %></div>
+    47:   </div>
+    48:   <div class="form-group">
+    49:     <div class="col-sm-2 control-label"><%= f.label :consorcio %></div>
+  app/views/users/_form.html.erb:46:in `block in _app_views_users__form_html_erb__538293984_41266392'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__538293984_41266392'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb__473726163_41389140'
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___512010256_41536128'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.1ms)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2015-07-27 17:04:52 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)
+  Rendered users/_form.html.erb (9.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (11.0ms)
+  Rendered users/edit.html.erb within layouts/application (14.0ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (undefined method `puesto_id' for #<User:0x6326868>):
+    43:   </div>
+    44:   <div class="form-group">
+    45:     <div class="col-sm-2 control-label"><%= f.label :puesto_id, "Puesto" %></div>
+    46:     <div class="col-sm-10"><%= f.number_field :puesto_id, class: "form-control" %></div>
+    47:   </div>
+    48:   <div class="form-group">
+    49:     <div class="col-sm-2 control-label"><%= f.label :consorcio %></div>
+  app/views/users/_form.html.erb:46:in `block in _app_views_users__form_html_erb__538293984_51947640'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__538293984_51947640'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb__473726163_50352996'
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___512010256_50385864'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (37.0ms)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2015-07-27 17:04:53 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mCustomerCompany Load (3.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)[0m
+  Rendered users/_form.html.erb (9.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (10.0ms)
+  Rendered users/edit.html.erb within layouts/application (12.0ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined method `puesto_id' for #<User:0x5f3baa0>):
+    43:   </div>
+    44:   <div class="form-group">
+    45:     <div class="col-sm-2 control-label"><%= f.label :puesto_id, "Puesto" %></div>
+    46:     <div class="col-sm-10"><%= f.number_field :puesto_id, class: "form-control" %></div>
+    47:   </div>
+    48:   <div class="form-group">
+    49:     <div class="col-sm-2 control-label"><%= f.label :consorcio %></div>
+  app/views/users/_form.html.erb:46:in `block in _app_views_users__form_html_erb__538293984_49890360'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__538293984_49890360'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb__473726163_41389140'
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___512010256_41536128'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (42.0ms)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2015-07-27 17:07:20 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (6.0ms)
+  Rendered users/edit.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 42ms
+
+ActionView::Template::Error (undefined method `puesto_id' for #<User:0x647f9a0>):
+    43:   </div>
+    44:   <div class="form-group">
+    45:     <div class="col-sm-2 control-label"><%= f.label :puesto_id, "Puesto" %></div>
+    46:     <div class="col-sm-10"><%= f.number_field :puesto_id, class: "form-control" %></div>
+    47:   </div>
+    48:   <div class="form-group">
+    49:     <div class="col-sm-2 control-label"><%= f.label :consorcio %></div>
+  app/views/users/_form.html.erb:46:in `block in _app_views_users__form_html_erb__538293984_49890360'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__538293984_49890360'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb__473726163_41389140'
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___512010256_41536128'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.0ms)
+
+
+Started DELETE "/auth/sign_out" for 127.0.0.1 at 2015-07-27 17:08:54 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"oC/UJ/FHrYTwL5DcX7Rpdu9PZzyuNExo1jNWBasgYOs="}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 33ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-27 17:08:54 -0500
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered devise/sessions/new.html.erb within layouts/login.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 274ms (Views: 273.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-27 17:10:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered devise/sessions/new.html.erb within layouts/login.html.erb (41.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 490ms (Views: 471.3ms | ActiveRecord: 6.0ms)
+
+
+Started POST "/auth/sign_in" for 127.0.0.1 at 2015-07-27 17:10:39 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HJhMUJQyxnHJQ40dMBhghlnUQX073GmEtaz3ARrW4DQ=", "user"=>{"email"=>"alex_reyes@live.com.mx", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'alex_reyes@live.com.mx'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (2.0ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2015-07-27 22:10:39', `last_sign_in_at` = '2015-07-27 22:00:29', `sign_in_count` = 12, `updated_at` = '2015-07-27 22:10:39' WHERE `users`.`id` = 2[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 290ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-27 17:10:39 -0500
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 343ms (Views: 342.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-07-27 17:10:44 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1
+  Rendered customer_companies/_index_form.html.erb (52.1ms)
+  Rendered customer_companies/_links.html.erb (1.0ms)
+  Rendered layouts/_index_form.html.erb (200.1ms)
+  Rendered customer_companies/index.html.erb within layouts/application (202.1ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 513ms (Views: 497.2ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/customer_companies/1/edit" for 127.0.0.1 at 2015-07-27 17:10:50 -0500
+Processing by CustomerCompaniesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1
+  [1m[36mCustomerCompany Load (3.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1 and consorcio = 1)[0m
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered customer_companies/_form.html.erb (8.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (108.8ms)
+  Rendered customer_companies/edit.html.erb within layouts/application (111.8ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 368ms (Views: 362.5ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-07-27 17:10:56 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1
+  Rendered customer_companies/_index_form.html.erb (2.0ms)
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (6.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 266ms (Views: 263.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-07-27 17:11:00 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/_index_form.html.erb (4.0ms)
+  Rendered users/_links.html.erb (1.0ms)
+  Rendered layouts/_index_form.html.erb (11.0ms)
+  Rendered users/index.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 268ms (Views: 264.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2015-07-27 17:11:02 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)[0m
+  Rendered users/_form.html.erb (10.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (13.0ms)
+  Rendered users/edit.html.erb within layouts/application (15.0ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (undefined method `puesto_id' for #<User:0x6099528>):
+    43:   </div>
+    44:   <div class="form-group">
+    45:     <div class="col-sm-2 control-label"><%= f.label :puesto_id, "Puesto" %></div>
+    46:     <div class="col-sm-10"><%= f.number_field :puesto_id, class: "form-control" %></div>
+    47:   </div>
+    48:   <div class="form-group">
+    49:     <div class="col-sm-2 control-label"><%= f.label :consorcio %></div>
+  app/views/users/_form.html.erb:46:in `block in _app_views_users__form_html_erb__189895295_50594364'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__189895295_50594364'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb___103407804_53146692'
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___765707303_50627220'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.0ms)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2015-07-27 17:11:02 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (8.0ms)
+  Rendered users/edit.html.erb within layouts/application (10.0ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined method `puesto_id' for #<User:0x4f504c8>):
+    43:   </div>
+    44:   <div class="form-group">
+    45:     <div class="col-sm-2 control-label"><%= f.label :puesto_id, "Puesto" %></div>
+    46:     <div class="col-sm-10"><%= f.number_field :puesto_id, class: "form-control" %></div>
+    47:   </div>
+    48:   <div class="form-group">
+    49:     <div class="col-sm-2 control-label"><%= f.label :consorcio %></div>
+  app/views/users/_form.html.erb:46:in `block in _app_views_users__form_html_erb__189895295_40430760'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__189895295_40430760'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb___103407804_41461476'
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___765707303_41513604'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.0ms)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2015-07-27 17:13:44 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)[0m
+  Rendered users/_form.html.erb (10.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (12.0ms)
+  Rendered users/edit.html.erb within layouts/application (13.0ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (undefined method `puesto_id' for #<User:0x34c4aa8>):
+    43:   </div>
+    44:   <div class="form-group">
+    45:     <div class="col-sm-2 control-label"><%= f.label :puesto_id, "Puesto" %></div>
+    46:     <div class="col-sm-10"><%= f.text_field :puesto_id, class: "form-control" %></div>
+    47:   </div>
+    48:   <div class="form-group">
+    49:     <div class="col-sm-2 control-label"><%= f.label :consorcio %></div>
+  app/views/users/_form.html.erb:46:in `block in _app_views_users__form_html_erb__189895295_19508532'
+  app/views/users/_form.html.erb:1:in `_app_views_users__form_html_erb__189895295_19508532'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb___103407804_41461476'
+  app/views/users/edit.html.erb:1:in `_app_views_users_edit_html_erb___765707303_41513604'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (29.0ms)
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2015-07-27 17:14:00 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)
+  Rendered users/_links.html.erb (1.0ms)
+  Rendered users/_form.html.erb (6.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (7.0ms)
+  Rendered users/edit.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 270ms (Views: 267.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-27 17:14:00 -0500
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-07-27 17:14:00 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-27 17:14:01 -0500
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-07-27 17:15:37 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[36mWorkplace Load (160.2ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`[0m
+  Rendered workplaces/index.html.erb within layouts/application (162.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 574ms (Views: 409.6ms | ActiveRecord: 160.2ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:15:38 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2015-07-27 17:16:42 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/_index_form.html.erb (2.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (5.0ms)
+  Rendered users/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 313ms (Views: 309.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:16:43 -0500
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2015-07-27 17:16:46 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)[0m
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered users/_form.html.erb (13.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (21.0ms)
+  Rendered users/edit.html.erb within layouts/application (24.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 504ms (Views: 500.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:16:46 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2015-07-27 17:16:50 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/_index_form.html.erb (2.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (6.0ms)
+  Rendered users/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 287ms (Views: 284.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:16:50 -0500
+
+
+Started GET "/users/6/edit" for 127.0.0.1 at 2015-07-27 17:16:51 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)
+  Rendered users/_links.html.erb (1.0ms)
+  Rendered users/_form.html.erb (5.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (7.0ms)
+  Rendered users/edit.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 264ms (Views: 256.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:16:52 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2015-07-27 17:16:55 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/_index_form.html.erb (2.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (5.0ms)
+  Rendered users/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 262ms (Views: 259.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:16:56 -0500
+
+
+Started GET "/users/2/edit" for 127.0.0.1 at 2015-07-27 17:20:51 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1)[0m
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered users/_form.html.erb (9.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (12.0ms)
+  Rendered users/edit.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 371ms (Views: 328.3ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:20:52 -0500
+
+
+Started GET "/users" for 127.0.0.1 at 2015-07-27 17:25:37 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/_index_form.html.erb (2.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (6.0ms)
+  Rendered users/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 381ms (Views: 364.2ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:25:37 -0500
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-07-27 17:25:41 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1
+  Rendered customer_companies/_index_form.html.erb (13.0ms)
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (17.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (18.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 354ms (Views: 344.2ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:25:41 -0500
+
+
+Started GET "/customer_companies/1/edit" for 127.0.0.1 at 2015-07-27 17:25:48 -0500
+Processing by CustomerCompaniesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1
+  [1m[36mCustomerCompany Load (2.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 't' and consorcio = 't')[0m
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered customer_companies/_form.html.erb (8.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (12.0ms)
+  Rendered customer_companies/edit.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 336ms (Views: 330.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:25:48 -0500
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-07-27 17:25:59 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1
+  Rendered customer_companies/_index_form.html.erb (3.0ms)
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (7.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 275ms (Views: 271.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:25:59 -0500
+
+
+Started GET "/customer_companies/3/edit" for 127.0.0.1 at 2015-07-27 17:26:10 -0500
+Processing by CustomerCompaniesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 3 LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 't' and consorcio = 't')[0m
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered customer_companies/_form.html.erb (10.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (14.0ms)
+  Rendered customer_companies/edit.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 549ms (Views: 545.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:26:11 -0500
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-07-27 17:26:26 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1
+  Rendered customer_companies/_index_form.html.erb (5.0ms)
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (11.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 344ms (Views: 341.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:26:26 -0500
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-07-27 17:29:08 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1[0m
+  Rendered customer_companies/_index_form.html.erb (20.0ms)
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (26.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (27.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 331ms (Views: 306.2ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:29:09 -0500
+
+
+Started GET "/customer_companies/1/edit" for 127.0.0.1 at 2015-07-27 17:29:10 -0500
+Processing by CustomerCompaniesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1::int::bool and consorcio = 1::int::bool)
+Mysql2::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '::int::bool and consorcio = 1::int::bool)' at line 1: SELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1::int::bool and consorcio = 1::int::bool)
+Completed 500 Internal Server Error in 3ms
+
+ActiveRecord::StatementInvalid (Mysql2::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '::int::bool and consorcio = 1::int::bool)' at line 1: SELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1::int::bool and consorcio = 1::int::bool)):
+  app/controllers/customer_companies_controller.rb:24:in `edit'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (126.6ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (160.9ms)
+
+
+Started GET "/customer_companies/1/edit" for 127.0.0.1 at 2015-07-27 17:29:11 -0500
+Processing by CustomerCompaniesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1::int::bool and consorcio = 1::int::bool)[0m
+Mysql2::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '::int::bool and consorcio = 1::int::bool)' at line 1: SELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1::int::bool and consorcio = 1::int::bool)
+Completed 500 Internal Server Error in 3ms
+
+ActiveRecord::StatementInvalid (Mysql2::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '::int::bool and consorcio = 1::int::bool)' at line 1: SELECT `customer_companies`.* FROM `customer_companies`  WHERE (activo = 1::int::bool and consorcio = 1::int::bool)):
+  app/controllers/customer_companies_controller.rb:24:in `edit'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (43.0ms)
+
+
+Started GET "/customer_companies/1/edit" for 127.0.0.1 at 2015-07-27 17:34:35 -0500
+Processing by CustomerCompaniesController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`activo` = 1 AND `customer_companies`.`consorcio` = 1
+  Rendered customer_companies/_links.html.erb (1.0ms)
+  Rendered customer_companies/_form.html.erb (6.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (7.0ms)
+  Rendered customer_companies/edit.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 317ms (Views: 286.2ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-27 17:34:36 -0500
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-07-27 17:35:18 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1[0m
+  Rendered customer_companies/_index_form.html.erb (8.0ms)
+  Rendered customer_companies/_links.html.erb (1.0ms)
+  Rendered layouts/_index_form.html.erb (15.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 308ms (Views: 304.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:35:18 -0500
+
+
+Started GET "/customer_companies/3/edit" for 127.0.0.1 at 2015-07-27 17:35:20 -0500
+Processing by CustomerCompaniesController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 3 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`activo` = 1 AND `customer_companies`.`consorcio` = 1
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered customer_companies/_form.html.erb (6.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (8.0ms)
+  Rendered customer_companies/edit.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 263ms (Views: 260.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:35:21 -0500
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-07-27 17:35:24 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1[0m
+  Rendered customer_companies/_index_form.html.erb (3.0ms)
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (6.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 273ms (Views: 270.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:35:24 -0500
+
+
+Started GET "/customer_companies/5/edit" for 127.0.0.1 at 2015-07-27 17:35:25 -0500
+Processing by CustomerCompaniesController#edit as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`activo` = 1 AND `customer_companies`.`consorcio` = 1
+  Rendered customer_companies/_links.html.erb (1.0ms)
+  Rendered customer_companies/_form.html.erb (7.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (9.0ms)
+  Rendered customer_companies/edit.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 311ms (Views: 306.2ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:35:26 -0500
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-07-27 17:35:28 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1[0m
+  Rendered customer_companies/_index_form.html.erb (3.0ms)
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (8.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 361ms (Views: 358.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-27 17:35:28 -0500
