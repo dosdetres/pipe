@@ -1,0 +1,38 @@
+<div class="table-responsive">
+  <table class="table table-responsive table-condensed table-hover table-striped">
+    <thead>
+    <tr>
+      <th>Puesto</th>
+      <th>Nivel Usuario</th>
+      <th>Area</th>
+      <th>Activo</th>
+      <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    <% @workplaces.each do |workplace| %>
+        <tr>
+          <td><%= workplace.puesto %></td>
+          <td><%= workplace.nivel_usuario %></td>
+          <td>
+            <% unless workplace.area.nil? %>
+                <%= workplace.area.area %>
+            <% end %>
+          </td>
+          <td>
+            <% if workplace.activo %>
+                Si
+            <% else %>
+                No
+            <% end %>
+          </td>
+          <td>
+            <%= link_to 'Consultar', workplace, class: "btn btn-default" %>
+            <%= link_to 'Editar', edit_workplace_path(workplace), class: "btn btn-success" %>
+            <%= link_to 'Eliminar', workplace, class: "btn btn-danger", method: :delete, data: { confirm: '¿Estás seguro?' } %>
+          </td>
+        </tr>
+    <% end %>
+    </tbody>
+  </table>
+</div>

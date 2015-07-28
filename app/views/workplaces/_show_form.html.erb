@@ -1,0 +1,59 @@
+<form class="form-horizontal">
+  <div class="form-group">
+    <label class="col-sm-2 control-label">Puesto:</label>
+    <div class="col-sm-10">
+      <p class="form-control-static"><%= @workplace.puesto %></p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-2 control-label">Descripción:</label>
+    <div class="col-sm-10">
+      <p class="form-control-static"><%= @workplace.descripcion %></p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-2 control-label">Nivel de usuario:</label>
+    <div class="col-sm-10">
+      <p class="form-control-static"><%= @workplace.nivel_usuario %></p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-2 control-label">Área:</label>
+    <div class="col-sm-10">
+      <p class="form-control-static">
+        <% unless @workplace.area.nil? %>
+            <%= @workplace.area.area %>
+        <% end %>
+      </p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-2 control-label">Activo:</label>
+    <div class="col-sm-10">
+      <p class="form-control-static">
+        <% if @workplace.activo %>
+            Si
+        <% else %>
+            No
+        <% end %>
+      </p>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="col-sm-2 control-label">Usuario alta:</label>
+    <div class="col-sm-10">
+      <p class="form-control-static"><%= @workplace.created_user_id %></p>
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-sm-2 control-label">Usuario cambio:</label>
+    <div class="col-sm-10">
+      <p class="form-control-static"><%= @workplace.updated_user_id %></p>
+    </div>
+  </div>
+  <hr />
+  <div class="form-group">
+    <div class="col-sm-12 text-right"><%= render 'links', accion: accion %></div>
+  </div>
+</form>

@@ -72840,3 +72840,1358 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-27 20:07:28 -05
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-27 20:07:28 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-28 02:35:36 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered devise/sessions/new.html.erb within layouts/login.html.erb (172.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 661ms (Views: 642.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:37 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 02:35:38 -0500
+
+
+Started POST "/auth/sign_in" for 127.0.0.1 at 2015-07-28 02:36:07 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XhJSPaTmAgs3x1pKNdu9gOJ4/GUPxXYHvvuU87GHkNM=", "user"=>{"email"=>"alex_reyes@live.com.mx", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'alex_reyes@live.com.mx'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (91.1ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2015-07-28 07:36:07', `last_sign_in_at` = '2015-07-28 00:06:48', `sign_in_count` = 15, `updated_at` = '2015-07-28 07:36:07' WHERE `users`.`id` = 2[0m
+  [1m[35m (2.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 201ms (ActiveRecord: 94.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-28 02:36:07 -0500
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 267ms (Views: 266.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/menu_options" for 127.0.0.1 at 2015-07-28 02:36:23 -0500
+Processing by MenuOptionsController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mMenuOption Load (0.0ms)[0m  [1mSELECT `menu_options`.* FROM `menu_options`[0m
+  [1m[35mMenuOption Load (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1  [["id", 2]]
+  Rendered menu_options/_index_form.html.erb (33.7ms)
+  Rendered menu_options/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (37.7ms)
+  Rendered menu_options/index.html.erb within layouts/application (39.7ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 305ms (Views: 295.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-07-28 02:36:25 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1[0m
+  Rendered customer_companies/_index_form.html.erb (18.0ms)
+  Rendered customer_companies/_links.html.erb (1.0ms)
+  Rendered layouts/_index_form.html.erb (23.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (25.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 291ms (Views: 275.2ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-07-28 02:36:27 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/_index_form.html.erb (2.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (7.0ms)
+  Rendered users/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 243ms (Views: 241.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/areas" for 127.0.0.1 at 2015-07-28 02:36:28 -0500
+Processing by AreasController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mArea Load (1.0ms)[0m  [1mSELECT `areas`.* FROM `areas`[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1
+  Rendered areas/_index_form.html.erb (13.0ms)
+  Rendered areas/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (16.0ms)
+  Rendered areas/index.html.erb within layouts/application (18.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 258ms (Views: 246.2ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-07-28 02:36:31 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[36mWorkplace Load (0.0ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`[0m
+  Rendered workplaces/_index_form.html.erb (3.0ms)
+  Rendered workplaces/_links.html.erb (2.0ms)
+  Rendered layouts/_index_form.html.erb (9.0ms)
+  Rendered workplaces/index.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 252ms (Views: 247.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/roles" for 127.0.0.1 at 2015-07-28 02:36:35 -0500
+Processing by RolesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mRole Load (1.0ms)[0m  SELECT `roles`.* FROM `roles`
+  Rendered roles/_index_form.html.erb (9.5ms)
+  Rendered roles/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (34.2ms)
+  Rendered roles/index.html.erb within layouts/application (37.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 283ms (Views: 271.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/areas" for 127.0.0.1 at 2015-07-28 02:36:41 -0500
+Processing by AreasController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mArea Load (0.0ms)[0m  SELECT `areas`.* FROM `areas`
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1[0m
+  Rendered areas/_index_form.html.erb (3.0ms)
+  Rendered areas/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (7.0ms)
+  Rendered areas/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 277ms (Views: 275.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-07-28 02:36:43 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[35mWorkplace Load (0.0ms)[0m  SELECT `workplaces`.* FROM `workplaces`
+  Rendered workplaces/_index_form.html.erb (1.0ms)
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (4.0ms)
+  Rendered workplaces/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 338ms (Views: 336.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/roles" for 127.0.0.1 at 2015-07-28 02:36:53 -0500
+Processing by RolesController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mRole Load (0.0ms)[0m  [1mSELECT `roles`.* FROM `roles`[0m
+  Rendered roles/_index_form.html.erb (1.0ms)
+  Rendered roles/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (5.0ms)
+  Rendered roles/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 239ms (Views: 237.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/areas" for 127.0.0.1 at 2015-07-28 02:36:56 -0500
+Processing by AreasController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mArea Load (0.0ms)[0m  [1mSELECT `areas`.* FROM `areas`[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1
+  Rendered areas/_index_form.html.erb (2.0ms)
+  Rendered areas/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (6.0ms)
+  Rendered areas/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 243ms (Views: 241.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-07-28 02:37:00 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[36mWorkplace Load (0.0ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`[0m
+  Rendered workplaces/_index_form.html.erb (1.0ms)
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (5.0ms)
+  Rendered workplaces/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 246ms (Views: 245.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menu_options" for 127.0.0.1 at 2015-07-28 02:37:02 -0500
+Processing by MenuOptionsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mMenuOption Load (1.0ms)[0m  SELECT `menu_options`.* FROM `menu_options`
+  [1m[36mMenuOption Load (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  Rendered menu_options/_index_form.html.erb (5.0ms)
+  Rendered menu_options/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (9.0ms)
+  Rendered menu_options/index.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 306ms (Views: 300.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-07-28 02:37:04 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1
+  Rendered customer_companies/_index_form.html.erb (3.0ms)
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (7.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 248ms (Views: 246.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-07-28 02:37:06 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/_index_form.html.erb (2.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (5.0ms)
+  Rendered users/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 248ms (Views: 246.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-07-28 02:37:09 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[36mWorkplace Load (0.0ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`[0m
+  Rendered workplaces/_index_form.html.erb (0.0ms)
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (4.0ms)
+  Rendered workplaces/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 241ms (Views: 239.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[36mWorkplace Load (0.0ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`[0m
+  Rendered workplaces/_index_form.html.erb (1.0ms)
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (4.0ms)
+  Rendered workplaces/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 314ms (Views: 313.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 02:37:59 -0500
+
+
+Started GET "/workplaces/new" for 127.0.0.1 at 2015-07-28 02:38:02 -0500
+Processing by WorkplacesController#new as HTML
+  [1m[36mArea Load (1.0ms)[0m  [1mSELECT `areas`.* FROM `areas`  WHERE `areas`.`activo` = 1[0m
+  Rendered workplaces/_form.html.erb (10.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (13.0ms)
+  Rendered workplaces/new.html.erb within layouts/application (14.0ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (undefined method `customer_company_id' for #<Workplace:0x6739560>):
+    15:       <div class="col-sm-2 control-label"><%= f.label :EmpresaCliente_id, "Empresa" %></div>
+    16:       <div class="col-sm-10">
+    17:         <% if accion == "new" %>
+    18:             <%= f.select :customer_company_id, @customer_companies_options, {:prompt =>  '-- Seleccione una opción --' }, {:class => 'form-control'}  %>
+    19:         <% else %>
+    20:             <%= f.select :customer_company_id, @customer_companies_options, {:include_blank => true}, {:class => 'form-control'}  %>
+    21:         <% end %>
+  app/views/workplaces/_form.html.erb:18:in `block in _app_views_workplaces__form_html_erb___859450148_54069708'
+  app/views/workplaces/_form.html.erb:1:in `_app_views_workplaces__form_html_erb___859450148_54069708'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb___215442610_54088176'
+  app/views/workplaces/new.html.erb:1:in `_app_views_workplaces_new_html_erb__405378404_54106632'
+  app/controllers/workplaces_controller.rb:18:in `new'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.0ms)
+
+
+Started GET "/workplaces/new" for 127.0.0.1 at 2015-07-28 02:38:03 -0500
+Processing by WorkplacesController#new as HTML
+  [1m[35mArea Load (0.0ms)[0m  SELECT `areas`.* FROM `areas`  WHERE `areas`.`activo` = 1
+  Rendered workplaces/_form.html.erb (2.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (3.0ms)
+  Rendered workplaces/new.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (undefined method `customer_company_id' for #<Workplace:0x6304e60>):
+    15:       <div class="col-sm-2 control-label"><%= f.label :EmpresaCliente_id, "Empresa" %></div>
+    16:       <div class="col-sm-10">
+    17:         <% if accion == "new" %>
+    18:             <%= f.select :customer_company_id, @customer_companies_options, {:prompt =>  '-- Seleccione una opción --' }, {:class => 'form-control'}  %>
+    19:         <% else %>
+    20:             <%= f.select :customer_company_id, @customer_companies_options, {:include_blank => true}, {:class => 'form-control'}  %>
+    21:         <% end %>
+  app/views/workplaces/_form.html.erb:18:in `block in _app_views_workplaces__form_html_erb___859450148_54069708'
+  app/views/workplaces/_form.html.erb:1:in `_app_views_workplaces__form_html_erb___859450148_54069708'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb___215442610_54088176'
+  app/views/workplaces/new.html.erb:1:in `_app_views_workplaces_new_html_erb__405378404_54106632'
+  app/controllers/workplaces_controller.rb:18:in `new'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.0ms)
+
+
+Started GET "/workplaces/new" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+Processing by WorkplacesController#new as HTML
+  [1m[36mArea Load (0.0ms)[0m  [1mSELECT `areas`.* FROM `areas`  WHERE `areas`.`activo` = 1[0m
+  Rendered workplaces/_links.html.erb (1.0ms)
+  Rendered workplaces/_form.html.erb (7.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (9.0ms)
+  Rendered workplaces/new.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 330ms (Views: 328.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 02:40:15 -0500
+
+
+Started POST "/workplaces" for 127.0.0.1 at 2015-07-28 02:40:52 -0500
+Processing by WorkplacesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"awSloSkCnAL2sr6Bdposax2ej2kKReuBcyaqiLZs2yo=", "workplace"=>{"puesto"=>"Director General", "descripcion"=>"Director General", "nivel_usuario"=>"1", "area_id"=>"1", "activo"=>"1"}, "commit"=>"Guardar"}
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO `workplaces` (`activo`, `area_id`, `created_at`, `descripcion`, `nivel_usuario`, `puesto`, `updated_at`) VALUES (1, 1, '2015-07-28 07:40:52', 'Director General', 1, 'Director General', '2015-07-28 07:40:52')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/workplaces/1
+Completed 302 Found in 10ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/workplaces/1" for 127.0.0.1 at 2015-07-28 02:40:52 -0500
+Processing by WorkplacesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mWorkplace Load (1.0ms)[0m  SELECT  `workplaces`.* FROM `workplaces`  WHERE `workplaces`.`id` = 1 LIMIT 1
+  [1m[36mArea Load (1.0ms)[0m  [1mSELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1[0m
+  Rendered workplaces/_links.html.erb (2.0ms)
+  Rendered workplaces/_show_form.html.erb (6.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (7.0ms)
+  Rendered workplaces/show.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 15ms
+
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"workplaces", :id=>nil} missing required keys: [:id]):
+     6:     <%= link_to 'Consultar', @workplace, class: "btn btn-default" %>
+     7:     <%= link_to 'Regresar', workplaces_path, class: "btn btn-default" %>
+     8: <% when 'show' %>
+     9:     <%= link_to 'Editar', edit_workplace_path(@area), class: "btn btn-default" %>
+    10:     <%= link_to 'Regresar', workplaces_path, class: "btn btn-default" %>
+    11: <% when 'index' %>
+    12:     <%= link_to 'Puesto Nuevo', new_workplace_path, class: "btn btn-success" %>
+  app/views/workplaces/_links.html.erb:9:in `_app_views_workplaces__links_html_erb___806743712_55077084'
+  app/views/workplaces/_show_form.html.erb:57:in `_app_views_workplaces__show_form_html_erb___867573569_55706076'
+  app/views/layouts/_new_edit_show_form.html.erb:28:in `_app_views_layouts__new_edit_show_form_html_erb___215442610_54088176'
+  app/views/workplaces/show.html.erb:1:in `_app_views_workplaces_show_html_erb__390268094_55727196'
+  app/controllers/workplaces_controller.rb:12:in `show'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.7ms)
+
+
+Started GET "/workplaces/1" for 127.0.0.1 at 2015-07-28 02:41:26 -0500
+Processing by WorkplacesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mWorkplace Load (1.0ms)[0m  SELECT  `workplaces`.* FROM `workplaces`  WHERE `workplaces`.`id` = 1 LIMIT 1
+  [1m[36mArea Load (0.0ms)[0m  [1mSELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1[0m
+  Rendered workplaces/_links.html.erb (1.0ms)
+  Rendered workplaces/_show_form.html.erb (4.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (5.0ms)
+  Rendered workplaces/show.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 259ms (Views: 256.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 02:41:27 -0500
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-07-28 02:41:51 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[36mWorkplace Load (1.0ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`[0m
+  [1m[35mArea Load (0.0ms)[0m  SELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1
+  Rendered workplaces/_index_form.html.erb (18.6ms)
+  Rendered layouts/_index_form.html.erb (19.6ms)
+  Rendered workplaces/index.html.erb within layouts/application (21.6ms)
+Completed 500 Internal Server Error in 27ms
+
+ActionView::Template::Error (undefined local variable or method `area' for #<#<Class:0x4c922e8>:0x625ec60>):
+    28:           </td>
+    29:           <td>
+    30:             <%= link_to 'Consultar', workplace, class: "btn btn-default" %>
+    31:             <%= link_to 'Editar', edit_workplace_path(area), class: "btn btn-success" %>
+    32:             <%= link_to 'Eliminar', workplace, class: "btn btn-danger", method: :delete, data: { confirm: '¿Estás seguro?' } %>
+    33:           </td>
+    34:         </tr>
+  app/views/workplaces/_index_form.html.erb:31:in `block in _app_views_workplaces__index_form_html_erb___555379255_39788412'
+  app/views/workplaces/_index_form.html.erb:13:in `_app_views_workplaces__index_form_html_erb___555379255_39788412'
+  app/views/layouts/_index_form.html.erb:12:in `_app_views_layouts__index_form_html_erb___926676552_39902388'
+  app/views/workplaces/index.html.erb:1:in `_app_views_workplaces_index_html_erb__199059684_40141380'
+  app/controllers/workplaces_controller.rb:8:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.0ms)
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-07-28 02:41:51 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[36mWorkplace Load (0.0ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`[0m
+  [1m[35mArea Load (0.0ms)[0m  SELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1
+  Rendered workplaces/_index_form.html.erb (23.0ms)
+  Rendered layouts/_index_form.html.erb (24.0ms)
+  Rendered workplaces/index.html.erb within layouts/application (27.0ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (undefined local variable or method `area' for #<#<Class:0x4c922e8>:0x3c5e1e8>):
+    28:           </td>
+    29:           <td>
+    30:             <%= link_to 'Consultar', workplace, class: "btn btn-default" %>
+    31:             <%= link_to 'Editar', edit_workplace_path(area), class: "btn btn-success" %>
+    32:             <%= link_to 'Eliminar', workplace, class: "btn btn-danger", method: :delete, data: { confirm: '¿Estás seguro?' } %>
+    33:           </td>
+    34:         </tr>
+  app/views/workplaces/_index_form.html.erb:31:in `block in _app_views_workplaces__index_form_html_erb___555379255_39788412'
+  app/views/workplaces/_index_form.html.erb:13:in `_app_views_workplaces__index_form_html_erb___555379255_39788412'
+  app/views/layouts/_index_form.html.erb:12:in `_app_views_layouts__index_form_html_erb___926676552_39902388'
+  app/views/workplaces/index.html.erb:1:in `_app_views_workplaces_index_html_erb__199059684_40141380'
+  app/controllers/workplaces_controller.rb:8:in `index'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.0ms)
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[36mWorkplace Load (1.0ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`[0m
+  [1m[35mArea Load (1.0ms)[0m  SELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1
+  Rendered workplaces/_index_form.html.erb (3.0ms)
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (6.0ms)
+  Rendered workplaces/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 250ms (Views: 246.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:23 -0500
+
+
+Started DELETE "/workplaces/1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+Processing by WorkplacesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"awSloSkCnAL2sr6Bdposax2ej2kKReuBcyaqiLZs2yo=", "id"=>"1"}
+  [1m[35mWorkplace Load (1.0ms)[0m  SELECT  `workplaces`.* FROM `workplaces`  WHERE `workplaces`.`id` = 1 LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.0ms)[0m  DELETE FROM `workplaces` WHERE `workplaces`.`id` = 1
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/workplaces
+Completed 302 Found in 19ms (ActiveRecord: 7.0ms)
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[35mWorkplace Load (0.0ms)[0m  SELECT `workplaces`.* FROM `workplaces`
+  Rendered workplaces/_index_form.html.erb (4.0ms)
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (10.0ms)
+  Rendered workplaces/index.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 403ms (Views: 401.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 02:42:29 -0500
+
+
+Started GET "/workplaces/new" for 127.0.0.1 at 2015-07-28 02:44:09 -0500
+Processing by WorkplacesController#new as HTML
+  [1m[35mArea Load (0.0ms)[0m  SELECT `areas`.* FROM `areas`  WHERE `areas`.`activo` = 1
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered workplaces/_form.html.erb (7.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (8.0ms)
+  Rendered workplaces/new.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (19.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 339ms (Views: 312.2ms | ActiveRecord: 14.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:09 -0500
+
+
+Started POST "/workplaces" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+Processing by WorkplacesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"awSloSkCnAL2sr6Bdposax2ej2kKReuBcyaqiLZs2yo=", "workplace"=>{"puesto"=>"Director General", "descripcion"=>"Director General", "nivel_usuario"=>"1", "area_id"=>"1", "activo"=>"1"}, "commit"=>"Guardar"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `workplaces` (`activo`, `area_id`, `created_at`, `created_user_id`, `descripcion`, `nivel_usuario`, `puesto`, `updated_at`) VALUES (1, 1, '2015-07-28 07:44:43', 2, 'Director General', 1, 'Director General', '2015-07-28 07:44:43')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/workplaces/2
+Completed 302 Found in 11ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/workplaces/2" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+Processing by WorkplacesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mWorkplace Load (1.0ms)[0m  SELECT  `workplaces`.* FROM `workplaces`  WHERE `workplaces`.`id` = 2 LIMIT 1
+  [1m[36mArea Load (0.0ms)[0m  [1mSELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1[0m
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered workplaces/_show_form.html.erb (4.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (5.0ms)
+  Rendered workplaces/show.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 247ms (Views: 245.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 02:44:43 -0500
+
+
+Started GET "/workplaces/2/edit" for 127.0.0.1 at 2015-07-28 02:44:53 -0500
+Processing by WorkplacesController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWorkplace Load (1.0ms)[0m  [1mSELECT  `workplaces`.* FROM `workplaces`  WHERE `workplaces`.`id` = 2 LIMIT 1[0m
+  [1m[35mArea Load (0.0ms)[0m  SELECT `areas`.* FROM `areas`  WHERE `areas`.`activo` = 1
+  Rendered workplaces/_links.html.erb (1.0ms)
+  Rendered workplaces/_form.html.erb (5.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (8.0ms)
+  Rendered workplaces/edit.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 247ms (Views: 244.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:53 -0500
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:53 -0500
+
+
+Started GET "/workplaces/2" for 127.0.0.1 at 2015-07-28 02:44:56 -0500
+Processing by WorkplacesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mWorkplace Load (0.0ms)[0m  SELECT  `workplaces`.* FROM `workplaces`  WHERE `workplaces`.`id` = 2 LIMIT 1
+  [1m[36mArea Load (0.0ms)[0m  [1mSELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1[0m
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered workplaces/_show_form.html.erb (3.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (4.0ms)
+  Rendered workplaces/show.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 245ms (Views: 243.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:56 -0500
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:56 -0500
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-07-28 02:44:58 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[36mWorkplace Load (0.0ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`[0m
+  [1m[35mArea Load (0.0ms)[0m  SELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1
+  Rendered workplaces/_index_form.html.erb (2.0ms)
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (5.0ms)
+  Rendered workplaces/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 239ms (Views: 238.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:58 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:58 -0500

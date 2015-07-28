@@ -1,0 +1,15 @@
+
+<% case accion
+     when 'new' %>
+    <%= link_to 'Regresar', workplaces_path, class: "btn btn-default" %>
+<% when 'edit' %>
+    <%= link_to 'Consultar', @workplace, class: "btn btn-default" %>
+    <%= link_to 'Regresar', workplaces_path, class: "btn btn-default" %>
+<% when 'show' %>
+    <%= link_to 'Editar', edit_workplace_path(@workplace), class: "btn btn-default" %>
+    <%= link_to 'Regresar', workplaces_path, class: "btn btn-default" %>
+<% when 'index' %>
+    <%= link_to 'Puesto Nuevo', new_workplace_path, class: "btn btn-success" %>
+<% else %>
+
+<% end %>

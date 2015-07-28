@@ -13,20 +13,28 @@ class WorkplacesController < ApplicationController
   end
 
   def new
+    @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
     @workplace = Workplace.new
     respond_with(@workplace)
   end
 
   def edit
+    @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
   end
 
   def create
     @workplace = Workplace.new(workplace_params)
+    unless current_user.nil?
+      @workplace.created_user_id = current_user.id
+    end
     flash[:notice] = 'Workplace was successfully created.' if @workplace.save
     respond_with(@workplace)
   end
 
   def update
+    unless current_user.nil?
+      @workplace.updated_user_id = current_user.id
+    end
     flash[:notice] = 'Workplace was successfully updated.' if @workplace.update(workplace_params)
     respond_with(@workplace)
   end
@@ -42,6 +50,6 @@ class WorkplacesController < ApplicationController
     end
 
     def workplace_params
-      params.require(:workplace).permit(:puesto, :descripcion, :nivel_usuario, :activo, :area_id, :created_user_id, :updated_user_id)
+      params.require(:workplace).permit(:puesto, :descripcion, :nivel_usuario, :activo, :area_id)
     end
 end
