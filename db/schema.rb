@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150709002900) do
+ActiveRecord::Schema.define(version: 20150727224707) do
 
   create_table "areas", force: true do |t|
     t.string   "area"

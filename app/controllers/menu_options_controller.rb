@@ -15,13 +15,13 @@ class MenuOptionsController < ApplicationController
 
   # GET /menu_options/new
   def new
-    @menu_options_options = MenuOption.where("activo = 1").map{|m| [ m.modulo , m.id ] }
+    @menu_options_options = MenuOption.where(activo: true).map{|m| [ m.modulo , m.id ] }
     @menu_option = MenuOption.new
   end
 
   # GET /menu_options/1/edit
   def edit
-    @menu_options_options = MenuOption.where("activo = 1").map{|m| [ m.modulo , m.id ] }
+    @menu_options_options = MenuOption.where(activo: true).map{|m| [ m.modulo , m.id ] }
   end
 
   # POST /menu_options

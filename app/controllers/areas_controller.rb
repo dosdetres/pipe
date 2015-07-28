@@ -10,10 +10,14 @@ class AreasController < ApplicationController
   end
 
   def new
+    @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
+    @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
     @area = Area.new
   end
 
   def edit
+    @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
+    @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
   end
 
   def create
@@ -35,7 +39,9 @@ class AreasController < ApplicationController
   end
 
   def update
-    @area.updated_user_id = current_user.id
+    unless current_user.nil?
+      @area.updated_user_id = current_user.id
+    end
     respond_to do |format|
       if @area.update(area_params)
         format.html { redirect_to @area, notice: 'El Área se actualizo correctamente.' }
@@ -61,6 +67,6 @@ class AreasController < ApplicationController
     end
 
     def area_params
-      params.require(:area).permit(:area, :descripcion, :orden, :activo, :created_user_id, :updated_user_id, :customer_company_id, :area_id)
+      params.require(:area).permit(:area, :descripcion, :orden, :activo, :customer_company_id, :area_id)
     end
 end

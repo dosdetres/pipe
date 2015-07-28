@@ -1,0 +1,41 @@
+<div class="table-responsive">
+  <table class="table table-responsive table-condensed table-hover table-striped">
+    <thead>
+      <tr>
+        <th>Empresa</th>
+        <th>Area</th>
+        <th>Orden</th>
+        <th>Area Padre</th>
+        <th>Activo</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @areas.each do |area| %>
+        <tr>
+          <td><%= area.customer_company.empresa_cliente %></td>
+          <td><%= area.area %></td>
+          <td><%= area.orden %></td>
+          <td>
+            <% unless area.area_padre.nil? %>
+              <%= area.area_padre.area %>
+            <% end %>
+          </td>
+          <td>
+            <% if area.activo %>
+                Si
+            <% else %>
+                No
+            <% end %>
+          </td>
+          <td>
+            <%= link_to 'Consultar', area, class: "btn btn-default" %>
+            <%= link_to 'Editar', edit_area_path(area), class: "btn btn-success" %>
+            <%= link_to 'Eliminar', area, class: "btn btn-danger", method: :delete, data: { confirm: '¿Estás seguro?' } %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+
