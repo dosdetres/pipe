@@ -74195,3 +74195,159 @@ Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:58 -050
 
 
 Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 02:44:58 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-28 03:32:11 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered devise/sessions/new.html.erb within layouts/login.html.erb (37.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 497ms (Views: 480.3ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-28 03:32:12 -0500
+
+
+Started POST "/auth/sign_in" for 127.0.0.1 at 2015-07-28 03:32:41 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KCRJ4wVrAnppEQ+0ZWX2+15TTpfUhdrcnZ5K1TdyVc8=", "user"=>{"email"=>"alex_reyes@live.com.mx", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'alex_reyes@live.com.mx'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2015-07-28 08:32:41', `last_sign_in_at` = '2015-07-28 07:36:07', `sign_in_count` = 16, `updated_at` = '2015-07-28 08:32:41' WHERE `users`.`id` = 2[0m
+  [1m[35m (2.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 131ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-28 03:32:41 -0500
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 267ms (Views: 266.4ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/auth/sign_out" for 127.0.0.1 at 2015-07-28 03:32:49 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"amerswFTbVp7Ao9Yx3agMkLCiR8wQbbERUH0UzRsVd0="}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 115ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-28 03:32:49 -0500
+Processing by Devise::SessionsController#new as HTML
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM `users`[0m
+  Rendered devise/sessions/new.html.erb within layouts/login.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 251ms (Views: 249.5ms | ActiveRecord: 1.0ms)
