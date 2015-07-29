@@ -17,14 +17,14 @@
         <tr>
           <td><%= user.id %></td>
           <td>
-            <% unless user.nombre.nil? || user.apellido_paterno.nil? || user.apellido_materno.nil? %>
-              <%= user.nombre + ' ' + user.apellido_paterno + ' ' + user.apellido_materno %>
+            <% unless user.nombre_completo.nil? %>
+              <%= user.nombre_completo %>
             <% end %>
           </td>
           <td><%= user.rfc %></td>
           <td><%= user.curp %></td>
           <td><%= user.email %></td>
-          <td><%= user.consorcio %></td>
+          <td><%= user.consorcio_desc %></td>
           <td>
             <%= link_to 'Consultar', user, class: "btn btn-default" %>
             <%= link_to 'Editar', edit_user_path(user), class: "btn btn-success" %>
