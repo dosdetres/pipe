@@ -36,7 +36,7 @@ img {
 // to make views framework-neutral
 main {
   @extend .container;
-  background-color: #DADADA; //#F2E8E3; //#eee;
+
   padding-bottom: 80px;
   width: 100%;
   margin-top: 51px; // accommodate the navbar
@@ -46,13 +46,16 @@ section {
   margin-top: 20px;
   }
 
-.body-backcolor{
+.body-main {
+  background-image: url("background_main.jpg");
   background-color: #DADADA;
 }
 
-.body-login-backcolor{
+.body-login {
+  background-image: url("background_login.jpg");
   background-color: #58ACFA;
 }
+
 
 //==========[estilo modificado para barra de menu]==========
 .navbar-default {

@@ -5,7 +5,6 @@ class CustomerCompany < ActiveRecord::Base
 
   validates :empresa_cliente , presence: true
 
-
   def consorcio_desc
     if consorcio
       "Si"
@@ -21,7 +20,5 @@ class CustomerCompany < ActiveRecord::Base
       "No"
     end
   end
-
-
 
 end

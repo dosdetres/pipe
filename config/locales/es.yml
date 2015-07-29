@@ -32,4 +32,13 @@ es:
           attributes:
             empresa_cliente:
               blank: "requerida"
+        menu_option:
+          attributes:
+            modulo:
+              blank: "requerido"
+            orden:
+              blank: "requerido"
+              not_a_number: "debe ser numérico"
+            ruta:
+              blank: "requerida"
 

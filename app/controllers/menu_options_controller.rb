@@ -36,6 +36,7 @@ class MenuOptionsController < ApplicationController
         format.html { redirect_to @menu_option, notice: 'El Módulo se creó correctamente.' }
         format.json { render :show, status: :created, location: @menu_option }
       else
+        @menu_options_options = MenuOption.where(activo: true).map{|m| [ m.modulo , m.id ] }
         format.html { render :new }
         format.json { render json: @menu_option.errors, status: :unprocessable_entity }
       end
@@ -53,6 +54,7 @@ class MenuOptionsController < ApplicationController
         format.html { redirect_to @menu_option, notice: 'El Módulo se actualizo correctamente.' }
         format.json { render :show, status: :ok, location: @menu_option }
       else
+        @menu_options_options = MenuOption.where(activo: true).map{|m| [ m.modulo , m.id ] }
         format.html { render :edit }
         format.json { render json: @menu_option.errors, status: :unprocessable_entity }
       end

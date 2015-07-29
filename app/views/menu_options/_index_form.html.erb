@@ -6,8 +6,8 @@
         <th>Modulo</th>
         <th>Descripcion</th>
         <th>Orden</th>
-        <th>Consorcio</th>
         <th>Modulo Padre</th>
+        <th>Consorcio</th>
         <th>Activo</th>
         <th></th>
       </tr>
@@ -20,13 +20,13 @@
             <td><%= menu_option.modulo %></td>
             <td><%= menu_option.descripcion %></td>
             <td><%= menu_option.orden %></td>
-            <td><%= menu_option.consorcio %></td>
             <td>
               <% unless menu_option.menu_option_id.nil? %>
-                <%= menu_option.modulo_padre.modulo %>
+                  <%= menu_option.modulo_padre.modulo %>
               <% end %>
             </td>
-            <td><%= menu_option.activo %></td>
+            <td><%= menu_option.consorcio_desc %></td>
+            <td><%= menu_option.activo_desc %></td>
             <td>
                 <%= link_to 'Consultar', menu_option, class: "btn btn-default" %>
                 <%= link_to 'Editar', edit_menu_option_path(menu_option), class: "btn btn-success" %>
