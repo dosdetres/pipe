@@ -20,13 +20,13 @@
           <td><%= customer_company.empresa_cliente %></td>
           <td><%= customer_company.rfc %></td>
           <td><%= customer_company.razon_social %></td>
-          <td><%= customer_company.consorcio %></td>
+          <td><%= customer_company.consorcio_desc %></td>
           <td>
             <% unless customer_company.customer_company_id.nil? %>
                 <%= customer_company.empresa_padre.empresa_cliente %>
             <% end %>
           </td>
-          <td><%= customer_company.activo %></td>
+          <td><%= customer_company.activo_desc %></td>
           <td>
             <%= link_to 'Consultar', customer_company, class: "btn btn-default" %>
             <%= link_to 'Editar', edit_customer_company_path(customer_company), class: "btn btn-success" %>
