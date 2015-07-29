@@ -9,4 +9,18 @@ class User < ActiveRecord::Base
 
 
 
+
+  def nombre_completo
+    "#{nombre} #{apellido_paterno} #{apellido_materno}"
+  end
+
+  def consorcio_desc
+    if consorcio
+      "Si"
+    else
+      "No"
+    end
+  end
+
+
 end
