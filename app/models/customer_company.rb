@@ -3,5 +3,25 @@ class CustomerCompany < ActiveRecord::Base
   has_many :empresas, :class_name=>"CustomerCompany", :foreign_key => "customer_company_id"
   has_many :users
 
+  validates :empresa_cliente , presence: { message: "La empresa es requerida"}
+
+
+  def consorcio_desc
+    if consorcio
+      "Si"
+    else
+      "No"
+    end
+  end
+
+  def activo_desc
+    if activo
+      "Si"
+    else
+      "No"
+    end
+  end
+
+
 
 end
