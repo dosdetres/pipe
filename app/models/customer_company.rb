@@ -3,15 +3,7 @@ class CustomerCompany < ActiveRecord::Base
   has_many :empresas, :class_name=>"CustomerCompany", :foreign_key => "customer_company_id"
   has_many :users
 
-  validates :empresa_cliente , presence: {  message: "requerida."}
-
-  HUMANIZED_ATTRIBUTES = {
-      :empresa_cliente => 'Empresa'
-  }
-
-  def self.human_attribute_name(attr, options = {})
-    HUMANIZED_ATTRIBUTES[attr.to_sym] || super
-  end
+  validates :empresa_cliente , presence: true
 
 
   def consorcio_desc

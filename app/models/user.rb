@@ -7,7 +7,9 @@ class User < ActiveRecord::Base
   belongs_to :customer_company
   has_and_belongs_to_many :roles
 
-
+  validates :customer_company_id , presence: true
+  validates :nombre , presence: true
+  validates :apellido_paterno , presence: true
 
 
   def nombre_completo

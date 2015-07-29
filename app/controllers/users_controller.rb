@@ -36,6 +36,7 @@ class UsersController < ApplicationController
         format.html { redirect_to @user, notice: 'El Usuario se creó correctamente.' }
         format.json { render :show, status: :created, location: @user }
       else
+        @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
@@ -51,6 +52,7 @@ class UsersController < ApplicationController
         format.html { redirect_to @user, notice: 'El Usuario se actualizo correctamente.' }
         format.json { render :show, status: :ok, location: @user }
       else
+        @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
         format.html { render :edit }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
