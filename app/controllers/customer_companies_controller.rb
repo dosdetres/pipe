@@ -15,13 +15,13 @@ class CustomerCompaniesController < ApplicationController
 
   # GET /customer_companies/new
   def new
-    @customer_company_options = CustomerCompany.where(activo: true, consorcio: true).map{|m| [ m.empresa_cliente , m.id ] }
+    @customer_companies_options = CustomerCompany.where(activo: true, consorcio: true).map{|m| [ m.empresa_cliente , m.id ] }
     @customer_company = CustomerCompany.new
   end
 
   # GET /customer_companies/1/edit
   def edit
-    @customer_company_options = CustomerCompany.where(activo: true, consorcio: true).map{|m| [ m.empresa_cliente , m.id ] }
+    @customer_companies_options = CustomerCompany.where(activo: true, consorcio: true).map{|m| [ m.empresa_cliente , m.id ] }
   end
 
   # POST /customer_companies
@@ -34,6 +34,7 @@ class CustomerCompaniesController < ApplicationController
         format.html { redirect_to @customer_company, notice: 'La Empresa se creó correctamente.' }
         format.json { render :show, status: :created, location: @customer_company }
       else
+        @customer_companies_options = CustomerCompany.where(activo: true, consorcio: true).map{|m| [ m.empresa_cliente , m.id ] }
         format.html { render :new }
         format.json { render json: @customer_company.errors, status: :unprocessable_entity }
       end
@@ -49,6 +50,7 @@ class CustomerCompaniesController < ApplicationController
         format.html { redirect_to @customer_company, notice: 'La Empresa se actualizo correctamente.' }
         format.json { render :show, status: :ok, location: @customer_company }
       else
+        @customer_companies_options = CustomerCompany.where(activo: true, consorcio: true).map{|m| [ m.empresa_cliente , m.id ] }
         format.html { render :edit }
         format.json { render json: @customer_company.errors, status: :unprocessable_entity }
       end
