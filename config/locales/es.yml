@@ -39,6 +39,5 @@ es:
             orden:
               blank: "requerido"
               not_a_number: "debe ser numérico"
-            ruta:
-              blank: "requerida"
+
 
