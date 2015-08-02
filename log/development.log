@@ -94387,3 +94387,1139 @@ Processing by Devise::SessionsController#new as HTML
   Rendered devise/sessions/new.html.erb within layouts/login.html.erb (3.0ms)
   Rendered layouts/_messages.html.erb (0.0ms)
 Completed 200 OK in 254ms (Views: 252.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-07-29 20:47:49 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered devise/sessions/new.html.erb within layouts/login.html.erb (53.4ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 812ms (Views: 791.9ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-07-29 20:47:50 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-01 23:12:27 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (287.5ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (96.9ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered devise/sessions/new.html.erb within layouts/login.html.erb (231.7ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1406ms (Views: 1212.9ms | ActiveRecord: 165.7ms)
+
+
+Started GET "/assets/areas.css?body=1" for 127.0.0.1 at 2015-08-01 23:12:29 -0500
+
+
+Started GET "/assets/customer_companies.css?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/framework_and_overrides.css?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/menu_options.css?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/permits.css?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/roles.css?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/workplaces.css?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/areas.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/customer_companies.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/menu_options.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/permits.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/roles.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/workplaces.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-01 23:12:30 -0500
+
+
+Started POST "/auth/sign_in" for 127.0.0.1 at 2015-08-01 23:12:50 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LKhI0gxbDuTDRxn9EkjMI9o1xwxQP5AnlwnPyP16QMQ=", "user"=>{"email"=>"alex_reryes@live.com.mx", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[36mUser Load (89.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'alex_reryes@live.com.mx'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Completed 401 Unauthorized in 153ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LKhI0gxbDuTDRxn9EkjMI9o1xwxQP5AnlwnPyP16QMQ=", "user"=>{"email"=>"alex_reryes@live.com.mx", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered devise/sessions/new.html.erb within layouts/login.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 439ms (Views: 350.3ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/auth/sign_in" for 127.0.0.1 at 2015-08-01 23:13:03 -0500
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LKhI0gxbDuTDRxn9EkjMI9o1xwxQP5AnlwnPyP16QMQ=", "user"=>{"email"=>"alex_reyes@live.com.mx", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Iniciar Sesión"}
+  [1m[36mUser Load (23.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`email` = 'alex_reyes@live.com.mx'  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (24.0ms)[0m  BEGIN
+  [1m[36mSQL (107.3ms)[0m  [1mUPDATE `users` SET `current_sign_in_at` = '2015-08-02 04:13:03', `last_sign_in_at` = '2015-07-30 00:44:42', `sign_in_count` = 24, `updated_at` = '2015-08-02 04:13:03' WHERE `users`.`id` = 2[0m
+  [1m[35m (128.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 409ms (ActiveRecord: 282.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-01 23:13:03 -0500
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 293ms (Views: 293.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/menu_options" for 127.0.0.1 at 2015-08-01 23:13:40 -0500
+Processing by MenuOptionsController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mMenuOption Load (24.4ms)[0m  [1mSELECT `menu_options`.* FROM `menu_options`[0m
+  [1m[35mMenuOption Load (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1  [["id", 2]]
+  Rendered menu_options/_index_form.html.erb (120.3ms)
+  Rendered menu_options/_links.html.erb (1.0ms)
+  Rendered layouts/_index_form.html.erb (126.3ms)
+  Rendered menu_options/index.html.erb within layouts/application (129.3ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 422ms (Views: 384.7ms | ActiveRecord: 30.2ms)
+
+
+Started GET "/menu_options/2" for 127.0.0.1 at 2015-08-01 23:14:05 -0500
+Processing by MenuOptionsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mMenuOption Load (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1  [["id", 2]]
+  Rendered menu_options/_links.html.erb (0.0ms)
+  Rendered menu_options/_show_form.html.erb (9.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (19.0ms)
+  Rendered menu_options/show.html.erb within layouts/application (22.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 348ms (Views: 344.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menu_options" for 127.0.0.1 at 2015-08-01 23:14:07 -0500
+Processing by MenuOptionsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mMenuOption Load (1.0ms)[0m  SELECT `menu_options`.* FROM `menu_options`
+  [1m[36mMenuOption Load (1.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  Rendered menu_options/_index_form.html.erb (7.0ms)
+  Rendered menu_options/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (15.0ms)
+  Rendered menu_options/index.html.erb within layouts/application (18.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 367ms (Views: 363.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/menu_options/new" for 127.0.0.1 at 2015-08-01 23:14:09 -0500
+Processing by MenuOptionsController#new as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mMenuOption Load (1.0ms)[0m  [1mSELECT `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`activo` = 1[0m
+  Rendered layouts/_error_message.html.erb (0.0ms)
+  Rendered menu_options/_links.html.erb (0.0ms)
+  Rendered menu_options/_form.html.erb (38.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (41.0ms)
+  Rendered menu_options/new.html.erb within layouts/application (43.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 323ms (Views: 321.5ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/menu_options" for 127.0.0.1 at 2015-08-01 23:14:13 -0500
+Processing by MenuOptionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"05UXQoul5l4ylRJELqOjowkll9GgkYtMJUPxYwh8P34=", "menu_option"=>{"modulo"=>"", "descripcion"=>"", "orden"=>"", "ruta"=>"", "imagen"=>"", "menu_option_id"=>"", "consorcio"=>"0", "activo"=>"0"}, "commit"=>"Guardar"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36mMenuOption Load (0.0ms)[0m  [1mSELECT `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`activo` = 1[0m
+  Rendered layouts/_error_message.html.erb (1.0ms)
+  Rendered menu_options/_links.html.erb (1.0ms)
+  Rendered menu_options/_form.html.erb (12.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (14.0ms)
+  Rendered menu_options/new.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 322ms (Views: 314.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.eot" for 127.0.0.1 at 2015-08-01 23:14:13 -0500
+
+
+Started POST "/menu_options" for 127.0.0.1 at 2015-08-01 23:14:50 -0500
+Processing by MenuOptionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"05UXQoul5l4ylRJELqOjowkll9GgkYtMJUPxYwh8P34=", "menu_option"=>{"modulo"=>"Nuevo", "descripcion"=>"otro modulo", "orden"=>"3", "ruta"=>"", "imagen"=>"", "menu_option_id"=>"3", "consorcio"=>"1", "activo"=>"1"}, "commit"=>"Guardar"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (80.0ms)[0m  INSERT INTO `menu_options` (`activo`, `consorcio`, `created_at`, `created_user_id`, `descripcion`, `imagen`, `menu_option_id`, `modulo`, `orden`, `ruta`, `updated_at`) VALUES (1, 1, '2015-08-02 04:14:50', 2, 'otro modulo', '', 3, 'Nuevo', 3, '', '2015-08-02 04:14:50')
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/menu_options/7
+Completed 302 Found in 87ms (ActiveRecord: 82.0ms)
+
+
+Started GET "/menu_options/7" for 127.0.0.1 at 2015-08-01 23:14:50 -0500
+Processing by MenuOptionsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mMenuOption Load (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 7 LIMIT 1[0m
+  [1m[35mMenuOption Load (1.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 3 LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered menu_options/_links.html.erb (1.0ms)
+  Rendered menu_options/_show_form.html.erb (5.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (7.0ms)
+  Rendered menu_options/show.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 287ms (Views: 283.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/menu_options" for 127.0.0.1 at 2015-08-01 23:15:19 -0500
+Processing by MenuOptionsController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mMenuOption Load (0.0ms)[0m  [1mSELECT `menu_options`.* FROM `menu_options`[0m
+  [1m[35mMenuOption Load (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mMenuOption Load (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 3 LIMIT 1[0m
+  Rendered menu_options/_index_form.html.erb (5.0ms)
+  Rendered menu_options/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (11.0ms)
+  Rendered menu_options/index.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 293ms (Views: 291.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/menu_options/7/edit" for 127.0.0.1 at 2015-08-01 23:15:26 -0500
+Processing by MenuOptionsController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mMenuOption Load (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 7 LIMIT 1[0m
+  [1m[35mMenuOption Load (0.0ms)[0m  SELECT `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`activo` = 1
+  Rendered layouts/_error_message.html.erb (0.0ms)
+  Rendered menu_options/_links.html.erb (0.0ms)
+  Rendered menu_options/_form.html.erb (8.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (11.0ms)
+  Rendered menu_options/edit.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (7.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 304ms (Views: 299.6ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/menu_options/7" for 127.0.0.1 at 2015-08-01 23:15:32 -0500
+Processing by MenuOptionsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"05UXQoul5l4ylRJELqOjowkll9GgkYtMJUPxYwh8P34=", "menu_option"=>{"modulo"=>"Nuevo", "descripcion"=>"Otro modulo", "orden"=>"3", "ruta"=>"", "imagen"=>"", "menu_option_id"=>"3", "consorcio"=>"1", "activo"=>"1"}, "commit"=>"Guardar", "id"=>"7"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mMenuOption Load (1.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 7 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (16.1ms)[0m  UPDATE `menu_options` SET `descripcion` = 'Otro modulo', `updated_at` = '2015-08-02 04:15:32', `updated_user_id` = 2 WHERE `menu_options`.`id` = 7
+  [1m[36m (14.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/menu_options/7
+Completed 302 Found in 36ms (ActiveRecord: 32.2ms)
+
+
+Started GET "/menu_options/7" for 127.0.0.1 at 2015-08-01 23:15:32 -0500
+Processing by MenuOptionsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mMenuOption Load (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 7 LIMIT 1[0m
+  [1m[35mMenuOption Load (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 3 LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1  [["id", 2]]
+  Rendered menu_options/_links.html.erb (0.0ms)
+  Rendered menu_options/_show_form.html.erb (5.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (6.0ms)
+  Rendered menu_options/show.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 288ms (Views: 286.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/menu_options" for 127.0.0.1 at 2015-08-01 23:15:35 -0500
+Processing by MenuOptionsController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mMenuOption Load (1.0ms)[0m  SELECT `menu_options`.* FROM `menu_options`
+  [1m[36mMenuOption Load (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mMenuOption Load (1.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 3 LIMIT 1
+  Rendered menu_options/_index_form.html.erb (8.0ms)
+  Rendered menu_options/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (14.0ms)
+  Rendered menu_options/index.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 341ms (Views: 336.2ms | ActiveRecord: 2.0ms)
+
+
+Started DELETE "/menu_options/7" for 127.0.0.1 at 2015-08-01 23:16:29 -0500
+Processing by MenuOptionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"05UXQoul5l4ylRJELqOjowkll9GgkYtMJUPxYwh8P34=", "id"=>"7"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mMenuOption Load (1.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 7 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (27.0ms)[0m  DELETE FROM `menu_options` WHERE `menu_options`.`id` = 7
+  [1m[36m (44.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/menu_options
+Completed 302 Found in 79ms (ActiveRecord: 73.1ms)
+
+
+Started GET "/menu_options" for 127.0.0.1 at 2015-08-01 23:16:30 -0500
+Processing by MenuOptionsController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mMenuOption Load (1.0ms)[0m  [1mSELECT `menu_options`.* FROM `menu_options`[0m
+  [1m[35mMenuOption Load (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `menu_options`.* FROM `menu_options`  WHERE `menu_options`.`id` = 2 LIMIT 1  [["id", 2]]
+  Rendered menu_options/_index_form.html.erb (9.0ms)
+  Rendered menu_options/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (16.0ms)
+  Rendered menu_options/index.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 604ms (Views: 600.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-08-01 23:23:14 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (2.2ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1[0m
+  Rendered customer_companies/_index_form.html.erb (16.2ms)
+  Rendered customer_companies/_links.html.erb (1.0ms)
+  Rendered layouts/_index_form.html.erb (22.2ms)
+  Rendered customer_companies/index.html.erb within layouts/application (25.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 296ms (Views: 281.2ms | ActiveRecord: 8.2ms)
+
+
+Started GET "/customer_companies/5" for 127.0.0.1 at 2015-08-01 23:23:23 -0500
+Processing by CustomerCompaniesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered customer_companies/_show_form.html.erb (6.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (22.7ms)
+  Rendered customer_companies/show.html.erb within layouts/application (25.7ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 304ms (Views: 297.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-08-01 23:23:28 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1[0m
+  Rendered customer_companies/_index_form.html.erb (3.0ms)
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (9.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 299ms (Views: 296.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/customer_companies/new" for 127.0.0.1 at 2015-08-01 23:23:30 -0500
+Processing by CustomerCompaniesController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`activo` = 1 AND `customer_companies`.`consorcio` = 1[0m
+  Rendered layouts/_error_message.html.erb (0.0ms)
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered customer_companies/_form.html.erb (8.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (116.2ms)
+  Rendered customer_companies/new.html.erb within layouts/application (119.2ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 473ms (Views: 470.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-08-01 23:23:37 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1
+  Rendered customer_companies/_index_form.html.erb (4.0ms)
+  Rendered customer_companies/_links.html.erb (1.0ms)
+  Rendered layouts/_index_form.html.erb (10.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 280ms (Views: 276.2ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/customer_companies/new" for 127.0.0.1 at 2015-08-01 23:24:58 -0500
+Processing by CustomerCompaniesController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`activo` = 1 AND `customer_companies`.`consorcio` = 1
+  Rendered layouts/_error_message.html.erb (0.0ms)
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered customer_companies/_form.html.erb (11.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (14.0ms)
+  Rendered customer_companies/new.html.erb within layouts/application (16.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 333ms (Views: 330.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/customer_companies" for 127.0.0.1 at 2015-08-01 23:25:19 -0500
+Processing by CustomerCompaniesController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1[0m
+  Rendered customer_companies/_index_form.html.erb (3.0ms)
+  Rendered customer_companies/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (9.0ms)
+  Rendered customer_companies/index.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 303ms (Views: 300.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-08-01 23:25:24 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/_index_form.html.erb (3.0ms)
+  Rendered users/_links.html.erb (1.0ms)
+  Rendered layouts/_index_form.html.erb (31.1ms)
+  Rendered users/index.html.erb within layouts/application (33.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 383ms (Views: 381.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-08-01 23:25:31 -0500
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`activo` = 1[0m
+  Rendered layouts/_error_message.html.erb (0.0ms)
+  Rendered users/_links.html.erb (1.0ms)
+  Rendered users/_form.html.erb (9.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (114.5ms)
+  Rendered users/new.html.erb within layouts/application (116.5ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 402ms (Views: 395.7ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-08-01 23:26:08 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"05UXQoul5l4ylRJELqOjowkll9GgkYtMJUPxYwh8P34=", "user"=>{"customer_company_id"=>"", "nombre"=>"", "apellido_paterno"=>"", "apellido_materno"=>"", "rfc"=>"", "curp"=>"", "puesto_id"=>"", "consorcio"=>"0", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Guardar"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`activo` = 1[0m
+  Rendered layouts/_error_message.html.erb (0.0ms)
+  Rendered users/_links.html.erb (1.0ms)
+  Rendered users/_form.html.erb (11.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (12.0ms)
+  Rendered users/new.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 302ms (Views: 296.4ms | ActiveRecord: 1.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddWorkplaceToUsers (20150802043309)
+  [1m[35m (681.2ms)[0m  ALTER TABLE `users` DROP `puesto_id`
+  [1m[36m (122.5ms)[0m  [1mALTER TABLE `users` ADD `workplace_id` int(11)[0m
+  [1m[35m (17.0ms)[0m  CREATE  INDEX `index_users_on_workplace_id`  ON `users` (`workplace_id`) 
+  [1m[36m (22.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20150802043309')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/users" for 127.0.0.1 at 2015-08-02 00:11:28 -0500
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/_index_form.html.erb (2.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (7.0ms)
+  Rendered users/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 294ms (Views: 277.8ms | ActiveRecord: 7.1ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2015-08-02 00:11:31 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1
+  Rendered users/_links.html.erb (1.0ms)
+  Rendered users/_show_form.html.erb (33.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (36.0ms)
+  Rendered users/show.html.erb within layouts/application (40.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 306ms (Views: 297.2ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-08-02 00:11:34 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/_index_form.html.erb (2.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (8.0ms)
+  Rendered users/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 261ms (Views: 259.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/6" for 127.0.0.1 at 2015-08-02 00:11:36 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 6 LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered users/_show_form.html.erb (7.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (9.0ms)
+  Rendered users/show.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 270ms (Views: 266.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-08-02 00:11:38 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/_index_form.html.erb (2.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (8.0ms)
+  Rendered users/index.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 314ms (Views: 312.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/2" for 127.0.0.1 at 2015-08-02 00:11:44 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered users/_show_form.html.erb (4.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (7.0ms)
+  Rendered users/show.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 260ms (Views: 255.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-08-02 00:11:47 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/_index_form.html.erb (2.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (7.0ms)
+  Rendered users/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 272ms (Views: 269.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new" for 127.0.0.1 at 2015-08-02 00:11:49 -0500
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`activo` = 1[0m
+  [1m[35mWorkplace Load (1.0ms)[0m  SELECT `workplaces`.* FROM `workplaces`  WHERE `workplaces`.`activo` = 1
+  Rendered layouts/_error_message.html.erb (0.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered users/_form.html.erb (14.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (17.0ms)
+  Rendered users/new.html.erb within layouts/application (19.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 279ms (Views: 267.4ms | ActiveRecord: 8.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-08-02 00:13:06 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"05UXQoul5l4ylRJELqOjowkll9GgkYtMJUPxYwh8P34=", "user"=>{"customer_company_id"=>"", "nombre"=>"", "apellido_paterno"=>"", "apellido_materno"=>"", "rfc"=>"", "curp"=>"", "workplace_id"=>"2", "consorcio"=>"0", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Guardar"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`activo` = 1
+  [1m[36mWorkplace Load (0.0ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`  WHERE `workplaces`.`activo` = 1[0m
+  Rendered layouts/_error_message.html.erb (1.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered users/_form.html.erb (10.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (12.0ms)
+  Rendered users/new.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 292ms (Views: 285.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2015-08-02 00:15:02 -0500
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"05UXQoul5l4ylRJELqOjowkll9GgkYtMJUPxYwh8P34=", "user"=>{"customer_company_id"=>"5", "nombre"=>"usuario", "apellido_paterno"=>"chafa", "apellido_materno"=>"", "rfc"=>"", "curp"=>"", "workplace_id"=>"2", "consorcio"=>"1", "email"=>"usuario@patito.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Guardar"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (170.0ms)[0m  SELECT  1 AS one FROM `users`  WHERE `users`.`email` = BINARY 'usuario@patito.com' LIMIT 1
+  [1m[36mSQL (46.4ms)[0m  [1mINSERT INTO `users` (`apellido_materno`, `apellido_paterno`, `consorcio`, `created_at`, `created_user_id`, `curp`, `customer_company_id`, `email`, `encrypted_password`, `nombre`, `rfc`, `updated_at`, `workplace_id`) VALUES ('', 'chafa', 1, '2015-08-02 05:15:03', 2, '', 5, 'usuario@patito.com', '$2a$10$Lb5uKZmtaiqB1q5a88VrlOqRy3Va7S55fBG07dL1A0e93D91XH.qa', 'usuario', '', '2015-08-02 05:15:03', 2)[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/7
+Completed 302 Found in 329ms (ActiveRecord: 217.4ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-08-02 00:15:03 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 7 LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1[0m
+  [1m[35mWorkplace Load (1.0ms)[0m  SELECT  `workplaces`.* FROM `workplaces`  WHERE `workplaces`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered users/_show_form.html.erb (7.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (9.0ms)
+  Rendered users/show.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 315ms (Views: 311.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-08-02 00:15:09 -0500
+Processing by UsersController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT `users`.* FROM `users`[0m
+  Rendered users/_index_form.html.erb (2.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (7.0ms)
+  Rendered users/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 268ms (Views: 267.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/users/7/edit" for 127.0.0.1 at 2015-08-02 00:15:35 -0500
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 7 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (1.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`activo` = 1
+  [1m[36mWorkplace Load (0.0ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`  WHERE `workplaces`.`activo` = 1[0m
+  Rendered layouts/_error_message.html.erb (0.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered users/_form.html.erb (8.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (11.0ms)
+  Rendered users/edit.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 274ms (Views: 269.2ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/users/7" for 127.0.0.1 at 2015-08-02 00:16:11 -0500
+Processing by UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"05UXQoul5l4ylRJELqOjowkll9GgkYtMJUPxYwh8P34=", "user"=>{"customer_company_id"=>"5", "nombre"=>"usuario", "apellido_paterno"=>"chafa", "apellido_materno"=>"", "rfc"=>"kjhkjhkjh", "curp"=>"lklkjlkjlkj", "workplace_id"=>"2", "consorcio"=>"1", "email"=>"usuario@patito.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Guardar", "id"=>"7"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 7 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mSQL (2.0ms)[0m  [1mUPDATE `users` SET `curp` = 'lklkjlkjlkj', `encrypted_password` = '$2a$10$.cHe2NGpA.j5I/.W7hS82.0WoADEtObbk9i3ePZiQSlCW7QfF9BKC', `rfc` = 'kjhkjhkjh', `updated_at` = '2015-08-02 05:16:11', `updated_user_id` = 2 WHERE `users`.`id` = 7[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/users/7
+Completed 302 Found in 91ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/users/7" for 127.0.0.1 at 2015-08-02 00:16:11 -0500
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 7 LIMIT 1
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 5 LIMIT 1[0m
+  [1m[35mWorkplace Load (0.0ms)[0m  SELECT  `workplaces`.* FROM `workplaces`  WHERE `workplaces`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1  [["id", 2]]
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered users/_show_form.html.erb (6.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (7.0ms)
+  Rendered users/show.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 265ms (Views: 263.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users" for 127.0.0.1 at 2015-08-02 00:18:44 -0500
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users`
+  Rendered users/_index_form.html.erb (2.0ms)
+  Rendered users/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (7.0ms)
+  Rendered users/index.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 266ms (Views: 261.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/areas" for 127.0.0.1 at 2015-08-02 00:18:47 -0500
+Processing by AreasController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mArea Load (4.1ms)[0m  SELECT `areas`.* FROM `areas`
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1[0m
+  Rendered areas/_index_form.html.erb (19.0ms)
+  Rendered areas/_links.html.erb (1.0ms)
+  Rendered layouts/_index_form.html.erb (158.9ms)
+  Rendered areas/index.html.erb within layouts/application (160.9ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 446ms (Views: 428.6ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/areas/new" for 127.0.0.1 at 2015-08-02 00:18:53 -0500
+Processing by AreasController#new as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomerCompany Load (1.0ms)[0m  [1mSELECT `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`activo` = 1[0m
+  [1m[35mArea Load (0.0ms)[0m  SELECT `areas`.* FROM `areas`  WHERE `areas`.`activo` = 1
+  Rendered areas/_links.html.erb (0.0ms)
+  Rendered areas/_form.html.erb (5.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (9.0ms)
+  Rendered areas/new.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 272ms (Views: 265.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-08-02 00:19:24 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[36mWorkplace Load (0.0ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`[0m
+  [1m[35mArea Load (0.0ms)[0m  SELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1
+  Rendered workplaces/_index_form.html.erb (6.0ms)
+  Rendered workplaces/_links.html.erb (1.0ms)
+  Rendered layouts/_index_form.html.erb (133.6ms)
+  Rendered workplaces/index.html.erb within layouts/application (135.6ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 390ms (Views: 388.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/workplaces/new" for 127.0.0.1 at 2015-08-02 00:19:26 -0500
+Processing by WorkplacesController#new as HTML
+  [1m[35mArea Load (0.0ms)[0m  SELECT `areas`.* FROM `areas`  WHERE `areas`.`activo` = 1
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered workplaces/_form.html.erb (6.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (111.3ms)
+  Rendered workplaces/new.html.erb within layouts/application (113.4ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 366ms (Views: 363.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-08-02 00:19:37 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[35mWorkplace Load (0.0ms)[0m  SELECT `workplaces`.* FROM `workplaces`
+  [1m[36mArea Load (0.0ms)[0m  [1mSELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1[0m
+  Rendered workplaces/_index_form.html.erb (3.0ms)
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (7.0ms)
+  Rendered workplaces/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 273ms (Views: 271.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/areas" for 127.0.0.1 at 2015-08-02 00:19:42 -0500
+Processing by AreasController#index as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mArea Load (0.0ms)[0m  SELECT `areas`.* FROM `areas`
+  [1m[36mCustomerCompany Load (0.0ms)[0m  [1mSELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1[0m
+  Rendered areas/_index_form.html.erb (3.0ms)
+  Rendered areas/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (7.0ms)
+  Rendered areas/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 265ms (Views: 263.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/areas/1" for 127.0.0.1 at 2015-08-02 00:19:45 -0500
+Processing by AreasController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mArea Load (0.0ms)[0m  [1mSELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered areas/_links.html.erb (0.0ms)
+  Rendered areas/_show_form.html.erb (7.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (11.0ms)
+  Rendered areas/show.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 279ms (Views: 277.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/areas" for 127.0.0.1 at 2015-08-02 00:19:48 -0500
+Processing by AreasController#index as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mArea Load (1.0ms)[0m  [1mSELECT `areas`.* FROM `areas`[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT  `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`id` = 1 LIMIT 1
+  Rendered areas/_index_form.html.erb (3.0ms)
+  Rendered areas/_links.html.erb (1.0ms)
+  Rendered layouts/_index_form.html.erb (9.0ms)
+  Rendered areas/index.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 384ms (Views: 382.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/areas/new" for 127.0.0.1 at 2015-08-02 00:19:55 -0500
+Processing by AreasController#new as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomerCompany Load (0.0ms)[0m  SELECT `customer_companies`.* FROM `customer_companies`  WHERE `customer_companies`.`activo` = 1
+  [1m[36mArea Load (0.0ms)[0m  [1mSELECT `areas`.* FROM `areas`  WHERE `areas`.`activo` = 1[0m
+  Rendered areas/_links.html.erb (0.0ms)
+  Rendered areas/_form.html.erb (5.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (7.0ms)
+  Rendered areas/new.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 282ms (Views: 278.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-08-02 00:19:58 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[35mWorkplace Load (1.0ms)[0m  SELECT `workplaces`.* FROM `workplaces`
+  [1m[36mArea Load (1.0ms)[0m  [1mSELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1[0m
+  Rendered workplaces/_index_form.html.erb (2.0ms)
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (6.0ms)
+  Rendered workplaces/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 258ms (Views: 253.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/workplaces/2" for 127.0.0.1 at 2015-08-02 00:20:02 -0500
+Processing by WorkplacesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWorkplace Load (1.0ms)[0m  [1mSELECT  `workplaces`.* FROM `workplaces`  WHERE `workplaces`.`id` = 2 LIMIT 1[0m
+  [1m[35mArea Load (0.0ms)[0m  SELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2 LIMIT 1[0m
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered workplaces/_show_form.html.erb (9.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (109.0ms)
+  Rendered workplaces/show.html.erb within layouts/application (112.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 372ms (Views: 370.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/workplaces" for 127.0.0.1 at 2015-08-02 00:20:07 -0500
+Processing by WorkplacesController#index as HTML
+  [1m[36mWorkplace Load (0.0ms)[0m  [1mSELECT `workplaces`.* FROM `workplaces`[0m
+  [1m[35mArea Load (0.0ms)[0m  SELECT  `areas`.* FROM `areas`  WHERE `areas`.`id` = 1 LIMIT 1
+  Rendered workplaces/_index_form.html.erb (2.0ms)
+  Rendered workplaces/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (6.0ms)
+  Rendered workplaces/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered layouts/_navigation.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 262ms (Views: 261.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/roles" for 127.0.0.1 at 2015-08-02 00:20:21 -0500
+Processing by RolesController#index as HTML
+  [1m[35mUser Load (1.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mRole Load (28.5ms)[0m  [1mSELECT `roles`.* FROM `roles`[0m
+  Rendered roles/_index_form.html.erb (40.5ms)
+  Rendered roles/_links.html.erb (0.0ms)
+  Rendered layouts/_index_form.html.erb (70.8ms)
+  Rendered roles/index.html.erb within layouts/application (73.8ms)
+  Rendered layouts/_navigation_links.html.erb (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 383ms (Views: 340.4ms | ActiveRecord: 35.5ms)
+
+
+Started GET "/roles/new" for 127.0.0.1 at 2015-08-02 00:20:45 -0500
+Processing by RolesController#new as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered roles/_links.html.erb (0.0ms)
+  Rendered roles/_form.html.erb (8.0ms)
+  Rendered layouts/_new_edit_show_form.html.erb (118.1ms)
+  Rendered roles/new.html.erb within layouts/application (121.1ms)
+  Rendered layouts/_navigation_links.html.erb (0.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 382ms (Views: 379.7ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/auth/sign_out" for 127.0.0.1 at 2015-08-02 00:24:43 -0500
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"05UXQoul5l4ylRJELqOjowkll9GgkYtMJUPxYwh8P34="}
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 2  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-02 00:24:43 -0500
+Processing by Devise::SessionsController#new as HTML
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered devise/sessions/new.html.erb within layouts/login.html.erb (4.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 322ms (Views: 320.2ms | ActiveRecord: 1.0ms)

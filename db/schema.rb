@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150727224707) do
+ActiveRecord::Schema.define(version: 20150802043309) do
 
   create_table "areas", force: true do |t|
     t.string   "area"
@@ -107,7 +107,6 @@ ActiveRecord::Schema.define(version: 20150727224707) do
     t.string   "apellido_materno"
     t.string   "rfc"
     t.string   "curp"
-    t.integer  "puesto_id"
     t.boolean  "consorcio"
     t.integer  "created_user_id"
     t.integer  "updated_user_id"
@@ -124,11 +123,13 @@ ActiveRecord::Schema.define(version: 20150727224707) do
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
     t.integer  "customer_company_id"
+    t.integer  "workplace_id"
   end
 
   add_index "users", ["customer_company_id"], name: "index_users_on_customer_company_id", using: :btree
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
+  add_index "users", ["workplace_id"], name: "index_users_on_workplace_id", using: :btree
 
   create_table "workplaces", force: true do |t|
     t.string   "puesto"

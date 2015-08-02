@@ -5,6 +5,7 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   belongs_to :customer_company
+  belongs_to :workplace
   has_and_belongs_to_many :roles
   belongs_to :usuario_registra, :class_name => "User", :foreign_key => "created_user_id"
   belongs_to :usuario_actualiza, :class_name => "User", :foreign_key => "updated_user_id"

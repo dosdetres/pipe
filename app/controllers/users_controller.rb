@@ -16,12 +16,14 @@ class UsersController < ApplicationController
   # GET /users/new
   def new
     @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
+    @workplaces_options = Workplace.where(activo: true).map{|m| [ m.puesto , m.id ] }
     @user = User.new
   end
 
   # GET /users/1/edit
   def edit
     @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
+    @workplaces_options = Workplace.where(activo: true).map{|m| [ m.puesto , m.id ] }
   end
 
   # POST /users
@@ -37,6 +39,7 @@ class UsersController < ApplicationController
         format.json { render :show, status: :created, location: @user }
       else
         @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
+        @workplaces_options = Workplace.where(activo: true).map{|m| [ m.puesto , m.id ] }
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
@@ -53,6 +56,7 @@ class UsersController < ApplicationController
         format.json { render :show, status: :ok, location: @user }
       else
         @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
+        @workplaces_options = Workplace.where(activo: true).map{|m| [ m.puesto , m.id ] }
         format.html { render :edit }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
@@ -77,6 +81,6 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:nombre, :apellido_paterno, :apellido_materno, :rfc, :curp, :puesto_id, :consorcio, :email, :password, :password_confirmation, :customer_company_id)
+      params.require(:user).permit(:nombre, :apellido_paterno, :apellido_materno, :rfc, :curp, :consorcio, :email, :password, :password_confirmation, :customer_company_id, :workplace_id)
     end
 end
