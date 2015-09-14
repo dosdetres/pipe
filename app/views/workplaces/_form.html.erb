@@ -1,17 +1,16 @@
 <%= form_for(@workplace, :html => {:class => 'form-horizontal'}) do |f| %>
-    <% if @workplace.errors.any? %>
-        <div id="error_explanation">
-          <h2><%= pluralize(@workplace.errors.count, "error") %> No se puede guardar:</h2>
-
-          <ul>
-            <% @workplace.errors.full_messages.each do |message| %>
-                <li><%= message %></li>
-            <% end %>
-          </ul>
-        </div>
-    <% end %>
-
-    <div class="form-group">
+    <%= render 'layouts/error_message', model: @workplace  %>
+    <div class="form-group<%= @workplace.errors[:area_id].any? ? " has-error" : "" %>">
+      <div class="col-sm-2 control-label"><%= f.label :area_id, "Área" %></div>
+      <div class="col-sm-10">
+        <% if accion == "new" %>
+            <%= f.select :area_id, @areas_options, { :prompt =>  '-- Seleccione una opción --' }, {:class => 'form-control'}  %>
+        <% else %>
+            <%= f.select :area_id, @areas_options, { :include_blank => true }, {:class => 'form-control'}  %>
+        <% end %>
+      </div>
+    </div>
+    <div class="form-group<%= @workplace.errors[:puesto].any? ? " has-error" : "" %>">
       <div class="col-sm-2 control-label"><%= f.label :puesto, "Puesto" %></div>
       <div class="col-sm-10"><%= f.text_field :puesto, class: "form-control" %></div>
     </div>
@@ -22,16 +21,6 @@
     <div class="form-group">
       <div class="col-sm-2 control-label"><%= f.label :nivel_usuario,"Nivel de usuario" %></div>
       <div class="col-sm-10"><%= f.number_field :nivel_usuario, class: "form-control" %></div>
-    </div>
-    <div class="form-group">
-      <div class="col-sm-2 control-label"><%= f.label :area_id, "Área" %></div>
-      <div class="col-sm-10">
-        <% if accion == "new" %>
-            <%= f.select :area_id, @areas_options, { :prompt =>  '-- Seleccione una opción --' }, {:class => 'form-control'}  %>
-        <% else %>
-            <%= f.select :area_id, @areas_options, { :include_blank => true }, {:class => 'form-control'}  %>
-        <% end %>
-      </div>
     </div>
     <div class="form-group">
       <div class="col-sm-2 control-label"><%= f.label :activo %></div>

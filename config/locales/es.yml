@@ -10,6 +10,11 @@ es:
         password_confirmation: "Confirmación de contraseña"
       customer_company:
         empresa_cliente: "Empresa"
+      area:
+        customer_company_id: "Empresa"
+        area: "Área"
+      workplace:
+        area_id: "Área"
     errors:
       models:
         user:
@@ -39,5 +44,17 @@ es:
             orden:
               blank: "requerido"
               not_a_number: "debe ser numérico"
+        area:
+          attributes:
+             customer_company_id:
+               blank: "requerida"
+             area:
+               blank: "requerida"
+        workplace:
+          attributes:
+            area_id:
+              blank: "requerida"
+            puesto:
+              blank: "requerido"
 
 

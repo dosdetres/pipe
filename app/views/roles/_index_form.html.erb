@@ -3,8 +3,10 @@
     <thead>
     <tr>
       <th>id</th>
+      <th>Empresa</th>
       <th>Rol</th>
       <th>Descripción</th>
+      <th>Activo</th>
       <th></th>
     </tr>
     </thead>
@@ -13,8 +15,14 @@
     <% @roles.each do |role| %>
         <tr>
           <td><%= role.id %></td>
+          <td>
+            <% unless role.customer_company.nil? %>
+                <%= role.customer_company.empresa_cliente %>
+            <% end %>
+          </td>
           <td><%= role.rol %></td>
           <td><%= role.descripcion %></td>
+          <td><%= role.activo_desc %></td>
           <td>
             <%= link_to 'Consultar', role, class: "btn btn-default" %>
             <%= link_to 'Editar', edit_role_path(role), class: "btn btn-success" %>

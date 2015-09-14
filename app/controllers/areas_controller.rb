@@ -30,12 +30,12 @@ class AreasController < ApplicationController
         format.html { redirect_to @area, notice: 'El Área se creó correctamente.' }
         format.json { render :show, status: :created, location: @area }
       else
+        @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
+        @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
         format.html { render :new }
         format.json { render json: @area.errors, status: :unprocessable_entity }
       end
     end
-
-
   end
 
   def update
@@ -47,6 +47,8 @@ class AreasController < ApplicationController
         format.html { redirect_to @area, notice: 'El Área se actualizo correctamente.' }
         format.json { render :show, status: :ok, location: @area }
       else
+        @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
+        @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
         format.html { render :edit }
         format.json { render json: @area.errors, status: :unprocessable_entity }
       end
