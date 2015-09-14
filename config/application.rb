@@ -19,7 +19,8 @@ module Pipe
 
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-    config.i18n.default_locale = :es
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '*', '*.{rb,yml}')]
+    config.i18n.default_locale = 'es-MX'
     config.serve_static_assets = true
     config.to_prepare do
       Devise::SessionsController.layout "login.html.erb"
