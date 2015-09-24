@@ -1,15 +1,15 @@
 
-<% case accion
+<% case action
      when 'new' %>
-    <%= link_to 'Regresar', workplaces_path, class: "btn btn-default" %>
+    <%= link_to t('helpers.submit.return'), workplaces_path, class: "btn btn-default" %>
 <% when 'edit' %>
-    <%= link_to 'Consultar', @workplace, class: "btn btn-default" %>
-    <%= link_to 'Regresar', workplaces_path, class: "btn btn-default" %>
+    <%= link_to t('helpers.submit.show'), @workplace, class: "btn btn-default" %>
+    <%= link_to t('helpers.submit.return'), workplaces_path, class: "btn btn-default" %>
 <% when 'show' %>
-    <%= link_to 'Editar', edit_workplace_path(@workplace), class: "btn btn-default" %>
-    <%= link_to 'Regresar', workplaces_path, class: "btn btn-default" %>
+    <%= link_to t('helpers.submit.edit'), edit_workplace_path(@workplace), class: "btn btn-default" %>
+    <%= link_to t('helpers.submit.return'), workplaces_path, class: "btn btn-default" %>
 <% when 'index' %>
-    <%= link_to 'Puesto Nuevo', new_workplace_path, class: "btn btn-success" %>
+    <%= link_to t('helpers.submit.create', model: Workplace.model_name.human), new_workplace_path, class: "btn btn-success" %>
 <% else %>
 
 <% end %>

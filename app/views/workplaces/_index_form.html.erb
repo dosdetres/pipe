@@ -23,9 +23,9 @@
           </td>
           <td><%= workplace.activo_desc %></td>
           <td>
-            <%= link_to 'Consultar', workplace, class: "btn btn-default" %>
-            <%= link_to 'Editar', edit_workplace_path(workplace), class: "btn btn-success" %>
-            <%= link_to 'Eliminar', workplace, class: "btn btn-danger", method: :delete, data: { confirm: '¿Estás seguro?' } %>
+            <%= link_to t('helpers.submit.show'), workplace, class: "btn btn-default" %>
+            <%= link_to t('helpers.submit.edit'), edit_workplace_path(workplace), class: "btn btn-success" %>
+            <%= link_to t('helpers.submit.delete'), workplace, class: "btn btn-danger", method: :delete, data: { confirm: t('messages.confirm_are_you_sure') } %>
           </td>
         </tr>
     <% end %>

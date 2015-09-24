@@ -1,31 +1,31 @@
 <%
-    case accion
+    case action
     when 'new'
-        titulo = 'Captura de '
-        estilo_panel = 'panel-primary'
+        title = t('views.layouts.capture')
+        panel_style = 'panel-primary'
     when 'edit'
-        titulo = 'Modificación de '
-        estilo_panel = 'panel-primary'
+      title = t('views.layouts.modification')
+      panel_style = 'panel-primary'
     when 'show'
-        titulo = ''
-        estilo_panel = 'panel-primary'
+      title = ''
+      panel_style = 'panel-primary'
     else
-      titulo = ''
-      estilo_panel = 'panel-primary'
+      title = ''
+      panel_style = 'panel-primary'
     end
 %>
 <div class="page-header">
-  <h1 class="text-center"><%= titulo %><span class="label label-default"><%= nombre_elemento %></span></h1>
+  <h1 class="text-center"><%= title %><span class="label label-default"><%= model %></span></h1>
 </div>
 
 <div class="row">
   <div class="col-md-6 col-md-offset-3">
-    <div class="panel <%= estilo_panel %>">
+    <div class="panel <%= panel_style %>">
       <div class="panel-heading">
-        <h1 class="panel-title"><%= nombre_elemento %></h1>
+        <h1 class="panel-title"><%= model %></h1>
       </div>
       <div class="panel-body">
-        <%= render nombre_form, accion: accion  %>
+        <%= render form_name, action: action  %>
       </div>
     </div>
   </div>

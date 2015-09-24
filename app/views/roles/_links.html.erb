@@ -1,14 +1,14 @@
-<% case accion
+<% case action
      when 'new' %>
-    <%= link_to 'Regresar', roles_path, class: "btn btn-default" %>
+    <%= link_to t('helpers.submit.return'), roles_path, class: "btn btn-default" %>
 <% when 'edit' %>
-    <%= link_to 'Consultar', @role, class: "btn btn-default" %>
-    <%= link_to 'Regresar', roles_path, class: "btn btn-default" %>
+    <%= link_to t('helpers.submit.show'), @role, class: "btn btn-default" %>
+    <%= link_to t('helpers.submit.return'), roles_path, class: "btn btn-default" %>
 <% when 'show' %>
-    <%= link_to 'Editar', edit_role_path(@role), class: "btn btn-default" %>
-    <%= link_to 'Regresar', roles_path, class: "btn btn-default" %>
+    <%= link_to t('helpers.submit.edit'), edit_role_path(@role), class: "btn btn-default" %>
+    <%= link_to t('helpers.submit.return'), roles_path, class: "btn btn-default" %>
 <% when 'index' %>
-    <%= link_to 'Rol Nuevo', new_role_path, class: "btn btn-success" %>
+    <%= link_to t('helpers.submit.create', model: Role.model_name.human), new_role_path, class: "btn btn-success" %>
 <% else %>
 
 <% end %>

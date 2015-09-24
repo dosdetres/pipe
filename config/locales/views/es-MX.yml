@@ -1,0 +1,12 @@
+es-MX:
+   views:
+     devise:
+       login: "Iniciar Sesión"
+       remember_me: "Recordarme"
+     general:
+       user: "Usuario"
+     layouts:
+       administration: "Administración de "
+       capture: "Captura de "
+       modification: "Modificación de"
+

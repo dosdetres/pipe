@@ -5,8 +5,8 @@
   <div class="form-group<%= @user.errors[:customer_company_id].any? ? " has-error" : "" %>">
     <div class="col-sm-2 control-label"><%= f.label :customer_company_id, "Empresa" %></div>
     <div class="col-sm-10">
-      <% if accion == "new" %>
-        <%= f.select :customer_company_id, @customer_companies_options, {:prompt =>  '-- Seleccione una opción --' }, {:class => 'form-control'}  %>
+      <% if action == "new" %>
+        <%= f.select :customer_company_id, @customer_companies_options, {:prompt =>  t('helpers.select.prompt') }, {:class => 'form-control'}  %>
       <% else %>
           <%= f.select :customer_company_id, @customer_companies_options, {:include_blank => true}, {:class => 'form-control'}  %>
       <% end %>
@@ -35,8 +35,8 @@
   <div class="form-group">
     <div class="col-sm-2 control-label"><%= f.label :workplace_id, "Puesto" %></div>
     <div class="col-sm-10">
-      <% if accion == "new" %>
-        <%= f.select :workplace_id, @workplaces_options, {:prompt =>  '-- Seleccione una opción --' }, {:class => 'form-control'}  %>
+      <% if action == "new" %>
+        <%= f.select :workplace_id, @workplaces_options, {:prompt =>  t('helpers.select.prompt') }, {:class => 'form-control'}  %>
       <% else %>
         <%= f.select :workplace_id, @workplaces_options, {:include_blank => true}, {:class => 'form-control'}  %>
       <% end %>
@@ -62,7 +62,7 @@
   </div>
   <hr />
   <div class="form-group">
-    <div class="col-sm-12 control-label"><%= f.submit 'Guardar', :class => 'btn btn-success' %> <%= render 'links', accion: accion %></div>
+    <div class="col-sm-12 control-label"><%= f.submit t('helpers.submit.save'), :class => 'btn btn-success' %> <%= render 'links', action: action %></div>
   </div>
 <% end %>
 

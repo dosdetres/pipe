@@ -3,8 +3,8 @@
     <div class="form-group<%= @workplace.errors[:area_id].any? ? " has-error" : "" %>">
       <div class="col-sm-2 control-label"><%= f.label :area_id, "Área" %></div>
       <div class="col-sm-10">
-        <% if accion == "new" %>
-            <%= f.select :area_id, @areas_options, { :prompt =>  '-- Seleccione una opción --' }, {:class => 'form-control'}  %>
+        <% if action == "new" %>
+            <%= f.select :area_id, @areas_options, { :prompt =>  t('helpers.select.prompt') }, {:class => 'form-control'}  %>
         <% else %>
             <%= f.select :area_id, @areas_options, { :include_blank => true }, {:class => 'form-control'}  %>
         <% end %>
@@ -28,7 +28,7 @@
     </div>
     <hr />
     <div class="form-group">
-      <div class="col-sm-12 control-label"><%= f.submit 'Guardar', :class => 'btn btn-success' %> <%= render 'links', accion: accion %></div>
+      <div class="col-sm-12 control-label"><%= f.submit t('helpers.submit.save'), :class => 'btn btn-success' %> <%= render 'links', action: action %></div>
     </div>
 <% end %>
 
