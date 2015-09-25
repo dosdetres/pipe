@@ -24,9 +24,9 @@
           <td><%= role.description %></td>
           <td><%= role.active_desc %></td>
           <td>
-            <%= link_to 'Consultar', role, class: "btn btn-default" %>
-            <%= link_to 'Editar', edit_role_path(role), class: "btn btn-success" %>
-            <%= link_to 'Eliminar', role, class: "btn btn-danger", method: :delete, data: { confirm: '¿Estás seguro?' } %>
+            <%= link_to t('helpers.submit.show'), role, class: "btn btn-default" %>
+            <%= link_to t('helpers.submit.edit'), edit_role_path(role), class: "btn btn-success" %>
+            <%= link_to t('helpers.submit.delete'), role, class: "btn btn-danger", method: :delete, data: { confirm: t('messages.confirm_are_you_sure') } %>
           </td>
         </tr>
     <% end %>

@@ -28,9 +28,9 @@
             <td><%= menu_option.consortium_desc %></td>
             <td><%= menu_option.active_desc %></td>
             <td>
-                <%= link_to 'Consultar', menu_option, class: "btn btn-default" %>
-                <%= link_to 'Editar', edit_menu_option_path(menu_option), class: "btn btn-success" %>
-                <%= link_to 'Eliminar', menu_option, class: "btn btn-danger", method: :delete, data: { confirm: '¿Estás seguro?' } %>
+                <%= link_to t('helpers.submit.show'), menu_option, class: "btn btn-default" %>
+                <%= link_to t('helpers.submit.edit'), edit_menu_option_path(menu_option), class: "btn btn-success" %>
+                <%= link_to t('helpers.submit.delete'), menu_option, class: "btn btn-danger", method: :delete, data: { confirm: t('messages.confirm_are_you_sure') } %>
             </td>
           </tr>
       <% end %>

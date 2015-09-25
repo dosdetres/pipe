@@ -139,7 +139,14 @@ en-US:
      select:
        prompt: Please select
      submit:
-       create: Create %{model}
+       create: "Create %{model}"
+       delete: "Delete"
+       edit: "Edit"
+       login: "Login"
+       logout: "Logout"
+       return: "Return"
+       show: "Show"
+       save: "Save"
        submit: Save %{model}
        update: Update %{model}
    number:

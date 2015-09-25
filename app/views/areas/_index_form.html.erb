@@ -29,9 +29,9 @@
           </td>
           <td><%= area.active_desc %></td>
           <td>
-            <%= link_to 'Consultar', area, class: "btn btn-default" %>
-            <%= link_to 'Editar', edit_area_path(area), class: "btn btn-success" %>
-            <%= link_to 'Eliminar', area, class: "btn btn-danger", method: :delete, data: { confirm: '¿Estás seguro?' } %>
+            <%= link_to t('helpers.submit.show'), area, class: "btn btn-default" %>
+            <%= link_to t('helpers.submit.edit'), edit_area_path(area), class: "btn btn-success" %>
+            <%= link_to t('helpers.submit.delete'), area, class: "btn btn-danger", method: :delete, data: { confirm: t('messages.confirm_are_you_sure') } %>
           </td>
         </tr>
       <% end %>
