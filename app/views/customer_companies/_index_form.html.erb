@@ -17,16 +17,16 @@
     <% @customer_companies.each do |customer_company| %>
         <tr>
           <td><%= customer_company.id %></td>
-          <td><%= customer_company.empresa_cliente %></td>
+          <td><%= customer_company.company_customer %></td>
           <td><%= customer_company.rfc %></td>
-          <td><%= customer_company.razon_social %></td>
-          <td><%= customer_company.consorcio_desc %></td>
+          <td><%= customer_company.registered_name %></td>
+          <td><%= customer_company.consortium_desc %></td>
           <td>
             <% unless customer_company.customer_company_id.nil? %>
-                <%= customer_company.empresa_padre.empresa_cliente %>
+                <%= customer_company.up_company.company_customer %>
             <% end %>
           </td>
-          <td><%= customer_company.activo_desc %></td>
+          <td><%= customer_company.active_desc %></td>
           <td>
             <%= link_to t('helpers.submit.show'), customer_company, class: "btn btn-default" %>
             <%= link_to t('helpers.submit.edit'), edit_customer_company_path(customer_company), class: "btn btn-success" %>

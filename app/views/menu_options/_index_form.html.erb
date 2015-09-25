@@ -17,16 +17,16 @@
       <% @menu_options.each do |menu_option| %>
           <tr>
             <td><%= menu_option.id %></td>
-            <td><%= menu_option.modulo %></td>
-            <td><%= menu_option.descripcion %></td>
-            <td><%= menu_option.orden %></td>
+            <td><%= menu_option.module %></td>
+            <td><%= menu_option.description %></td>
+            <td><%= menu_option.order %></td>
             <td>
               <% unless menu_option.menu_option_id.nil? %>
-                  <%= menu_option.modulo_padre.modulo %>
+                  <%= menu_option.up_module.module %>
               <% end %>
             </td>
-            <td><%= menu_option.consorcio_desc %></td>
-            <td><%= menu_option.activo_desc %></td>
+            <td><%= menu_option.consortium_desc %></td>
+            <td><%= menu_option.active_desc %></td>
             <td>
                 <%= link_to t('helpers.submit.show'), menu_option, class: "btn btn-default" %>
                 <%= link_to t('helpers.submit.edit'), edit_menu_option_path(menu_option), class: "btn btn-success" %>

@@ -1,24 +1,24 @@
 <%= form_for(@menu_option, :html => {:class => 'form-horizontal'}) do |f| %>
   <%= render 'layouts/error_message', model: @menu_option  %>
-  <div class="form-group<%= @menu_option.errors[:modulo].any? ? " has-error" : "" %>">
-    <div class="col-sm-2 control-label"><%= f.label :modulo, "Módulo" %></div>
-    <div class="col-sm-10"><%= f.text_field :modulo, class: "form-control" %></div>
+  <div class="form-group<%= @menu_option.errors[:module].any? ? " has-error" : "" %>">
+    <div class="col-sm-2 control-label"><%= f.label :module, "Módulo" %></div>
+    <div class="col-sm-10"><%= f.text_field :module, class: "form-control" %></div>
   </div>
   <div class="form-group">
-    <div class="col-sm-2 control-label"><%= f.label :descripcion, "Descripción" %></div>
-    <div class="col-sm-10"><%= f.text_field :descripcion, class: "form-control" %></div>
+    <div class="col-sm-2 control-label"><%= f.label :description, "Descripción" %></div>
+    <div class="col-sm-10"><%= f.text_field :description, class: "form-control" %></div>
   </div>
-  <div class="form-group<%= @menu_option.errors[:orden].any? ? " has-error" : "" %>">
-    <div class="col-sm-2 control-label"><%= f.label :orden, "Orden" %></div>
-    <div class="col-sm-10"><%= f.number_field :orden, class: "form-control" %></div>
+  <div class="form-group<%= @menu_option.errors[:order].any? ? " has-error" : "" %>">
+    <div class="col-sm-2 control-label"><%= f.label :order, "order" %></div>
+    <div class="col-sm-10"><%= f.number_field :order, class: "form-control" %></div>
   </div>
-  <div class="form-group<%= @menu_option.errors[:ruta].any? ? " has-error" : "" %>">
-    <div class="col-sm-2 control-label"><%= f.label :ruta, "Ruta" %></div>
-    <div class="col-sm-10"><%= f.text_field :ruta, class: "form-control" %></div>
+  <div class="form-group<%= @menu_option.errors[:path].any? ? " has-error" : "" %>">
+    <div class="col-sm-2 control-label"><%= f.label :path, "path" %></div>
+    <div class="col-sm-10"><%= f.text_field :path, class: "form-control" %></div>
   </div>
   <div class="form-group">
-    <div class="col-sm-2 control-label"><%= f.label :imagen, "Imagen" %></div>
-    <div class="col-sm-10"><%= f.text_field :imagen, class: "form-control" %></div>
+    <div class="col-sm-2 control-label"><%= f.label :image, "image" %></div>
+    <div class="col-sm-10"><%= f.text_field :image, class: "form-control" %></div>
   </div>
   <div class="form-group">
     <div class="col-sm-2 control-label"><%= f.label :menu_option_id, "Módulo Padre" %></div>
@@ -31,12 +31,12 @@
     </div>
   </div>
   <div class="form-group">
-    <div class="col-sm-2 control-label"><%= f.label :consorcio, "Consorcio" %></div>
-    <div class="col-sm-10"><%= f.check_box :consorcio %></div>
+    <div class="col-sm-2 control-label"><%= f.label :consortium, "consortium" %></div>
+    <div class="col-sm-10"><%= f.check_box :consortium %></div>
   </div>
   <div class="form-group">
-    <div class="col-sm-2 control-label"><%= f.label :activo %></div>
-    <div class="col-sm-10"><%= f.check_box :activo %></div>
+    <div class="col-sm-2 control-label"><%= f.label :active %></div>
+    <div class="col-sm-10"><%= f.check_box :active %></div>
   </div>
   <hr />
   <div class="form-group text-right">

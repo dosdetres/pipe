@@ -1,10 +1,10 @@
 class CreateWorkplaces < ActiveRecord::Migration
   def change
     create_table :workplaces do |t|
-      t.string :puesto
-      t.string :descripcion
-      t.integer :nivel_usuario
-      t.boolean :activo
+      t.string :position
+      t.string :description
+      t.integer :user_level
+      t.boolean :active
       t.references :area, index: true
       t.integer :created_user_id
       t.string :updated_user_id

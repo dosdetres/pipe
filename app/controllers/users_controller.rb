@@ -15,15 +15,15 @@ class UsersController < ApplicationController
 
   # GET /users/new
   def new
-    @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
-    @workplaces_options = Workplace.where(activo: true).map{|m| [ m.puesto , m.id ] }
+    @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
+    @workplaces_options = Workplace.where(active: true).map{|m| [ m.position , m.id ] }
     @user = User.new
   end
 
   # GET /users/1/edit
   def edit
-    @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
-    @workplaces_options = Workplace.where(activo: true).map{|m| [ m.puesto , m.id ] }
+    @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
+    @workplaces_options = Workplace.where(active: true).map{|m| [ m.position , m.id ] }
   end
 
   # POST /users
@@ -35,11 +35,11 @@ class UsersController < ApplicationController
     end
     respond_to do |format|
       if @user.save
-        format.html { redirect_to @user, notice: 'El Usuario se creó correctamente.' }
+        format.html { redirect_to @user, notice: 'The user was created successfully.' }
         format.json { render :show, status: :created, location: @user }
       else
-        @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
-        @workplaces_options = Workplace.where(activo: true).map{|m| [ m.puesto , m.id ] }
+        @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
+        @workplaces_options = Workplace.where(active: true).map{|m| [ m.position , m.id ] }
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
@@ -52,11 +52,11 @@ class UsersController < ApplicationController
     @user.updated_user_id = current_user.id
     respond_to do |format|
       if @user.update(user_params)
-        format.html { redirect_to @user, notice: 'El Usuario se actualizo correctamente.' }
+        format.html { redirect_to @user, notice: 'The User updated successfully.' }
         format.json { render :show, status: :ok, location: @user }
       else
-        @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
-        @workplaces_options = Workplace.where(activo: true).map{|m| [ m.puesto , m.id ] }
+        @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
+        @workplaces_options = Workplace.where(active: true).map{|m| [ m.position , m.id ] }
         format.html { render :edit }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
@@ -68,7 +68,7 @@ class UsersController < ApplicationController
   def destroy
     @user.destroy
     respond_to do |format|
-      format.html { redirect_to users_url, notice: 'El Usuario se eliminó correctamente.' }
+      format.html { redirect_to users_url, notice: 'The user was removed successfully.' }
       format.json { head :no_content }
     end
   end
@@ -81,6 +81,6 @@ class UsersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def user_params
-      params.require(:user).permit(:nombre, :apellido_paterno, :apellido_materno, :rfc, :curp, :consorcio, :email, :password, :password_confirmation, :customer_company_id, :workplace_id)
+      params.require(:user).permit(:name, :first_last_name, :second_last_name, :rfc, :curp, :consortium, :email, :password, :password_confirmation, :customer_company_id, :workplace_id)
     end
 end

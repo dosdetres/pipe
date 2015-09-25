@@ -15,9 +15,9 @@ ActiveRecord::Schema.define(version: 20150802043309) do
 
   create_table "areas", force: true do |t|
     t.string   "area"
-    t.string   "descripcion"
-    t.integer  "orden"
-    t.boolean  "activo"
+    t.string   "description"
+    t.integer  "order"
+    t.boolean  "active"
     t.integer  "created_user_id"
     t.integer  "updated_user_id"
     t.integer  "customer_company_id"
@@ -30,11 +30,11 @@ ActiveRecord::Schema.define(version: 20150802043309) do
   add_index "areas", ["customer_company_id"], name: "index_areas_on_customer_company_id", using: :btree
 
   create_table "customer_companies", force: true do |t|
-    t.string   "empresa_cliente"
+    t.string   "company_customer"
     t.string   "rfc"
-    t.string   "razon_social"
-    t.boolean  "consorcio"
-    t.boolean  "activo"
+    t.string   "registered_name"
+    t.boolean  "consortium"
+    t.boolean  "active"
     t.integer  "created_user_id"
     t.string   "updated_user_id"
     t.datetime "created_at"
@@ -45,13 +45,13 @@ ActiveRecord::Schema.define(version: 20150802043309) do
   add_index "customer_companies", ["customer_company_id"], name: "index_customer_companies_on_customer_company_id", using: :btree
 
   create_table "menu_options", force: true do |t|
-    t.string   "modulo"
-    t.string   "descripcion"
-    t.integer  "orden"
-    t.string   "ruta"
-    t.string   "imagen"
-    t.boolean  "consorcio"
-    t.boolean  "activo"
+    t.string   "module"
+    t.string   "description"
+    t.integer  "order"
+    t.string   "path"
+    t.string   "image"
+    t.boolean  "consortium"
+    t.boolean  "active"
     t.integer  "created_user_id"
     t.integer  "updated_user_id"
     t.datetime "created_at"
@@ -64,13 +64,13 @@ ActiveRecord::Schema.define(version: 20150802043309) do
   create_table "permits", force: true do |t|
     t.integer  "role_id"
     t.integer  "menu_option_id"
-    t.boolean  "registrar"
-    t.boolean  "actualizar"
-    t.boolean  "eliminar"
-    t.boolean  "ejecutar_procesos"
-    t.boolean  "generar_archivos"
-    t.boolean  "cargar_archivos"
-    t.boolean  "autorizar"
+    t.boolean  "add"
+    t.boolean  "update"
+    t.boolean  "delete"
+    t.boolean  "execute"
+    t.boolean  "generate"
+    t.boolean  "upload"
+    t.boolean  "authorize"
     t.integer  "created_user_id"
     t.integer  "updated_user_id"
     t.datetime "created_at"
@@ -81,9 +81,9 @@ ActiveRecord::Schema.define(version: 20150802043309) do
   add_index "permits", ["role_id"], name: "index_permits_on_role_id", using: :btree
 
   create_table "roles", force: true do |t|
-    t.string   "rol"
-    t.string   "descripcion"
-    t.boolean  "activo"
+    t.string   "role"
+    t.string   "description"
+    t.boolean  "active"
     t.integer  "customer_company_id"
     t.integer  "created_user_id"
     t.integer  "updated_user_id"
@@ -102,12 +102,12 @@ ActiveRecord::Schema.define(version: 20150802043309) do
   add_index "roles_users", ["user_id"], name: "index_roles_users_on_user_id", using: :btree
 
   create_table "users", force: true do |t|
-    t.string   "nombre"
-    t.string   "apellido_paterno"
-    t.string   "apellido_materno"
+    t.string   "name"
+    t.string   "first_last_name"
+    t.string   "second_last_name"
     t.string   "rfc"
     t.string   "curp"
-    t.boolean  "consorcio"
+    t.boolean  "consortium"
     t.integer  "created_user_id"
     t.integer  "updated_user_id"
     t.datetime "created_at"
@@ -132,10 +132,10 @@ ActiveRecord::Schema.define(version: 20150802043309) do
   add_index "users", ["workplace_id"], name: "index_users_on_workplace_id", using: :btree
 
   create_table "workplaces", force: true do |t|
-    t.string   "puesto"
-    t.string   "descripcion"
-    t.integer  "nivel_usuario"
-    t.boolean  "activo"
+    t.string   "position"
+    t.string   "description"
+    t.integer  "user_level"
+    t.boolean  "active"
     t.integer  "area_id"
     t.integer  "created_user_id"
     t.string   "updated_user_id"

@@ -3,13 +3,13 @@ class CreatePermits < ActiveRecord::Migration
     create_table :permits do |t|
       t.references :role, index: true
       t.references :menu_option, index: true
-      t.boolean :registrar
-      t.boolean :actualizar
-      t.boolean :eliminar
-      t.boolean :ejecutar_procesos
-      t.boolean :generar_archivos
-      t.boolean :cargar_archivos
-      t.boolean :autorizar
+      t.boolean :add
+      t.boolean :update
+      t.boolean :delete
+      t.boolean :execute
+      t.boolean :generate
+      t.boolean :upload
+      t.boolean :authorize
       t.integer :created_user_id
       t.integer :updated_user_id
 
