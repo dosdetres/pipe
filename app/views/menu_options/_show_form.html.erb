@@ -2,45 +2,45 @@
   <div class="form-group">
     <label class="col-sm-2 control-label">Módulo:</label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @menu_option.modulo %></p>
+      <p class="form-control-static"><%= @menu_option.module %></p>
     </div>
   </div>
   <div class="form-group">
     <label class="col-sm-2 control-label">Descripción:</label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @menu_option.descripcion %></p>
+      <p class="form-control-static"><%= @menu_option.description %></p>
     </div>
   </div>
   <div class="form-group">
     <label class="col-sm-2 control-label">Orden:</label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @menu_option.orden %></p>
+      <p class="form-control-static"><%= @menu_option.order %></p>
     </div>
   </div>
   <div class="form-group">
     <label class="col-sm-2 control-label">Ruta:</label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @menu_option.ruta %></p>
+      <p class="form-control-static"><%= @menu_option.path %></p>
     </div>
   </div>
   <div class="form-group">
     <label class="col-sm-2 control-label">Imagen:</label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @menu_option.imagen %></p>
+      <p class="form-control-static"><%= @menu_option.image %></p>
     </div>
   </div>
   <div class="form-group">
     <label class="col-sm-2 control-label">Consorcio:</label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @menu_option.consorcio_desc %></p>
+      <p class="form-control-static"><%= @menu_option.consortium_desc %></p>
     </div>
   </div>
   <div class="form-group">
     <label class="col-sm-2 control-label">Módulo padre:</label>
     <div class="col-sm-10">
       <p class="form-control-static">
-        <% unless @menu_option.modulo_padre.nil? %>
-            <%= @menu_option.modulo_padre.modulo %>
+        <% unless @menu_option.up_module.nil? %>
+            <%= @menu_option.up_module.module %>
         <% end %>
       </p>
     </div>
@@ -48,15 +48,15 @@
   <div class="form-group">
     <label class="col-sm-2 control-label">Activo:</label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @menu_option.activo_desc %></p>
+      <p class="form-control-static"><%= @menu_option.active_desc %></p>
     </div>
   </div>
   <div class="form-group">
     <label class="col-sm-2 control-label">Usuario alta:</label>
     <div class="col-sm-10">
       <p class="form-control-static">
-        <% unless @menu_option.usuario_registra.nil? %>
-            <%= @menu_option.usuario_registra.nombre_completo %>
+        <% unless @menu_option.created_user.nil? %>
+            <%= @menu_option.created_user.full_name %>
         <% end %>
       </p>
     </div>
@@ -65,8 +65,8 @@
     <label class="col-sm-2 control-label">Usuario cambio:</label>
     <div class="col-sm-10">
       <p class="form-control-static">
-        <% unless @menu_option.usuario_actualiza.nil? %>
-            <%= @menu_option.usuario_actualiza.nombre_completo %>
+        <% unless @menu_option.updated_user.nil? %>
+            <%= @menu_option.updated_user.full_name %>
         <% end %>
       </p>
     </div>

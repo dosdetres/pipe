@@ -12,17 +12,17 @@
       <% end %>
     </div>
   </div>
-  <div class="form-group<%= @user.errors[:nombre].any? ? " has-error" : "" %>">
-    <div class="col-sm-2 control-label"><%= f.label :nombre %></div>
-    <div class="col-sm-10"><%= f.text_field :nombre, autofocus: true, class: "form-control" %></div>
+  <div class="form-group<%= @user.errors[:name].any? ? " has-error" : "" %>">
+    <div class="col-sm-2 control-label"><%= f.label :name %></div>
+    <div class="col-sm-10"><%= f.text_field :name, autofocus: true, class: "form-control" %></div>
   </div>
-  <div class="form-group<%= @user.errors[:apellido_paterno].any? ? " has-error" : "" %>">
-    <div class="col-sm-2 control-label"><%= f.label :apellido_paterno, "Apellido Paterno" %></div>
-    <div class="col-sm-10"><%= f.text_field :apellido_paterno, class: "form-control" %></div>
+  <div class="form-group<%= @user.errors[:first_last_name].any? ? " has-error" : "" %>">
+    <div class="col-sm-2 control-label"><%= f.label :first_last_name, "Apellido Paterno" %></div>
+    <div class="col-sm-10"><%= f.text_field :first_last_name, class: "form-control" %></div>
   </div>
     <div class="form-group">
-      <div class="col-sm-2 control-label"><%= f.label :apellido_materno,"Apellido Materno" %></div>
-      <div class="col-sm-10"><%= f.text_field :apellido_materno, class: "form-control" %></div>
+      <div class="col-sm-2 control-label"><%= f.label :second_last_name,"Apellido Materno" %></div>
+      <div class="col-sm-10"><%= f.text_field :second_last_name, class: "form-control" %></div>
   </div>
   <div class="form-group">
     <div class="col-sm-2 control-label"><%= f.label :rfc %></div>
@@ -43,8 +43,8 @@
     </div>
   </div>
   <div class="form-group">
-    <div class="col-sm-2 control-label"><%= f.label :consorcio %></div>
-    <div class="col-sm-10"><%= f.check_box :consorcio %></div>
+    <div class="col-sm-2 control-label"><%= f.label :consortium %></div>
+    <div class="col-sm-10"><%= f.check_box :consortium %></div>
   </div>
   <div class="form-group<%= @user.errors[:email].any? ? " has-error" : "" %>">
     <div class="col-sm-2 control-label"><%= f.label :email, "Usuario (email)" %></div>

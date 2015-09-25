@@ -10,12 +10,12 @@ class WorkplacesController < ApplicationController
   end
 
   def new
-    @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
+    @areas_options = Area.where(active: true).map{|m| [ m.area , m.id ] }
     @workplace = Workplace.new
   end
 
   def edit
-    @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
+    @areas_options = Area.where(active: true).map{|m| [ m.area , m.id ] }
   end
 
   def create
@@ -25,10 +25,10 @@ class WorkplacesController < ApplicationController
     end
     respond_to do |format|
       if @workplace.save
-        format.html { redirect_to @workplace, notice: 'El Puesto se creó correctamente.' }
+        format.html { redirect_to @workplace, notice: 'The position was successfully created.' }
         format.json { render :show, status: :created, location: @workplace }
       else
-        @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
+        @areas_options = Area.where(active: true).map{|m| [ m.area , m.id ] }
         format.html { render :new }
         format.json { render json: @workplace.errors, status: :unprocessable_entity }
       end
@@ -41,10 +41,10 @@ class WorkplacesController < ApplicationController
     end
     respond_to do |format|
       if @workplace.update(workplace_params)
-        format.html { redirect_to @workplace, notice: 'El Puesto se actualizo correctamente.' }
+        format.html { redirect_to @workplace, notice: 'The position was successfully updated.' }
         format.json { render :show, status: :ok, location: @workplace }
       else
-        @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
+        @areas_options = Area.where(active: true).map{|m| [ m.area , m.id ] }
         format.html { render :edit }
         format.json { render json: @workplace.errors, status: :unprocessable_entity }
       end
@@ -56,7 +56,7 @@ class WorkplacesController < ApplicationController
   def destroy
     @workplace.destroy
     respond_to do |format|
-      format.html { redirect_to workplaces_url, notice: 'El Puesto se eliminó correctamente.' }
+      format.html { redirect_to workplaces_url, notice: 'The position was successfully removed.' }
       format.json { head :no_content }
     end
   end
@@ -67,6 +67,6 @@ class WorkplacesController < ApplicationController
     end
 
     def workplace_params
-      params.require(:workplace).permit(:puesto, :descripcion, :nivel_usuario, :activo, :area_id)
+      params.require(:workplace).permit(:position, :description, :user_level, :active, :area_id)
     end
 end

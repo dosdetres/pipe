@@ -1,1 +1,1 @@
-json.extract! @customer_company, :id, :EmpresaCliente, :Rfc, :RazonSocial, :Consorcio, :EmpresaCliente_id, :Activo, :UsuarioAlta_id, :UsuarioCambio_id, :created_at, :updated_at
+json.extract! @customer_company, :id, :CompanyCustomer, :Rfc, :RegisteredName, :Consortium, :CompanyCustomer_id, :Active, :CreatedUser_id, :UpdatedUser_id, :created_at, :updated_at

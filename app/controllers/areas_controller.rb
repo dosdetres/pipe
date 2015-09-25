@@ -10,14 +10,14 @@ class AreasController < ApplicationController
   end
 
   def new
-    @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
-    @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
+    @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
+    @areas_options = Area.where(active: true).map{|m| [ m.area , m.id ] }
     @area = Area.new
   end
 
   def edit
-    @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
-    @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
+    @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
+    @areas_options = Area.where(active: true).map{|m| [ m.area , m.id ] }
   end
 
   def create
@@ -27,11 +27,11 @@ class AreasController < ApplicationController
     end
     respond_to do |format|
       if @area.save
-        format.html { redirect_to @area, notice: 'El Área se creó correctamente.' }
+        format.html { redirect_to @area, notice: 'The area was successfully created.' }
         format.json { render :show, status: :created, location: @area }
       else
-        @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
-        @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
+        @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer, m.id ] }
+        @areas_options = Area.where(active: true).map{|m| [ m.area , m.id ] }
         format.html { render :new }
         format.json { render json: @area.errors, status: :unprocessable_entity }
       end
@@ -44,11 +44,11 @@ class AreasController < ApplicationController
     end
     respond_to do |format|
       if @area.update(area_params)
-        format.html { redirect_to @area, notice: 'El Área se actualizo correctamente.' }
+        format.html { redirect_to @area, notice: 'The area was successfully updated.' }
         format.json { render :show, status: :ok, location: @area }
       else
-        @customer_companies_options = CustomerCompany.where(activo: true).map{|m| [ m.empresa_cliente , m.id ] }
-        @areas_options = Area.where(activo: true).map{|m| [ m.area , m.id ] }
+        @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
+        @areas_options = Area.where(active: true).map{|m| [ m.area , m.id ] }
         format.html { render :edit }
         format.json { render json: @area.errors, status: :unprocessable_entity }
       end
@@ -58,7 +58,7 @@ class AreasController < ApplicationController
   def destroy
     @area.destroy
     respond_to do |format|
-      format.html { redirect_to areas_url, notice: 'El Área se eliminó correctamente.' }
+      format.html { redirect_to areas_url, notice: 'The area deleted successfully.' }
       format.json { head :no_content }
     end
   end
@@ -69,6 +69,6 @@ class AreasController < ApplicationController
     end
 
     def area_params
-      params.require(:area).permit(:area, :descripcion, :orden, :activo, :customer_company_id, :area_id)
+      params.require(:area).permit(:area, :description, :order, :active, :customer_company_id, :area_id)
     end
 end

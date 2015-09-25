@@ -7,25 +7,26 @@ class User < ActiveRecord::Base
   belongs_to :customer_company
   belongs_to :workplace
   has_and_belongs_to_many :roles
-  belongs_to :usuario_registra, :class_name => "User", :foreign_key => "created_user_id"
-  belongs_to :usuario_actualiza, :class_name => "User", :foreign_key => "updated_user_id"
+  belongs_to :created_user, :class_name => "User", :foreign_key => "created_user_id"
+  belongs_to :updated_user, :class_name => "User", :foreign_key => "updated_user_id"
 
   validates :customer_company_id , presence: true
-  validates :nombre , presence: true
-  validates :apellido_paterno , presence: true
+  validates :name , presence: true
+  validates :first_last_name , presence: true
 
 
-  def nombre_completo
-    "#{nombre} #{apellido_paterno} #{apellido_materno}"
+  def full_name
+    "#{name} #{first_last_name} #{second_last_name}"
   end
 
-  def consorcio_desc
-    if consorcio
-      "Si"
+  def consortium_desc
+    if consortium
+      "Yes"
     else
       "No"
     end
   end
 
-
 end
+
+

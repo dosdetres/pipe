@@ -17,17 +17,17 @@
           <td><%= area.id %></td>
           <td>
             <% unless area.customer_company.nil? %>
-                <%= area.customer_company.empresa_cliente %>
+                <%= area.customer_company.company_customer %>
             <% end %>
           </td>
           <td><%= area.area %></td>
-          <td><%= area.orden %></td>
+          <td><%= area.order %></td>
           <td>
-            <% unless area.area_padre.nil? %>
-              <%= area.area_padre.area %>
+            <% unless area.upd_area.nil? %>
+              <%= area.up_area.area %>
             <% end %>
           </td>
-          <td><%= area.activo_desc %></td>
+          <td><%= area.active_desc %></td>
           <td>
             <%= link_to 'Consultar', area, class: "btn btn-default" %>
             <%= link_to 'Editar', edit_area_path(area), class: "btn btn-success" %>

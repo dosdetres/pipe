@@ -1,6 +1,6 @@
 class AddWorkplaceToUsers < ActiveRecord::Migration
   def self.up
-    remove_column :users, :puesto_id
+    # remove_column :users, :position_id
     add_reference :users, :workplace, index: true
   end
 
