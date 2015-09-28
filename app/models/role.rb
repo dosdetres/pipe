@@ -7,14 +7,14 @@ class Role < ActiveRecord::Base
 
 
   validates :customer_company_id , presence: true
-  validates :rol, presence: true
+  validates :role, presence: true
 
 
   def active_desc
     if active
-      "Yes"
+      "messages.text_yes"
     else
-      "No"
+      "messages.text_no"
     end
   end
 

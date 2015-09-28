@@ -2,24 +2,20 @@ class RolesController < ApplicationController
   before_action :authenticate_user!
   before_action :set_role, only: [:show, :edit, :update, :destroy]
 
-  # GET /roles
-  # GET /roles.json
   def index
     @roles = Role.all
-    #respond_with(@roles)
   end
 
   def show
-    #respond_with(@role)
   end
 
   def new
-    #@role = Role.new
-    #respond_with(@role)
+    @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
     @role = Role.new
   end
 
   def edit
+    @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
   end
 
   def create
@@ -32,6 +28,7 @@ class RolesController < ApplicationController
         format.html { redirect_to @role, notice: 'The role was created successfully.' }
         format.json { render :show, status: :created, location: @role }
       else
+        @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer, m.id ] }
         format.html { render :new }
         format.json { render json: @role.errors, status: :unprocessable_entity }
       end
@@ -39,12 +36,15 @@ class RolesController < ApplicationController
   end
 
   def update
-    @role.updated_user_id = current_user.id
+    unless current_user.nil?
+      @role.updated_user_id = current_user.id
+    end
     respond_to do |format|
       if @role.update(role_params)
         format.html { redirect_to @role, notice: 'Role updated successfully.' }
         format.json { render :show, status: :ok, location: @role }
       else
+        @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
         format.html { render :edit }
         format.json { render json: @role.errors, status: :unprocessable_entity }
       end
@@ -66,6 +66,6 @@ class RolesController < ApplicationController
     end
 
     def role_params
-      params.require(:role).permit(:rol, :description, :active, :customer_company_id, :created_user_id, :updated_user_id)
+      params.require(:role).permit(:role, :description, :active, :customer_company_id)
     end
 end

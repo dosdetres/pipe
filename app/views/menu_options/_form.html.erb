@@ -1,27 +1,27 @@
 <%= form_for(@menu_option, :html => {:class => 'form-horizontal'}) do |f| %>
   <%= render 'layouts/error_message', model: @menu_option  %>
   <div class="form-group<%= @menu_option.errors[:module].any? ? " has-error" : "" %>">
-    <div class="col-sm-2 control-label"><%= f.label :module, "Módulo" %></div>
+    <div class="col-sm-2 control-label"><%= f.label :module %></div>
     <div class="col-sm-10"><%= f.text_field :module, class: "form-control" %></div>
   </div>
   <div class="form-group">
-    <div class="col-sm-2 control-label"><%= f.label :description, "Descripción" %></div>
+    <div class="col-sm-2 control-label"><%= f.label :description %></div>
     <div class="col-sm-10"><%= f.text_field :description, class: "form-control" %></div>
   </div>
   <div class="form-group<%= @menu_option.errors[:order].any? ? " has-error" : "" %>">
-    <div class="col-sm-2 control-label"><%= f.label :order, "order" %></div>
+    <div class="col-sm-2 control-label"><%= f.label :order %></div>
     <div class="col-sm-10"><%= f.number_field :order, class: "form-control" %></div>
   </div>
   <div class="form-group<%= @menu_option.errors[:path].any? ? " has-error" : "" %>">
-    <div class="col-sm-2 control-label"><%= f.label :path, "path" %></div>
+    <div class="col-sm-2 control-label"><%= f.label :path %></div>
     <div class="col-sm-10"><%= f.text_field :path, class: "form-control" %></div>
   </div>
   <div class="form-group">
-    <div class="col-sm-2 control-label"><%= f.label :image, "image" %></div>
+    <div class="col-sm-2 control-label"><%= f.label :image %></div>
     <div class="col-sm-10"><%= f.text_field :image, class: "form-control" %></div>
   </div>
   <div class="form-group">
-    <div class="col-sm-2 control-label"><%= f.label :menu_option_id, "Módulo Padre" %></div>
+    <div class="col-sm-2 control-label"><%= f.label :menu_option_id %></div>
     <div class="col-sm-10">
       <% if action == "new" %>
           <%= f.select :menu_option_id, @menu_options_options, { :prompt =>  t('helpers.select.prompt') }, {:class => 'form-control'}  %>
@@ -31,7 +31,7 @@
     </div>
   </div>
   <div class="form-group">
-    <div class="col-sm-2 control-label"><%= f.label :consortium, "consortium" %></div>
+    <div class="col-sm-2 control-label"><%= f.label :consortium %></div>
     <div class="col-sm-10"><%= f.check_box :consortium %></div>
   </div>
   <div class="form-group">

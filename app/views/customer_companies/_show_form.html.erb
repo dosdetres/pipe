@@ -1,54 +1,42 @@
 <form class="form-horizontal">
   <div class="form-group">
-    <label class="col-sm-2 control-label">Empresa:</label>
+    <label class="col-sm-2 control-label"><%=CustomerCompany.human_attribute_name(:company_customer)%></label>
     <div class="col-sm-10">
       <p class="form-control-static"><%= @customer_company.company_customer %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Rfc:</label>
+    <label class="col-sm-2 control-label"><%=CustomerCompany.human_attribute_name(:rfc)%></label>
     <div class="col-sm-10">
       <p class="form-control-static"><%= @customer_company.rfc %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Razon social:</label>
+    <label class="col-sm-2 control-label"><%=CustomerCompany.human_attribute_name(:registered_name)%></label>
     <div class="col-sm-10">
       <p class="form-control-static"><%= @customer_company.registered_name %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Consorcio:</label>
+    <label class="col-sm-2 control-label"><%=CustomerCompany.human_attribute_name(:consortium)%></label>
     <div class="col-sm-10">
-      <p class="form-control-static">
-        <% if @customer_company.consortium %>
-            Si
-        <% else %>
-            No
-        <% end %>
-      </p>
+      <p class="form-control-static"><%=t(@customer_company.consortium_desc)%></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Empresa padre:</label>
+    <label class="col-sm-2 control-label"><%=CustomerCompany.human_attribute_name(:customer_company_id)%></label>
     <div class="col-sm-10">
       <p class="form-control-static"><%= @customer_company.customer_company_id %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Activo:</label>
+    <label class="col-sm-2 control-label"><%=CustomerCompany.human_attribute_name(:active)%></label>
     <div class="col-sm-10">
-      <p class="form-control-static">
-        <% if @customer_company.active %>
-            Si
-        <% else %>
-            No
-        <% end %>
-      </p>
+      <p class="form-control-static"><%=t(@customer_company.active_desc)%></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Usuario alta:</label>
+    <label class="col-sm-2 control-label"><%=CustomerCompany.human_attribute_name(:created_user_id)%></label>
     <div class="col-sm-10">
       <p class="form-control-static">
         <% unless @customer_company.created_user.nil? %>
@@ -58,7 +46,7 @@
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Usuario cambio:</label>
+    <label class="col-sm-2 control-label"><%=CustomerCompany.human_attribute_name(:updated_user_id)%></label>
     <div class="col-sm-10">
       <p class="form-control-static">
         <% unless @customer_company.updated_user.nil? %>

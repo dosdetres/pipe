@@ -2,13 +2,13 @@
   <table class="table table-responsive table-condensed table-hover table-striped">
     <thead>
     <tr>
-      <th>id</th>
-      <th>Empresa</th>
-      <th>Rfc</th>
-      <th>Razonsocial</th>
-      <th>Consorcio</th>
-      <th>Empresa Padre</th>
-      <th>Activo</th>
+      <th><%=CustomerCompany.human_attribute_name(:id)%></th>
+      <th><%=CustomerCompany.human_attribute_name(:company_customer)%></th>
+      <th><%=CustomerCompany.human_attribute_name(:rfc)%></th>
+      <th><%=CustomerCompany.human_attribute_name(:registered_name)%></th>
+      <th><%=CustomerCompany.human_attribute_name(:consortium)%></th>
+      <th><%=CustomerCompany.human_attribute_name(:customer_company_id)%></th>
+      <th><%=CustomerCompany.human_attribute_name(:active)%></th>
       <th></th>
     </tr>
     </thead>
@@ -20,13 +20,13 @@
           <td><%= customer_company.company_customer %></td>
           <td><%= customer_company.rfc %></td>
           <td><%= customer_company.registered_name %></td>
-          <td><%= customer_company.consortium_desc %></td>
+          <td><%= t(customer_company.consortium_desc) %></td>
           <td>
             <% unless customer_company.customer_company_id.nil? %>
                 <%= customer_company.up_company.company_customer %>
             <% end %>
           </td>
-          <td><%= customer_company.active_desc %></td>
+          <td><%= t(customer_company.active_desc) %></td>
           <td>
             <%= link_to t('helpers.submit.show'), customer_company, class: "btn btn-default" %>
             <%= link_to t('helpers.submit.edit'), edit_customer_company_path(customer_company), class: "btn btn-success" %>

@@ -2,7 +2,7 @@
 <%= form_for(@area, :html => {:class => 'form-horizontal'}) do |f| %>
     <%= render 'layouts/error_message', model: @area  %>
     <div class="form-group<%= @area.errors[:customer_company_id].any? ? " has-error" : "" %>">
-      <div class="col-sm-2 control-label"><%= f.label :customer_company_id, "Empresa" %></div>
+      <div class="col-sm-2 control-label"><%= f.label :customer_company_id %></div>
       <div class="col-sm-10">
         <% if action == "new" %>
             <%= f.select :customer_company_id, @customer_companies_options, { :prompt =>  t('helpers.select.prompt') }, {:class => 'form-control'}  %>
@@ -12,19 +12,19 @@
       </div>
     </div>
     <div class="form-group<%= @area.errors[:area].any? ? " has-error" : "" %>">
-      <div class="col-sm-2 control-label"><%= f.label :area, "Área" %></div>
+      <div class="col-sm-2 control-label"><%= f.label :area %></div>
       <div class="col-sm-10"><%= f.text_field :area , class: "form-control" %></div>
     </div>
     <div class="form-group">
-      <div class="col-sm-2 control-label"><%= f.label :description, "Descripción" %></div>
+      <div class="col-sm-2 control-label"><%= f.label :description %></div>
       <div class="col-sm-10"><%= f.text_field :description, class: "form-control" %></div>
     </div>
     <div class="form-group">
-      <div class="col-sm-2 control-label"><%= f.label :order, "Orden" %></div>
+      <div class="col-sm-2 control-label"><%= f.label :order %></div>
       <div class="col-sm-10"><%= f.number_field :order, class: "form-control" %></div>
     </div>
     <div class="form-group">
-      <div class="col-sm-2 control-label"><%= f.label :area_id, "Área Padre" %></div>
+      <div class="col-sm-2 control-label"><%= f.label :area_id %></div>
       <div class="col-sm-10">
         <% if action == "new" %>
             <%= f.select :area_id, @areas_options, { :prompt =>  t('helpers.select.prompt') }, {:class => 'form-control'}  %>

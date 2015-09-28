@@ -149,6 +149,10 @@ en-US:
        save: "Save"
        submit: Save %{model}
        update: Update %{model}
+   messages:
+      confirm_are_you_sure: "Are you sure?"
+      text_no: "No"
+      text_yes: "Yes"
    number:
      currency:
        format:

@@ -1,42 +1,42 @@
 <form class="form-horizontal">
   <div class="form-group">
-    <label class="col-sm-2 control-label">Módulo:</label>
+    <label class="col-sm-2 control-label"><%=MenuOption.human_attribute_name(:module)%></label>
     <div class="col-sm-10">
       <p class="form-control-static"><%= @menu_option.module %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Descripción:</label>
+    <label class="col-sm-2 control-label"><%=MenuOption.human_attribute_name(:description)%></label>
     <div class="col-sm-10">
       <p class="form-control-static"><%= @menu_option.description %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Orden:</label>
+    <label class="col-sm-2 control-label"><%=MenuOption.human_attribute_name(:order)%></label>
     <div class="col-sm-10">
       <p class="form-control-static"><%= @menu_option.order %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Ruta:</label>
+    <label class="col-sm-2 control-label"><%=MenuOption.human_attribute_name(:path)%></label>
     <div class="col-sm-10">
       <p class="form-control-static"><%= @menu_option.path %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Imagen:</label>
+    <label class="col-sm-2 control-label"><%=MenuOption.human_attribute_name(:image)%></label>
     <div class="col-sm-10">
       <p class="form-control-static"><%= @menu_option.image %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Consorcio:</label>
+    <label class="col-sm-2 control-label"><%=MenuOption.human_attribute_name(:consortium)%></label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @menu_option.consortium_desc %></p>
+      <p class="form-control-static"><%= t(@menu_option.consortium_desc) %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Módulo padre:</label>
+    <label class="col-sm-2 control-label"><%=MenuOption.human_attribute_name(:menu_option_id)%></label>
     <div class="col-sm-10">
       <p class="form-control-static">
         <% unless @menu_option.up_module.nil? %>
@@ -46,13 +46,13 @@
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Activo:</label>
+    <label class="col-sm-2 control-label"><%=MenuOption.human_attribute_name(:active)%></label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @menu_option.active_desc %></p>
+      <p class="form-control-static"><%= t(@menu_option.active_desc) %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Usuario alta:</label>
+    <label class="col-sm-2 control-label"><%=MenuOption.human_attribute_name(:created_user_id)%></label>
     <div class="col-sm-10">
       <p class="form-control-static">
         <% unless @menu_option.created_user.nil? %>
@@ -62,7 +62,7 @@
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Usuario cambio:</label>
+    <label class="col-sm-2 control-label"><%=MenuOption.human_attribute_name(:updated_user_id)%></label>
     <div class="col-sm-10">
       <p class="form-control-static">
         <% unless @menu_option.updated_user.nil? %>

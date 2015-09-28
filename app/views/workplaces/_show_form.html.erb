@@ -1,6 +1,6 @@
 <form class="form-horizontal">
   <div class="form-group">
-    <label class="col-sm-2 control-label">Área:</label>
+    <label class="col-sm-2 control-label"><%=Workplace.human_attribute_name(:area_id)%></label>
     <div class="col-sm-10">
       <p class="form-control-static">
         <% unless @workplace.area.nil? %>
@@ -10,46 +10,45 @@
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Puesto:</label>
+    <label class="col-sm-2 control-label"><%=Workplace.human_attribute_name(:position)%></label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @workplace.puesto %></p>
+      <p class="form-control-static"><%= @workplace.position %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Descripción:</label>
+    <label class="col-sm-2 control-label"><%=Workplace.human_attribute_name(:description)%></label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @workplace.descripcion %></p>
+      <p class="form-control-static"><%= @workplace.description %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Nivel de usuario:</label>
+    <label class="col-sm-2 control-label"><%=Workplace.human_attribute_name(:user_level)%></label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @workplace.nivel_usuario %></p>
+      <p class="form-control-static"><%= @workplace.user_level %></p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Activo:</label>
+    <label class="col-sm-2 control-label"><%=Workplace.human_attribute_name(:active)%></label>
     <div class="col-sm-10">
-      <p class="form-control-static"><%= @workplace.activo_desc %></p>
+      <p class="form-control-static"><%= t(@workplace.active_desc) %></p>
     </div>
   </div>
-
   <div class="form-group">
-    <label class="col-sm-2 control-label">Usuario alta:</label>
+    <label class="col-sm-2 control-label"><%=Workplace.human_attribute_name(:created_user_id)%></label>
     <div class="col-sm-10">
       <p class="form-control-static">
-        <% unless @workplace.usuario_registra.nil? %>
-            <%= @workplace.usuario_registra.nombre_completo %>
+        <% unless @workplace.created_user.nil? %>
+            <%= @workplace.created_user.full_name %>
         <% end %>
       </p>
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Usuario cambio:</label>
+    <label class="col-sm-2 control-label"><%=Workplace.human_attribute_name(:updated_user_id)%></label>
     <div class="col-sm-10">
       <p class="form-control-static">
-        <% unless @workplace.usuario_actualiza.nil? %>
-            <%= @workplace.usuario_actualiza.nombre_completo %>
+        <% unless @workplace.updated_user.nil? %>
+            <%= @workplace.updated_user.full_name %>
         <% end %>
       </p>
     </div>

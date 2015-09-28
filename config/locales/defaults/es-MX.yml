@@ -151,6 +151,8 @@ es-MX:
        update: "Actualizar"
    messages:
      confirm_are_you_sure: "¿Estás seguro?"
+     text_no: "No"
+     text_yes: "Sí"
    number:
      currency:
        format:

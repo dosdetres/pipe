@@ -143,6 +143,10 @@ pt-BR:
        save: "Guardar"
        submit: "Salvar"
        update: "Atualizar"
+   messages:
+     confirm_are_you_sure: "Tem certeza?"
+     text_no: "Não"
+     text_yes: "Sim"
    number:
      currency:
        format:

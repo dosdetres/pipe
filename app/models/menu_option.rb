@@ -10,17 +10,17 @@ class MenuOption < ActiveRecord::Base
 
   def consortium_desc
     if consortium
-      "Yes"
+      "messages.text_yes"
     else
-      "No"
+      "messages.text_no"
     end
   end
 
   def active_desc
     if active
-      "Yes"
+      "messages.text_yes"
     else
-      "No"
+      "messages.text_no"
     end
   end
 

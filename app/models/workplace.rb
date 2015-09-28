@@ -8,9 +8,9 @@ class Workplace < ActiveRecord::Base
 
   def active_desc
     if active
-      "Yes"
+      "messages.text_yes"
     else
-      "No"
+      "messages.text_no"
     end
   end
 

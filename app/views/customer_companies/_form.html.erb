@@ -2,7 +2,7 @@
 <%= form_for(@customer_company, :html => {:class => 'form-horizontal'}) do |f| %>
     <%= render 'layouts/error_message', model: @customer_company  %>
     <div class="form-group<%= @customer_company.errors[:company_customer].any? ? " has-error" : "" %>">
-      <div class="col-sm-2 control-label"><%= f.label :company_customer, "Empresa" %></div>
+      <div class="col-sm-2 control-label"><%= f.label :company_customer %></div>
       <div class="col-sm-10"><%= f.text_field :company_customer , class: "form-control" %></div>
     </div>
     <div class="form-group">
@@ -10,11 +10,11 @@
       <div class="col-sm-10"><%= f.text_field :rfc, class: "form-control" %></div>
     </div>
     <div class="form-group">
-      <div class="col-sm-2 control-label"><%= f.label :registered_name, "Razón social" %></div>
+      <div class="col-sm-2 control-label"><%= f.label :registered_name %></div>
       <div class="col-sm-10"><%= f.text_field :registered_name, class: "form-control" %></div>
     </div>
     <div class="form-group">
-      <div class="col-sm-2 control-label"><%= f.label :customer_company_id, "Empresa Padre" %></div>
+      <div class="col-sm-2 control-label"><%= f.label :customer_company_id %></div>
       <div class="col-sm-10">
         <% if action == "new" %>
             <%= f.select :customer_company_id, @customer_companies_options, { :prompt =>  t('helpers.select.prompt') }, {:class => 'form-control'}  %>
