@@ -51,11 +51,22 @@ section {
   background-color: #DADADA;
 }
 
+//==========[estilo modificado para login]==========
 .body-login {
-  background-image: asset_data_url("background_login.jpg");
-  background-color: #58ACFA;
+  //background-image: asset_data_url("background_login.jpg");
+  background-color: #428bca;
+  height: 100%;
 }
 
+.color-brand-primary {
+  color: #ffffff;
+  background-color: #337ab7;
+}
+
+.jumbotron.vertical-center {
+  margin-bottom: 0; /* Remove the default bottom margin of .jumbotron */
+  background-color: #428bca;
+}
 
 //==========[estilo modificado para barra de menu]==========
 .navbar-default {
@@ -217,4 +228,9 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   padding-right: 20px;
   padding-left: 20px;
 }
+
+
+
+
+
 
