@@ -8,6 +8,9 @@
     <div class="form-group">
       <div class="col-sm-12 text-right">
         <%= f.submit t('views.buttons.save'), :class => 'btn btn-success' %>
+        <% if action == "edit" %>
+            <%= link_to t('views.buttons.delete'), @model, class: "btn btn-danger", method: :delete, data: { confirm: t('messages.confirm_are_you_sure') } %>
+        <% end %>
       </div>
     </div>
 <% end %>

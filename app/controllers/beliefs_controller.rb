@@ -18,7 +18,7 @@ class BeliefsController < ApplicationController
     respond_to do |format|
       if @model.save
         format.html { render :edit }
-        flash[:notice] = ("controllers.create_success")
+        flash[:notice] = t("controllers.create_success")
       else
         format.html { render :new }
       end

@@ -1,11 +1,4 @@
 Rails.application.routes.draw do
-  resources :permits
-
-  resources :roles
-
-  resources :workplaces
-
-  resources :areas
 
   devise_for :users, :path => 'auth'
   devise_scope :user do
@@ -16,20 +9,26 @@ Rails.application.routes.draw do
       root :to => 'devise/sessions#new', as: :unauthenticated_root
     end
   end
-  resources :menu_options
 
-  resources :users
-
+  resources :areas
   resources :customer_companies
+  resources :menu_options
+  resources :permits
+  resources :roles
+  resources :users
+  resources :workplaces
 
+
+  # beliefs routes
   get '/companies_info/index', to: 'companies_info#belief', as: 'companies_info_belief'
+  get '/beliefs/:id/edit', to: 'beliefs#show', as: 'belief'
   get '/beliefs/new', to: 'beliefs#new', as: 'new_belief'
   get '/beliefs/edit', to: 'beliefs#edit', as: 'edit_belief'
   get '/beliefs/edit', to: 'beliefs#edit', as: 'beliefs'
   post '/beliefs/edit', to: 'beliefs#create'
-  get '/beliefs/:id/edit', to: 'beliefs#show', as: 'belief'
-  patch '/beliefs/:id/edit', to: 'beliefs#update'
   put '/beliefs/:id/edit', to: 'beliefs#update'
+  patch '/beliefs/:id/edit', to: 'beliefs#update'
+  delete '/beliefs/:id/edit', to: 'beliefs#destroy'
 
   get 'welcome/index'
 
