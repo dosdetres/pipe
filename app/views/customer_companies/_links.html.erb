@@ -1,15 +1,15 @@
 
 <% case action
    when 'new' %>
-    <%= link_to t('helpers.submit.return'), customer_companies_path, class: "btn btn-default" %>
+    <%= link_to t('views.buttons.return'), customer_companies_path, class: "btn btn-default" %>
 <% when 'edit' %>
-    <%= link_to t('helpers.submit.show'), @customer_company, class: "btn btn-default" %>
-    <%= link_to t('helpers.submit.return'), customer_companies_path, class: "btn btn-default" %>
+    <%= link_to t('views.buttons.show'), @customer_company, class: "btn btn-default" %>
+    <%= link_to t('views.buttons.return'), customer_companies_path, class: "btn btn-default" %>
 <% when 'show' %>
-    <%= link_to t('helpers.submit.edit'), edit_customer_company_path(@customer_company), class: "btn btn-default" %>
-    <%= link_to t('helpers.submit.return'), customer_companies_path, class: "btn btn-default" %>
+    <%= link_to t('views.buttons.edit'), edit_customer_company_path(@customer_company), class: "btn btn-default" %>
+    <%= link_to t('views.buttons.return'), customer_companies_path, class: "btn btn-default" %>
 <% when 'index' %>
-    <%= link_to t('helpers.submit.create', model: CustomerCompany.model_name.human), new_customer_company_path, class: "btn btn-success" %>
+    <%= link_to t('views.buttons.create', model: CustomerCompany.model_name.human), new_customer_company_path, class: "btn btn-success" %>
 <% else %>
 
 <% end %>

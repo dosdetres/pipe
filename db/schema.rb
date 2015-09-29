@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150802043309) do
+ActiveRecord::Schema.define(version: 20150928232435) do
 
   create_table "areas", force: true do |t|
     t.string   "area"
@@ -28,6 +28,17 @@ ActiveRecord::Schema.define(version: 20150802043309) do
 
   add_index "areas", ["area_id"], name: "index_areas_on_area_id", using: :btree
   add_index "areas", ["customer_company_id"], name: "index_areas_on_customer_company_id", using: :btree
+
+  create_table "beliefs", force: true do |t|
+    t.integer  "customer_company_id"
+    t.text     "text"
+    t.integer  "created_user_id"
+    t.integer  "updated_user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "beliefs", ["customer_company_id"], name: "index_beliefs_on_customer_company_id", using: :btree
 
   create_table "customer_companies", force: true do |t|
     t.string   "company_customer"

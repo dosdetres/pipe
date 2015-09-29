@@ -1,0 +1,26 @@
+pt:
+   views:
+     authentication:
+       authentication_required: "Autentificação requerida"
+       login: "Conecte-se"
+       remember_me: "Lembrar-se"
+       user: "Usuário"
+     buttons:
+       create: "Criar %{model}"
+       delete: "Excluir"
+       edit: "Editar"
+       login: "Conecte-se"
+       logout: "Deslogar"
+       return: "Regressar"
+       show: "Consultar"
+       save: "Guardar"
+       submit: "Guardar"
+       update: "Atualizar"
+     layouts:
+       administration_title: "Gestão da %{model}"
+       capture_title: "Captura de %{model}"
+       modification_title: "modificação de %{model}"
+     navigation:
+       system: "Sistema"
+       company_settings: "Configurações Empresa"
+       company_information: "Informações Empresa"

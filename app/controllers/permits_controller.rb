@@ -22,17 +22,18 @@ class PermitsController < ApplicationController
 
   def create
     @permit = Permit.new(permit_params)
-    flash[:notice] = 'Permit was successfully created.' if @permit.save
+    flash[:notice] = t("controllers.create_success") if @permit.save
     respond_with(@permit)
   end
 
   def update
-    flash[:notice] = 'Permit was successfully updated.' if @permit.update(permit_params)
+    flash[:notice] = t("controllers.update_success") if @permit.update(permit_params)
     respond_with(@permit)
   end
 
   def destroy
     @permit.destroy
+    flash[:notice] = t("controllers.destroy_success")
     respond_with(@permit)
   end
 

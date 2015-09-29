@@ -25,7 +25,7 @@ class RolesController < ApplicationController
     end
     respond_to do |format|
       if @role.save
-        format.html { redirect_to @role, notice: 'The role was created successfully.' }
+        format.html { redirect_to @role, notice: t("controllers.create_success") }
         format.json { render :show, status: :created, location: @role }
       else
         @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer, m.id ] }
@@ -41,7 +41,7 @@ class RolesController < ApplicationController
     end
     respond_to do |format|
       if @role.update(role_params)
-        format.html { redirect_to @role, notice: 'Role updated successfully.' }
+        format.html { redirect_to @role, notice: t("controllers.update_success") }
         format.json { render :show, status: :ok, location: @role }
       else
         @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
@@ -55,7 +55,7 @@ class RolesController < ApplicationController
   def destroy
     @role.destroy
     respond_to do |format|
-      format.html { redirect_to roles_url, notice: 'Role deleted successfully.' }
+      format.html { redirect_to roles_url, notice: t("controllers.destroy_success") }
       format.json { head :no_content }
     end
   end

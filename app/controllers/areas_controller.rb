@@ -27,7 +27,7 @@ class AreasController < ApplicationController
     end
     respond_to do |format|
       if @area.save
-        format.html { redirect_to @area, notice: 'The area was successfully created.' }
+        format.html { redirect_to @area, notice: t("controllers.create_success") }
         format.json { render :show, status: :created, location: @area }
       else
         @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer, m.id ] }
@@ -44,7 +44,7 @@ class AreasController < ApplicationController
     end
     respond_to do |format|
       if @area.update(area_params)
-        format.html { redirect_to @area, notice: 'The area was successfully updated.' }
+        format.html { redirect_to @area, notice: t("controllers.update_success") }
         format.json { render :show, status: :ok, location: @area }
       else
         @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
@@ -58,7 +58,7 @@ class AreasController < ApplicationController
   def destroy
     @area.destroy
     respond_to do |format|
-      format.html { redirect_to areas_url, notice: 'The area deleted successfully.' }
+      format.html { redirect_to areas_url, notice: t("controllers.destroy_success") }
       format.json { head :no_content }
     end
   end

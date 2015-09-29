@@ -22,6 +22,15 @@ Rails.application.routes.draw do
 
   resources :customer_companies
 
+  get '/companies_info/index', to: 'companies_info#belief', as: 'companies_info_belief'
+  get '/beliefs/new', to: 'beliefs#new', as: 'new_belief'
+  get '/beliefs/edit', to: 'beliefs#edit', as: 'edit_belief'
+  get '/beliefs/edit', to: 'beliefs#edit', as: 'beliefs'
+  post '/beliefs/edit', to: 'beliefs#create'
+  get '/beliefs/:id/edit', to: 'beliefs#show', as: 'belief'
+  patch '/beliefs/:id/edit', to: 'beliefs#update'
+  put '/beliefs/:id/edit', to: 'beliefs#update'
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.

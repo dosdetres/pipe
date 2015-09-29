@@ -35,7 +35,7 @@ class UsersController < ApplicationController
     end
     respond_to do |format|
       if @user.save
-        format.html { redirect_to @user, notice: 'The user was created successfully.' }
+        format.html { redirect_to @user, notice: t("controllers.create_success") }
         format.json { render :show, status: :created, location: @user }
       else
         @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
@@ -52,7 +52,7 @@ class UsersController < ApplicationController
     @user.updated_user_id = current_user.id
     respond_to do |format|
       if @user.update(user_params)
-        format.html { redirect_to @user, notice: 'The User updated successfully.' }
+        format.html { redirect_to @user, notice: t("controllers.update_success") }
         format.json { render :show, status: :ok, location: @user }
       else
         @customer_companies_options = CustomerCompany.where(active: true).map{|m| [ m.company_customer , m.id ] }
@@ -68,7 +68,7 @@ class UsersController < ApplicationController
   def destroy
     @user.destroy
     respond_to do |format|
-      format.html { redirect_to users_url, notice: 'The user was removed successfully.' }
+      format.html { redirect_to users_url, notice: t("controllers.destroy_success") }
       format.json { head :no_content }
     end
   end

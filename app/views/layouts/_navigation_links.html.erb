@@ -1,18 +1,26 @@
 <%# add navigation links to this file %>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sistema<b class="caret"></b></a>
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= t("views.navigation.system") %><b class="caret"></b></a>
   <ul class="dropdown-menu">
-    <li><%= link_to 'Módulos', menu_options_path %></li>
-    <li><%= link_to 'Empresas', customer_companies_path %></li>
-    <li><%= link_to 'Usuarios', users_path %></li>
+    <li><%= link_to MenuOption.model_name.human(count: 2), menu_options_path %></li>
+    <li><%= link_to CustomerCompany.model_name.human(count: 2), customer_companies_path %></li>
+    <li><%= link_to User.model_name.human(count: 2), users_path %></li>
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuración Empresas<b class="caret"></b></a>
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><%= t("views.navigation.company_settings") %><b class="caret"></b></a>
   <ul class="dropdown-menu">
-    <li><%= link_to 'Áreas', areas_path %></li>
-    <li><%= link_to 'Puestos', workplaces_path %></li>
-    <li><%= link_to 'Roles', roles_path %></li>
+    <li><%= link_to Area.model_name.human(count: 2), areas_path %></li>
+    <li><%= link_to Workplace.model_name.human(count: 2), workplaces_path %></li>
+    <li><%= link_to Role.model_name.human(count: 2), roles_path %></li>
+    <li class="divider"></li>
+    <li class="dropdown-submenu">
+      <a tabindex="-1" href="#"><%= t("views.navigation.company_information") %></a>
+      <ul class="dropdown-menu">
+        <li><%= link_to Belief.model_name.human(count: 2), companies_info_belief_path %></li>
+      </ul>
+    </li>
+
   </ul>
 </li>
 

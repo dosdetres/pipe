@@ -1,10 +1,10 @@
 <%
     case action
     when 'new'
-        title = t('views.layouts.capture')
+        title = t('views.layouts.capture_title', model: model)
         panel_style = 'panel-primary'
     when 'edit'
-      title = t('views.layouts.modification')
+      title = t('views.layouts.modification_title', model: model)
       panel_style = 'panel-primary'
     when 'show'
       title = ''
@@ -15,7 +15,7 @@
     end
 %>
 <div class="page-header">
-  <h1 class="text-center"><%= title %><span class="label label-default"><%= model %></span></h1>
+  <h1 class="text-center"><span class="label label-default"><%= title %></span></h1>
 </div>
 
 <div class="row">

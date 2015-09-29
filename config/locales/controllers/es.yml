@@ -1,0 +1,5 @@
+es:
+  controllers:
+    create_success: "La información se registró correctamente."
+    update_success: "La información se actualizo correctamente."
+    destroy_success: "La información se eliminó correctamente."

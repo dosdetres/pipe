@@ -1,15 +1,15 @@
 
 <% case action
      when 'new' %>
-    <%= link_to t('helpers.submit.return'), areas_path, class: "btn btn-default" %>
+    <%= link_to t('views.buttons.return'), areas_path, class: "btn btn-default" %>
 <% when 'edit' %>
-    <%= link_to t('helpers.submit.show'), @area, class: "btn btn-default" %>
-    <%= link_to t('helpers.submit.return'), areas_path, class: "btn btn-default" %>
+    <%= link_to t('views.buttons.show'), @area, class: "btn btn-default" %>
+    <%= link_to t('views.buttons.return'), areas_path, class: "btn btn-default" %>
 <% when 'show' %>
-    <%= link_to t('helpers.submit.edit'), edit_area_path(@area), class: "btn btn-default" %>
-    <%= link_to t('helpers.submit.return'), areas_path, class: "btn btn-default" %>
+    <%= link_to t('views.buttons.edit'), edit_area_path(@area), class: "btn btn-default" %>
+    <%= link_to t('views.buttons.return'), areas_path, class: "btn btn-default" %>
 <% when 'index' %>
-    <%= link_to t('helpers.submit.create', model: Area.model_name.human), new_area_path, class: "btn btn-success" %>
+    <%= link_to t('views.buttons.create', model: Area.model_name.human), new_area_path, class: "btn btn-success" %>
 <% else %>
 
 <% end %>

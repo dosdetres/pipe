@@ -25,7 +25,7 @@ class WorkplacesController < ApplicationController
     end
     respond_to do |format|
       if @workplace.save
-        format.html { redirect_to @workplace, notice: 'The position was successfully created.' }
+        format.html { redirect_to @workplace, notice: t("controllers.create_success") }
         format.json { render :show, status: :created, location: @workplace }
       else
         @areas_options = Area.where(active: true).map{|m| [ m.area , m.id ] }
@@ -41,7 +41,7 @@ class WorkplacesController < ApplicationController
     end
     respond_to do |format|
       if @workplace.update(workplace_params)
-        format.html { redirect_to @workplace, notice: 'The position was successfully updated.' }
+        format.html { redirect_to @workplace, notice: t("controllers.update_success") }
         format.json { render :show, status: :ok, location: @workplace }
       else
         @areas_options = Area.where(active: true).map{|m| [ m.area , m.id ] }
@@ -56,7 +56,7 @@ class WorkplacesController < ApplicationController
   def destroy
     @workplace.destroy
     respond_to do |format|
-      format.html { redirect_to workplaces_url, notice: 'The position was successfully removed.' }
+      format.html { redirect_to workplaces_url, notice: t("controllers.destroy_success") }
       format.json { head :no_content }
     end
   end

@@ -1,0 +1,5 @@
+en:
+  controllers:
+    create_success: "The information was successfully created."
+    update_success: "The information was successfully updated."
+    destroy_success: "The information was successfully deleted."

@@ -33,7 +33,7 @@ class MenuOptionsController < ApplicationController
     end
     respond_to do |format|
       if @menu_option.save
-        format.html { redirect_to @menu_option, notice: 'The module was successfully created.' }
+        format.html { redirect_to @menu_option, notice: t("controllers.create_success") }
         format.json { render :show, status: :created, location: @menu_option }
       else
         @menu_options_options = MenuOption.where(active: true).map{|m| [ m.module , m.id ] }
@@ -51,7 +51,7 @@ class MenuOptionsController < ApplicationController
     end
     respond_to do |format|
       if @menu_option.update(menu_option_params)
-        format.html { redirect_to @menu_option, notice: 'The module was successfully updated.' }
+        format.html { redirect_to @menu_option, notice: t("controllers.update_success") }
         format.json { render :show, status: :ok, location: @menu_option }
       else
         @menu_options_options = MenuOption.where(active: true).map{|m| [ m.module , m.id ] }
@@ -66,7 +66,7 @@ class MenuOptionsController < ApplicationController
   def destroy
     @menu_option.destroy
     respond_to do |format|
-      format.html { redirect_to menu_options_url, notice: 'The module was successfully removed.' }
+      format.html { redirect_to menu_options_url, notice: t("controllers.destroy_success") }
       format.json { head :no_content }
     end
   end

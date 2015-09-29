@@ -1,0 +1,26 @@
+en:
+   views:
+     authentication:
+       authentication_required: "Authentication required"
+       login: "Log in"
+       remember_me: "Remember me"
+       user: "User"
+     buttons:
+       create: "Create %{model}"
+       delete: "Delete"
+       edit: "Edit"
+       login: "Login"
+       logout: "Logout"
+       return: "Return"
+       show: "Show"
+       save: "Save"
+       submit: Save %{model}
+       update: Update %{model}
+     layouts:
+       administration_title: "%{model} Administration"
+       capture_title: "%{model} capture"
+       modification_title: "%{model} modification"
+     navigation:
+       system: "System"
+       company_settings: "Company Settings"
+       company_information: "Company Information"

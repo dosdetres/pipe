@@ -1,0 +1,29 @@
+es:
+   views:
+     authentication:
+       authentication_required: "Debes iniciar sesión"
+       login: "Iniciar Sesión"
+       remember_me: "Recordarme"
+       user: "Usuario"
+     buttons:
+       create: "Agregar %{model}"
+       delete: "Eliminar"
+       edit: "Editar"
+       login: "Iniciar Sesión"
+       logout: "Cerrar Sesión"
+       return: "Regresar"
+       show: "Consultar"
+       save: "Guardar"
+       submit: "Aceptar"
+       update: "Actualizar"
+     layouts:
+       administration_title: "Administración de %{model}"
+       capture_title: "Captura de %{model}"
+       modification_title: "Modificación de %{model}"
+     navigation:
+       system: "Sistema"
+       company_settings: "Configuración Empresa"
+       company_information: "Información Empresa"
+
+
+

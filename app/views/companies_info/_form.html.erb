@@ -1,0 +1,13 @@
+
+<%= form_for(@model, :html => {:class => 'form-horizontal'}) do |f| %>
+    <%= render 'layouts/error_message', model: @model  %>
+    <div class="form-group<%= @model.errors[:text].any? ? " has-error" : "" %>">
+      <div class="col-sm-12"><%= f.text_area :text, rows: "20", class: "form-control" %></div>
+    </div>
+    <hr />
+    <div class="form-group">
+      <div class="col-sm-12 text-right">
+        <%= f.submit t('views.buttons.save'), :class => 'btn btn-success' %>
+      </div>
+    </div>
+<% end %>

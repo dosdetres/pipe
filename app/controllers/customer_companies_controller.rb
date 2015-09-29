@@ -31,7 +31,7 @@ class CustomerCompaniesController < ApplicationController
     @customer_company.created_user_id = current_user.id
     respond_to do |format|
       if @customer_company.save
-        format.html { redirect_to @customer_company, notice: 'The Company was successfully created.' }
+        format.html { redirect_to @customer_company, notice: t("controllers.create_success") }
         format.json { render :show, status: :created, location: @customer_company }
       else
         @customer_companies_options = CustomerCompany.where(active: true, consortium: true).map{|m| [ m.company_customer , m.id ] }
@@ -47,7 +47,7 @@ class CustomerCompaniesController < ApplicationController
     @customer_company.updated_user_id = current_user.id
     respond_to do |format|
       if @customer_company.update(customer_company_params)
-        format.html { redirect_to @customer_company, notice: 'The Company successfully updated.' }
+        format.html { redirect_to @customer_company, notice: t("controllers.update_success") }
         format.json { render :show, status: :ok, location: @customer_company }
       else
         @customer_companies_options = CustomerCompany.where(active: true, consortium: true).map{|m| [ m.company_customer , m.id ] }
@@ -62,7 +62,7 @@ class CustomerCompaniesController < ApplicationController
   def destroy
     @customer_company.destroy
     respond_to do |format|
-      format.html { redirect_to customer_companies_url, notice: 'The Company successfully removed.' }
+      format.html { redirect_to customer_companies_url, notice: t("controllers.destroy_success") }
       format.json { head :no_content }
     end
   end

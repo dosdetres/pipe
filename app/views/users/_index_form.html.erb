@@ -26,9 +26,9 @@
           <td><%= user.email %></td>
           <td><%= t(user.consortium_desc) %></td>
           <td>
-            <%= link_to t('helpers.submit.show'), user, class: "btn btn-default" %>
-            <%= link_to t('helpers.submit.edit'), edit_user_path(user), class: "btn btn-success" %>
-            <%= link_to t('helpers.submit.delete'), user, class: "btn btn-danger", method: :delete, data: { confirm: t('messages.confirm_are_you_sure') } %>
+            <%= link_to t('views.buttons.show'), user, class: "btn btn-default" %>
+            <%= link_to t('views.buttons.edit'), edit_user_path(user), class: "btn btn-success" %>
+            <%= link_to t('views.buttons.delete'), user, class: "btn btn-danger", method: :delete, data: { confirm: t('messages.confirm_are_you_sure') } %>
           </td>
         </tr>
     <% end %>
