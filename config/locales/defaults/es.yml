@@ -135,13 +135,6 @@ es:
        header:
          one: "%{model} no pudo guardarse debido a 1 error"
          other: "%{model} no pudo guardarse debido a %{count} errores"
-   helpers:
-     select:
-       prompt: "-- Selecciona una opción --"
-   messages:
-     confirm_are_you_sure: "¿Estás seguro?"
-     text_no: "No"
-     text_yes: "Sí"
    number:
      currency:
        format:

@@ -129,24 +129,6 @@ pt:
        header:
          one: 'Não foi possível gravar %{model}: 1 erro'
          other: 'Não foi possível gravar %{model}: %{count} erros.'
-   helpers:
-     select:
-       prompt: Por favor selecione
-     submit:
-       create: "Criar %{model}"
-       delete: "Excluir"
-       edit: "Editar"
-       login: "Conecte-se"
-       logout: "Deslogar"
-       return: "Regressar"
-       show: "Consultar"
-       save: "Guardar"
-       submit: "Salvar"
-       update: "Atualizar"
-   messages:
-     confirm_are_you_sure: "Tem certeza?"
-     text_no: "Não"
-     text_yes: "Sim"
    number:
      currency:
        format:

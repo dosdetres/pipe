@@ -135,13 +135,6 @@ en:
        header:
          one: 1 error prohibited this %{model} from being saved
          other: "%{count} errors prohibited this %{model} from being saved"
-   helpers:
-     select:
-       prompt: Please select
-   messages:
-      confirm_are_you_sure: "Are you sure?"
-      text_no: "No"
-      text_yes: "Yes"
    number:
      currency:
        format:

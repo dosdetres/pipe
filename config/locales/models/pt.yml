@@ -21,11 +21,9 @@ pt:
         one: "Usuário"
         other: "Usuários"
       workplace:
-        one: "Posto"
-        other: "Mensagens"
+        one: "Emprego"
+        other: "Empregos"
     attributes:
-      general:
-        user: "Usuário"
       area:
         id: "Identidade"
         area: "Área"

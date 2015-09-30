@@ -21,9 +21,9 @@ class User < ActiveRecord::Base
 
   def consortium_desc
     if consortium
-      "messages.text_yes"
+      "views.messages.text_yes"
     else
-      "messages.text_no"
+      "views.messages.text_no"
     end
   end
 

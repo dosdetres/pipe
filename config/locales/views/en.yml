@@ -20,7 +20,13 @@ en:
        administration_title: "%{model} Administration"
        capture_title: "%{model} capture"
        modification_title: "%{model} modification"
+     messages:
+       confirm_are_you_sure: "Are you sure?"
+       text_no: "No"
+       text_yes: "Yes"
      navigation:
        system: "System"
        company_settings: "Company Settings"
        company_information: "Company Information"
+     select:
+       prompt: "-- Please select -- "

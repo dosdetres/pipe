@@ -20,7 +20,13 @@ pt:
        administration_title: "Gestão da %{model}"
        capture_title: "Captura de %{model}"
        modification_title: "modificação de %{model}"
+     messages:
+       confirm_are_you_sure: "Tem certeza?"
+       text_no: "Não"
+       text_yes: "Sim"
      navigation:
        system: "Sistema"
        company_settings: "Configurações Empresa"
        company_information: "Informações Empresa"
+     select:
+       prompt: "-- Por favor selecione -- "

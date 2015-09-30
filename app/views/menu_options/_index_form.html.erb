@@ -30,7 +30,7 @@
             <td>
                 <%= link_to t('views.buttons.show'), menu_option, class: "btn btn-default" %>
                 <%= link_to t('views.buttons.edit'), edit_menu_option_path(menu_option), class: "btn btn-success" %>
-                <%= link_to t('views.buttons.delete'), menu_option, class: "btn btn-danger", method: :delete, data: { confirm: t('messages.confirm_are_you_sure') } %>
+                <%= link_to t('views.buttons.delete'), menu_option, class: "btn btn-danger", method: :delete, data: { confirm: t('views.messages.confirm_are_you_sure') } %>
             </td>
           </tr>
       <% end %>

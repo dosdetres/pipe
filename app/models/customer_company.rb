@@ -10,17 +10,17 @@ class CustomerCompany < ActiveRecord::Base
 
   def consortium_desc
     if consortium
-      "messages.text_yes"
+      "views.messages.text_yes"
     else
-      "messages.text_no"
+      "views.messages.text_no"
     end
   end
 
   def active_desc
     if active
-      "messages.text_yes"
+      "views.messages.text_yes"
     else
-      "messages.text_no"
+      "views.messages.text_no"
     end
   end
 

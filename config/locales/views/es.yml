@@ -20,10 +20,16 @@ es:
        administration_title: "Administración de %{model}"
        capture_title: "Captura de %{model}"
        modification_title: "Modificación de %{model}"
+     messages:
+       confirm_are_you_sure: "¿Estás seguro?"
+       text_no: "No"
+       text_yes: "Sí"
      navigation:
        system: "Sistema"
        company_settings: "Configuración Empresa"
        company_information: "Información Empresa"
+     select:
+       prompt: "-- Selecciona una opción --"
 
 
 

@@ -34,4 +34,11 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  #custom configurations variables
+  config.english_website_url = 'http://localhost.en:3000'
+  config.portuguese_website_url = 'http://localhost.pt:3000'
+  config.spanish_website_url = 'http://localhost.es:3000'
+
+
 end

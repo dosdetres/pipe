@@ -16,13 +16,27 @@
       <ul class="nav navbar-nav">
         <%= render 'layouts/navigation_links' %>
       </ul>
-      <%unless current_user.blank? -%>
-          <%= link_to t('views.buttons.logout'), destroy_user_session_path, method: :delete, :class => 'btn btn-danger btn-xs navbar-btn pull-right' %>
-          <p class="navbar-link navbar-text pull-right"><%= t('views.authentication.user') %> <strong><%= current_user.email %> </strong></p>
-      <%else -%>
-          <%#= link_to "Crear Cuenta", new_user_registration_path, :class => 'navbar-brand'  %> |
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <p class="navbar-text navbar-link"><%= t('views.authentication.user') %> <strong><%= current_user.email %> </strong></p>
+        </li>
+        <li>
+          <%= link_to t('views.buttons.logout'), destroy_user_session_path, method: :delete, :class => 'label label-danger' %>
+          <%#= link_to "Crear Cuenta", new_user_registration_path, :class => 'navbar-brand'  %>
           <%#= link_to "Iniciar Sesión", new_user_session_path, :class => 'navbar-brand'  %>
-      <%end-%>
-    </div>
-  </div>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Idioma <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><%= link_to("Español", "#{Rails.application.config.spanish_website_url}#{request.env['PATH_INFO']}") %></li>
+            <li><%= link_to("English", "#{Rails.application.config.english_website_url}#{request.env['PATH_INFO']}") %></li>
+            <li><%= link_to("Português", "#{Rails.application.config.portuguese_website_url}#{request.env['PATH_INFO']}") %></li>
+          </ul>
+        </li>
+      </ul>
+
+
+
+    </div> <!-- /.navbar-collapse -->
+  </div> <!-- /.container-fluid -->
 </nav>

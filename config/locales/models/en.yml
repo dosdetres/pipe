@@ -24,8 +24,6 @@ en:
         one: "Workplace"
         other: "Workplaces"
     attributes:
-      general:
-        user: "User"
       area:
         id: "id"
         area: "Area"

@@ -24,8 +24,6 @@ es:
         one: "Puesto"
         other: "Puestos"
     attributes:
-      general:
-        user: "Usuario"
       area:
         id: "Identificador"
         area: "Área"
