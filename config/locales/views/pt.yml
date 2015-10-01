@@ -25,8 +25,9 @@ pt:
        text_no: "Não"
        text_yes: "Sim"
      navigation:
-       system: "Sistema"
        company_settings: "Configurações Empresa"
        company_information: "Informações Empresa"
+       language: "Língua"
+       system: "Sistema"
      select:
        prompt: "-- Por favor selecione -- "

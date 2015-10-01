@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  customer_company_id: 
+  belief: MyString
+  created_user_id: 1
+  updated_user_id: 1
+
+two:
+  customer_company_id: 
+  belief: MyString
+  created_user_id: 1
+  updated_user_id: 1

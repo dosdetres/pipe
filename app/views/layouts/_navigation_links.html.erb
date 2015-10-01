@@ -17,7 +17,17 @@
     <li class="dropdown-submenu">
       <a tabindex="-1" href="#"><%= t("views.navigation.company_information") %></a>
       <ul class="dropdown-menu">
-        <li><%= link_to Belief.model_name.human(count: 2), companies_info_belief_path %></li>
+        <li><%= link_to Belief.model_name.human, companies_info_belief_path %></li>
+        <li><%= link_to ExternalContext.model_name.human, companies_info_external_context_path %></li>
+        <li><%= link_to MarketContext.model_name.human, companies_info_market_context_path %></li>
+        <li><%= link_to InternalContext.model_name.human, companies_info_internal_context_path %></li>
+        <li><%= link_to GlobalStrategy.model_name.human, companies_info_global_strategy_path %></li>
+        <li><%= link_to GrowthVector.model_name.human, companies_info_growth_vector_path %></li>
+        <li><%= link_to GrowthVectorDetail.model_name.human, companies_info_growth_vector_detail_path %></li>
+        <li><%= link_to Sustainability.model_name.human, companies_info_sustainability_path %></li>
+        <li><%= link_to SocialResponsability.model_name.human, companies_info_social_responsability_path %></li>
+        <li><%= link_to Risk.model_name.human, companies_info_risk_path %></li>
+        <li><%= link_to Opportunity.model_name.human, companies_info_opportunity_path %></li>
       </ul>
     </li>
 

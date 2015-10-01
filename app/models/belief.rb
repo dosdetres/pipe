@@ -4,5 +4,4 @@ class Belief < ActiveRecord::Base
   belongs_to :updated_user, :class_name => "User", :foreign_key => "updated_user_id"
 
   validates :text, presence: true
-
 end

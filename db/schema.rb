@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150928232435) do
+ActiveRecord::Schema.define(version: 20151001214720) do
 
   create_table "areas", force: true do |t|
     t.string   "area"
@@ -55,6 +55,72 @@ ActiveRecord::Schema.define(version: 20150928232435) do
 
   add_index "customer_companies", ["customer_company_id"], name: "index_customer_companies_on_customer_company_id", using: :btree
 
+  create_table "external_contexts", force: true do |t|
+    t.integer  "customer_company_id"
+    t.text     "text"
+    t.integer  "created_user_id"
+    t.integer  "updated_user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "external_contexts", ["customer_company_id"], name: "index_external_contexts_on_customer_company_id", using: :btree
+
+  create_table "global_strategies", force: true do |t|
+    t.integer  "customer_company_id"
+    t.text     "text"
+    t.integer  "created_user_id"
+    t.integer  "updated_user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "global_strategies", ["customer_company_id"], name: "index_global_strategies_on_customer_company_id", using: :btree
+
+  create_table "growth_vector_details", force: true do |t|
+    t.integer  "customer_company_id"
+    t.text     "text"
+    t.integer  "created_user_id"
+    t.integer  "updated_user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "growth_vector_details", ["customer_company_id"], name: "index_growth_vector_details_on_customer_company_id", using: :btree
+
+  create_table "growth_vectors", force: true do |t|
+    t.integer  "customer_company_id"
+    t.text     "text"
+    t.integer  "created_user_id"
+    t.integer  "updated_user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "growth_vectors", ["customer_company_id"], name: "index_growth_vectors_on_customer_company_id", using: :btree
+
+  create_table "internal_contexts", force: true do |t|
+    t.integer  "customer_company_id"
+    t.text     "text"
+    t.integer  "created_user_id"
+    t.integer  "updated_user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "internal_contexts", ["customer_company_id"], name: "index_internal_contexts_on_customer_company_id", using: :btree
+
+  create_table "market_contexts", force: true do |t|
+    t.integer  "customer_company_id"
+    t.text     "text"
+    t.integer  "created_user_id"
+    t.integer  "updated_user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "market_contexts", ["customer_company_id"], name: "index_market_contexts_on_customer_company_id", using: :btree
+
   create_table "menu_options", force: true do |t|
     t.string   "module"
     t.string   "description"
@@ -71,6 +137,17 @@ ActiveRecord::Schema.define(version: 20150928232435) do
   end
 
   add_index "menu_options", ["menu_option_id"], name: "index_menu_options_on_menu_option_id", using: :btree
+
+  create_table "opportunities", force: true do |t|
+    t.integer  "customer_company_id"
+    t.text     "text"
+    t.integer  "created_user_id"
+    t.integer  "updated_user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "opportunities", ["customer_company_id"], name: "index_opportunities_on_customer_company_id", using: :btree
 
   create_table "permits", force: true do |t|
     t.integer  "role_id"
@@ -90,6 +167,17 @@ ActiveRecord::Schema.define(version: 20150928232435) do
 
   add_index "permits", ["menu_option_id"], name: "index_permits_on_menu_option_id", using: :btree
   add_index "permits", ["role_id"], name: "index_permits_on_role_id", using: :btree
+
+  create_table "risks", force: true do |t|
+    t.integer  "customer_company_id"
+    t.text     "text"
+    t.integer  "created_user_id"
+    t.integer  "updated_user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "risks", ["customer_company_id"], name: "index_risks_on_customer_company_id", using: :btree
 
   create_table "roles", force: true do |t|
     t.string   "role"
@@ -111,6 +199,28 @@ ActiveRecord::Schema.define(version: 20150928232435) do
 
   add_index "roles_users", ["role_id"], name: "index_roles_users_on_role_id", using: :btree
   add_index "roles_users", ["user_id"], name: "index_roles_users_on_user_id", using: :btree
+
+  create_table "social_responsabilities", force: true do |t|
+    t.integer  "customer_company_id"
+    t.text     "text"
+    t.integer  "created_user_id"
+    t.integer  "updated_user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "social_responsabilities", ["customer_company_id"], name: "index_social_responsabilities_on_customer_company_id", using: :btree
+
+  create_table "sustainabilities", force: true do |t|
+    t.integer  "customer_company_id"
+    t.text     "text"
+    t.integer  "created_user_id"
+    t.integer  "updated_user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "sustainabilities", ["customer_company_id"], name: "index_sustainabilities_on_customer_company_id", using: :btree
 
   create_table "users", force: true do |t|
     t.string   "name"

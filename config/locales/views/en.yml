@@ -25,8 +25,9 @@ en:
        text_no: "No"
        text_yes: "Yes"
      navigation:
-       system: "System"
        company_settings: "Company Settings"
        company_information: "Company Information"
+       language: "Language"
+       system: "System"
      select:
        prompt: "-- Please select -- "
