@@ -11,7 +11,7 @@ pt:
       external_context: "Contexto Externo"
       global_strategy: "Estratégia Global"
       growth_vector: "Vector de Crescimento"
-      growth_vector_detail: "Detalhe Vector de Crecimiento"
+      growth_vector_detail: "Detalhe Vector de Crescimento"
       internal_context: "Contexto Interno"
       market_context: "Contexto de Mercado"
       menu_option:

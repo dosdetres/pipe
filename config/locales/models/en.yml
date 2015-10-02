@@ -12,7 +12,7 @@ en:
       global_strategy: "Global Strategy"
       growth_vector: "Growth Vector"
       growth_vector_detail: "Growth Vector Detail"
-      internal_context: "Contexto Interno"
+      internal_context: "Internal Context"
       market_context: "Market Context"
       menu_option:
         one: "Menu Option"
