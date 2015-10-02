@@ -52,9 +52,9 @@ test:
 #
 production:
   adapter: mysql2
-    encoding: utf8
-    database: pipe_production
-    username: admin
-    password: Rasec191812*
-    host: localhost
-    port: 3300
+  encoding: utf8
+  database: pipe_production
+  username: admin
+  password: Rasec191812*
+  host: localhost
+  port: 3300
