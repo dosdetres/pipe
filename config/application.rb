@@ -31,5 +31,8 @@ module Pipe
       Devise::PasswordsController.layout "application.html.erb"
     end
 
+    # Heroku requires this to be false
+    config.assets.initialize_on_precompile=false
+
   end
 end
