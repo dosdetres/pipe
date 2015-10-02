@@ -51,6 +51,6 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: pipe-app
+  adapter: mysql2
+    encoding: utf8
+    database: pipe_production
