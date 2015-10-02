@@ -18,12 +18,16 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <p class="navbar-text navbar-link"><%= t('views.authentication.user') %> <strong><%= current_user.email %> </strong></p>
+          <% unless current_user.blank? %>
+            <p class="navbar-text navbar-link"><%= t('views.authentication.user') %> <strong><%= current_user.email %> </strong></p>
+          <% end %>
         </li>
         <li>
-          <%= link_to t('views.buttons.logout'), destroy_user_session_path, method: :delete, :class => 'label label-danger' %>
-          <%#= link_to "Crear Cuenta", new_user_registration_path, :class => 'navbar-brand'  %>
-          <%#= link_to "Iniciar Sesión", new_user_session_path, :class => 'navbar-brand'  %>
+          <% unless current_user.blank? %>
+            <%= link_to t('views.buttons.logout'), destroy_user_session_path, method: :delete, :class => 'label label-danger' %>
+            <%#= link_to "Crear Cuenta", new_user_registration_path, :class => 'navbar-brand'  %>
+            <%#= link_to "Iniciar Sesión", new_user_session_path, :class => 'navbar-brand'  %>
+          <% end %>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><%= t("views.navigation.language") %><span class="caret"></span></a>
