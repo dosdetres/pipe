@@ -75,9 +75,10 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  #custom configurations variables
-  config.english_website_url = 'https://pipe-app.herokuapp.en'
-  config.portuguese_website_url = 'https://pipe-app.herokuapp.pt'
-  config.spanish_website_url = 'https://pipe-app.herokuapp.es'
+  # custom configurations variables
+  # para cambiar idioma usando el nombre del dominio
+  #config.english_website_url = 'https://pipe-app.herokuapp.en'
+  #config.portuguese_website_url = 'https://pipe-app.herokuapp.pt'
+  #config.spanish_website_url = 'https://pipe-app.herokuapp.es'
 
 end

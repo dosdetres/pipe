@@ -17,18 +17,43 @@ class ApplicationController < ActionController::Base
   end
 
   def set_locale
-    I18n.locale = extract_locale_from_tld || I18n.default_locale
+    I18n.locale = params[:locale] || I18n.default_locale
+    #I18n.locale = extract_locale_from_subdomain || I18n.default_locale
+    #I18n.locale = extract_locale_from_tld || I18n.default_locale
   end
 
-  # Obtener configuración regional del dominio de nivel superior o devolver nil si tal escenario no está disponible
+  def default_url_options(options = {})
+    { locale: I18n.locale }.merge options
+  end
+
+
+  # Obtener configuración de idioma del dominio de nivel superior o devolver nil si tal escenario no está disponible
+  # esta opción no se puede usar en Heroku
   # por ejemplo:
-  # https://pipe-app.herokuapp.com
-  # https://pipe-app.herokuapp.es
-  # https://pipe-app.herokuapp.pt
+  # You have to put something like:
+  #   127.0.0.1 localhost.com
+  #   127.0.0.1 localhost.es
+  #   127.0.0.1 localhost.en
+  #   127.0.0.1 localhost.pt
+  # in your /etc/hosts file to try this out locally
   def extract_locale_from_tld
     parsed_locale = request.host.split('.').last
     I18n.available_locales.map(&:to_s).include?(parsed_locale) ? parsed_locale : nil
   end
+
+  # Obtener configuración de idioma del subdominio
+  # esta opción no se puede usar en Heroku
+  # Get locale code from request subdomain (like http://es.pipe-app.localhost.local:3000)
+  # You have to put something like:
+  #   127.0.0.1 es.localhost.local
+  #   127.0.0.1 en.localhost.local
+  #   127.0.0.1 pt.localhost.local
+  # in your /etc/hosts file to try this out locally
+  def extract_locale_from_subdomain
+    parsed_locale = request.subdomains.first
+    I18n.available_locales.map(&:to_s).include?(parsed_locale) ? parsed_locale : nil
+  end
+
 
 
 end

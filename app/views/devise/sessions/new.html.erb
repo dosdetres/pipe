@@ -41,9 +41,9 @@
                         </div>
 
                         <div class="form-group text-right">
-                          <%= link_to("Español", "#{Rails.application.config.spanish_website_url}#{request.env['PATH_INFO']}", class: "label label-info") %>
-                          <%= link_to("English", "#{Rails.application.config.english_website_url}#{request.env['PATH_INFO']}", class: "label label-info") %>
-                          <%= link_to("Português", "#{Rails.application.config.portuguese_website_url}#{request.env['PATH_INFO']}", class: "label label-info") %>
+                          <%= link_to("Español", { :locale=>'es' }, class: "label label-info") %>
+                          <%= link_to("English", { :locale=>'en' }, class: "label label-info") %>
+                          <%= link_to("Português", { :locale=>'pt' }, class: "label label-info") %>
                         </div>
                     <% end %>
                   </div>
